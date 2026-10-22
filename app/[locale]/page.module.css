@@ -1,0 +1,29 @@
+.page {
+  display: grid;
+  place-items: center;
+  min-height: 100dvh;
+  padding: 48px 24px;
+}
+
+.quote {
+  max-width: 44rem;
+  text-align: center;
+
+  blockquote {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    text-wrap: balance;
+
+    @media (width >= 640px) {
+      font-size: 1.75rem;
+    }
+  }
+
+  figcaption {
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+}
