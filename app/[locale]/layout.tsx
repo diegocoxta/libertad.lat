@@ -1,8 +1,9 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { Geist } from 'next/font/google';
 import { notFound } from 'next/navigation';
 
 import { LOCALES, getTranslations, isSupportedLocale } from '~/lib/i18n';
+import { STARTUP_IMAGES } from '~/lib/startup-images';
 
 import '~/app/globals.css';
 
@@ -10,6 +11,10 @@ const geistSans = Geist({
   variable: '--font-geist-sans',
   subsets: ['latin'],
 });
+
+export const viewport: Viewport = {
+  themeColor: '#d23336',
+};
 
 export function generateStaticParams() {
   return LOCALES.map((locale) => ({ locale }));
@@ -36,8 +41,14 @@ export async function generateMetadata({ params }: LayoutProps<'/[locale]'>): Pr
     return {};
   }
 
+  const title = getTranslations(locale)('page.title');
+
   return {
-    title: getTranslations(locale)('page.title'),
+    title,
+    appleWebApp: {
+      title,
+      startupImage: STARTUP_IMAGES,
+    },
     alternates: {
       canonical: `/${locale}`,
       languages: {
