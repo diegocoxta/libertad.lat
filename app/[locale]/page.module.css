@@ -1,8 +1,19 @@
 .page {
   display: grid;
   place-items: center;
+  align-content: center;
+  gap: 3rem;
   min-height: 100dvh;
   padding: 48px 24px;
+}
+
+.logo {
+  width: auto;
+  height: 7rem;
+
+  @media (width >= 640px) {
+    height: 9rem;
+  }
 }
 
 .quote {
