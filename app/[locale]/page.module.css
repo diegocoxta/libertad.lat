@@ -9,10 +9,10 @@
 
 .logo {
   width: auto;
-  height: 7rem;
+  height: 9rem;
 
   @media (width >= 640px) {
-    height: 9rem;
+    height: 12rem;
   }
 }
 
