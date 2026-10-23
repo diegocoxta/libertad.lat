@@ -5,6 +5,8 @@
   "page.quote": "Les peuples d’Amérique latine n’ont pas d’autre possibilité que de lutter, chacun selon sa propre réalité. Mais lutter, lutter pour quoi ? Pour conquérir leur indépendance économique et être des peuples authentiquement libres sur le plan politique aussi.",
   "page.author": "Salvador Allende",
   "page.languages": "Langue",
+  "page.close": "Fermer",
+  "page.region": "Amérique latine",
   "page.joke": "Département d'ingérence",
   "quote.garciaMarquez.text": "L'Amérique latine ne veut pas, et n'a aucune raison, d'être un pion sans volonté propre ; il n'a rien de chimérique non plus que ses desseins d'indépendance et d'originalité se transforment en une aspiration occidentale.",
   "quote.garciaMarquez.source": "Discours du prix Nobel, 1982",
@@ -16,5 +18,11 @@
   "quote.galeano.source": "Les Veines ouvertes de l'Amérique latine",
   "quote.freire.text": "La libération est une praxis : l'action et la réflexion des hommes sur le monde pour le transformer. Personne ne libère personne, personne ne se libère seul : les hommes se libèrent en communion.",
   "quote.sandino.text": "Notre cause est la cause de tous les peuples opprimés d'Amérique latine, et notre patrie n'est pas seulement le Nicaragua, mais toute l'Amérique espagnole.",
-  "quote.ribeiro.text": "L'Amérique latine est la grande patrie que nous n'avons pas encore réussi à construire. (...) Il n'y a que deux options dans cette vie : se résigner ou s'indigner. Et moi, je ne me résignerai jamais."
+  "quote.ribeiro.text": "L'Amérique latine est la grande patrie que nous n'avons pas encore réussi à construire. (...) Il n'y a que deux options dans cette vie : se résigner ou s'indigner. Et moi, je ne me résignerai jamais.",
+  "page.sources": "Sources",
+  "page.happened": "Ce qui s’est passé",
+  "page.usActions": "Comment les États-Unis ont soutenu, financé et agi",
+  "page.humanImpact": "Impact humain",
+  "page.otherCountries": "Ingérence dans d’autres pays",
+  "page.generalSources": "Sources générales et fonds d’archives"
 }

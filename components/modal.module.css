@@ -1,0 +1,46 @@
+:global(body:has(dialog[open])) {
+  overflow: hidden;
+}
+
+.modal {
+  width: calc(100% - 3rem);
+  max-width: 680px;
+  max-height: calc(100dvh - 3rem);
+  margin: auto;
+  overflow: auto;
+  color: var(--foreground);
+  background: var(--background);
+  border: 1px solid color-mix(in srgb, currentcolor 25%, transparent);
+  border-radius: 8px;
+
+  &::backdrop {
+    background: rgb(0 0 0 / 0.7);
+  }
+}
+
+.content {
+  display: grid;
+  gap: 2.5rem;
+  padding: 3.5rem 1.5rem 2.5rem;
+}
+
+.close {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  color: inherit;
+  font-size: 1.75rem;
+  line-height: 1;
+  cursor: pointer;
+  background: none;
+  border: 0;
+  opacity: 0.7;
+
+  &:hover,
+  &:focus-visible {
+    opacity: 1;
+  }
+}

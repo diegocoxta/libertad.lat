@@ -5,6 +5,8 @@
   "page.quote": "Os povos da América Latina não têm outra possibilidade senão lutar, cada um de acordo com a sua realidade. Mas lutar, lutar para quê? Para conquistar a sua independência econômica e ser povos autenticamente livres também no campo político.",
   "page.author": "Salvador Allende",
   "page.languages": "Idioma",
+  "page.close": "Fechar",
+  "page.region": "América Latina",
   "page.joke": "Departamento de Ingerência",
   "quote.garciaMarquez.text": "A América Latina não quer, nem tem por que ser, um peão sem vontade própria, nem é uma quimera que seus desígnios de independência e originalidade se convertam numa aspiração ocidental.",
   "quote.garciaMarquez.source": "Discurso do Prêmio Nobel, 1982",
@@ -16,5 +18,11 @@
   "quote.galeano.source": "As Veias Abertas da América Latina",
   "quote.freire.text": "A libertação é uma práxis: a ação e a reflexão dos homens sobre o mundo para transformá-lo. Ninguém liberta ninguém, ninguém se liberta sozinho: os homens se libertam em comunhão.",
   "quote.sandino.text": "A nossa causa é a causa de todos os povos oprimidos da América Latina, e a nossa pátria não é apenas a Nicarágua, mas toda a América espanhola.",
-  "quote.ribeiro.text": "A América Latina é a pátria grande que ainda não conseguimos construir. (...) Só há duas opções nesta vida: se resignar ou se indignar. E eu não vou me resignar nunca."
+  "quote.ribeiro.text": "A América Latina é a pátria grande que ainda não conseguimos construir. (...) Só há duas opções nesta vida: se resignar ou se indignar. E eu não vou me resignar nunca.",
+  "page.sources": "Fontes",
+  "page.happened": "O que aconteceu",
+  "page.usActions": "Como os EUA apoiaram, financiaram e agiram",
+  "page.humanImpact": "Impacto humano",
+  "page.otherCountries": "Ingerência em outros países",
+  "page.generalSources": "Fontes gerais e acervos"
 }

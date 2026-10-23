@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 import { LOCALES, LOCALE_NAMES, type Locale } from '~/lib/i18n';
 
 type LanguageSelectorProps = {
@@ -9,15 +7,16 @@ type LanguageSelectorProps = {
   path?: string;
 };
 
+// Plain anchors: a soft navigation to /[locale]/[segment] is intercepted by @modal/(.)[country].
 export function LanguageSelector({ locale, label, className, path = '' }: LanguageSelectorProps) {
   return (
     <nav aria-label={label} className={className}>
       <ul>
         {LOCALES.map((loc) => (
           <li key={loc}>
-            <Link href={`/${loc}${path}`} hrefLang={loc} lang={loc} aria-current={loc === locale ? 'page' : undefined}>
+            <a href={`/${loc}${path}`} hrefLang={loc} lang={loc} aria-current={loc === locale ? 'page' : undefined}>
               {LOCALE_NAMES[loc]}
-            </Link>
+            </a>
           </li>
         ))}
       </ul>
