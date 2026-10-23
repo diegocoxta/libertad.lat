@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 
+import { CondorHarpyEagle } from '~/components/condor-harpy-eagle';
 import { InvertedAmerica } from '~/components/inverted-america';
 import { getTranslations, isSupportedLocale } from '~/lib/i18n';
 
@@ -23,6 +24,7 @@ export default async function HomePage({ params }: PageProps<'/[locale]'>) {
         </blockquote>
         <figcaption>— {t('page.author')}</figcaption>
       </figure>
+      <CondorHarpyEagle className={styles.emblem} />
     </main>
   );
 }

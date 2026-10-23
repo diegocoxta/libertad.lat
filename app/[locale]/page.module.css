@@ -2,7 +2,7 @@
   display: grid;
   place-items: center;
   align-content: center;
-  gap: 3rem;
+  gap: 5rem;
   min-height: 100dvh;
   padding: 48px 24px;
 }
@@ -10,10 +10,11 @@
 .logo {
   width: auto;
   height: 9rem;
+}
 
-  @media (width >= 640px) {
-    height: 12rem;
-  }
+.emblem {
+  width: 300px;
+  height: auto;
 }
 
 .quote {
