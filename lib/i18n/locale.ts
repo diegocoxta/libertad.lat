@@ -1,11 +1,10 @@
-export const LOCALES = ['es', 'pt', 'en', 'gn', 'fr', 'qu', 'ht'] as const;
+export const LOCALES = ['es', 'pt', 'gn', 'fr', 'qu', 'ht'] as const;
 
 export type Locale = (typeof LOCALES)[number];
 
 export const LOCALE_NAMES: Record<Locale, string> = {
   es: 'Español',
   pt: 'Português',
-  en: 'English',
   gn: "Avañe'ẽ",
   fr: 'Français',
   qu: 'Runasimi',
