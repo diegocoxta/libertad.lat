@@ -56,6 +56,13 @@ export async function generateMetadata({ params }: LayoutProps<'/[locale]'>): Pr
     metadataBase: new URL(SITE_URL),
     applicationName: title,
     title,
+    icons: {
+      icon: [
+        { url: '/favicon.ico', sizes: '48x48' },
+        { url: '/icon.png', sizes: '96x96', type: 'image/png' },
+      ],
+      apple: [{ url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }],
+    },
     appleWebApp: {
       title,
       startupImage: STARTUP_IMAGES,
