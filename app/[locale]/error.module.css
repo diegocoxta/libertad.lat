@@ -1,0 +1,29 @@
+.page {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  flex: 1;
+  gap: 1.5rem;
+  padding: 48px 24px;
+  text-align: center;
+}
+
+.message {
+  font-size: 1.125rem;
+}
+
+.back {
+  color: inherit;
+  font-size: 0.875rem;
+  letter-spacing: 0.04em;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 0.3em;
+  opacity: 0.82;
+
+  &:hover,
+  &:focus-visible {
+    text-decoration-color: currentcolor;
+    opacity: 1;
+  }
+}

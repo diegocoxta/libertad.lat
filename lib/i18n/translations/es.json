@@ -28,5 +28,6 @@
   "page.share": "Comparte cómo la \"Libertad\" llegó a {country}",
   "page.contact": "Colabora",
   "page.suggest": "Sugiere correcciones o nueva información",
-  "page.notFound": "Página no encontrada"
+  "page.notFound": "Página no encontrada",
+  "page.error": "Algo salió mal."
 }

@@ -1,0 +1,40 @@
+.page {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  flex: 1;
+  padding: 48px 24px;
+  text-align: center;
+}
+
+.list {
+  display: grid;
+  gap: 1.25rem;
+  list-style: none;
+
+  a {
+    display: grid;
+    gap: 0.25rem;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  span {
+    font-size: 1.125rem;
+  }
+
+  small {
+    font-size: 0.875rem;
+    letter-spacing: 0.04em;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-underline-offset: 0.3em;
+    opacity: 0.82;
+  }
+
+  a:hover small,
+  a:focus-visible small {
+    text-decoration-color: currentcolor;
+    opacity: 1;
+  }
+}
