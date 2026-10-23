@@ -2,6 +2,15 @@ export const LOCALES = ['es', 'pt', 'en', 'gn', 'fr', 'qu'] as const;
 
 export type Locale = (typeof LOCALES)[number];
 
+export const LOCALE_NAMES: Record<Locale, string> = {
+  es: 'Español',
+  pt: 'Português',
+  en: 'English',
+  gn: "Avañe'ẽ",
+  fr: 'Français',
+  qu: 'Runasimi',
+};
+
 export const DEFAULT_LOCALE: Locale = LOCALES[0];
 
 export function isSupportedLocale(value?: string | null): value is Locale {

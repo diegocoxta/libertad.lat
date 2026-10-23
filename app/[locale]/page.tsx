@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 
 import { CondorHarpyEagle } from '~/components/condor-harpy-eagle';
 import { InvertedAmerica } from '~/components/inverted-america';
+import { LanguageSelector } from '~/components/language-selector';
 import { getTranslations, isSupportedLocale } from '~/lib/i18n';
 
 import styles from './page.module.css';
@@ -26,7 +27,11 @@ export default async function HomePage({ params }: PageProps<'/[locale]'>) {
         <figcaption>— {t('page.author')}</figcaption>
       </figure>
 
-      <InvertedAmerica className={styles.logo} />
+      <footer className={styles.footer}>
+        <InvertedAmerica className={styles.logo} />
+
+        <LanguageSelector locale={locale} label={t('page.languages')} className={styles.languages} />
+      </footer>
     </main>
   );
 }
