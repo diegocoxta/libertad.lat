@@ -18,7 +18,3 @@ export const QUOTES: QuoteType[] = [
   { id: 'sandino', author: 'Augusto César Sandino', country: 'NI' },
   { id: 'ribeiro', author: 'Darcy Ribeiro', country: 'BR' },
 ];
-
-export function getRandomQuote(): QuoteType {
-  return QUOTES[Math.floor(Math.random() * QUOTES.length)];
-}
