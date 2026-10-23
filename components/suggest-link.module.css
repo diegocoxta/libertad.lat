@@ -1,0 +1,14 @@
+.link {
+  color: inherit;
+  font-size: 0.875rem;
+  letter-spacing: 0.04em;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+  opacity: 0.82;
+
+  &:hover,
+  &:focus-visible {
+    opacity: 1;
+  }
+}
