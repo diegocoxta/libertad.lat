@@ -1,0 +1,168 @@
+.article {
+  display: grid;
+  gap: 1rem;
+  width: 100%;
+  max-width: 52rem;
+  overflow-wrap: break-word;
+  text-align: left;
+
+  & > :not(.table) {
+    width: 100%;
+    max-width: 40rem;
+    justify-self: center;
+  }
+
+  h2 {
+    margin-top: 1.25rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+
+  p,
+  li {
+    font-size: 0.9375rem;
+    line-height: 1.6;
+  }
+
+  ul,
+  ol {
+    display: grid;
+    gap: 0.75rem;
+    padding-left: 1.25rem;
+  }
+
+  a {
+    color: inherit;
+    text-underline-offset: 0.2em;
+
+    &:hover,
+    &:focus-visible {
+      text-decoration-thickness: 2px;
+    }
+  }
+}
+
+.table {
+  width: 100%;
+  max-width: 40rem;
+  margin: 20px auto;
+
+  table,
+  tbody {
+    display: block;
+  }
+
+  table {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    text-align: left;
+  }
+
+  thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    clip-path: inset(50%);
+  }
+
+  tr {
+    display: grid;
+    gap: 0.5rem;
+    padding: 0.875rem 0;
+    border-bottom: 1px solid color-mix(in srgb, currentcolor 20%, transparent);
+  }
+
+  td {
+    &::before {
+      content: attr(data-label);
+      display: block;
+      font-size: 0.6875rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      opacity: 0.6;
+    }
+
+    &:first-child {
+      font-weight: 600;
+    }
+
+    &:empty {
+      display: none;
+    }
+  }
+
+  ul {
+    gap: 0.625rem;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  li {
+    font-size: inherit;
+    line-height: inherit;
+  }
+
+  @media (width >= 768px) {
+    table {
+      display: table;
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    thead {
+      position: static;
+      display: table-header-group;
+      width: auto;
+      height: auto;
+      overflow: visible;
+      white-space: normal;
+      clip-path: none;
+    }
+
+    tbody {
+      display: table-row-group;
+    }
+
+    tr {
+      display: table-row;
+      padding: 0;
+    }
+
+    th,
+    td {
+      padding: 0.75rem 1rem 0.75rem 0;
+      vertical-align: top;
+
+      &:first-child {
+        min-width: 6.5rem;
+      }
+
+      &:last-child {
+        padding-right: 0;
+      }
+
+      &:empty {
+        display: table-cell;
+      }
+    }
+
+    th {
+      padding-top: 0;
+      padding-bottom: 0.625rem;
+      border-bottom: 2px solid currentcolor;
+      font-size: 0.6875rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    td::before {
+      content: none;
+    }
+  }
+}
