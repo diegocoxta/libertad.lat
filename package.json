@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predev": "tsx scripts/generate-share-images.tsx",
     "dev": "next dev",
+    "prebuild": "tsx scripts/generate-share-images.tsx",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
@@ -15,11 +17,15 @@
     "react-dom": "19.3.0"
   },
   "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.4.2",
+    "geist": "^1.8.2",
+    "sharp": "^0.35.5",
+    "tsx": "^4.23.15",
     "typescript": "^5"
   }
 }

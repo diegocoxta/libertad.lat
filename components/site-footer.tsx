@@ -1,6 +1,6 @@
+import Image from 'next/image';
 import { Suspense } from 'react';
 
-import { InvertedAmerica } from '~/components/inverted-america';
 import { LanguageSelector } from '~/components/language-selector';
 import { Quote } from '~/components/quote';
 import { getTranslations, type Locale } from '~/lib/i18n';
@@ -21,7 +21,7 @@ export function SiteFooter({ locale, path }: SiteFooterProps) {
         <Quote locale={locale} className={styles.quote} />
       </Suspense>
 
-      <InvertedAmerica className={styles.logo} />
+      <Image src="/inverted-america.svg" alt="" width={91} height={96} unoptimized className={styles.logo} />
 
       <LanguageSelector locale={locale} label={t('page.languages')} className={styles.languages} path={path} />
     </footer>
