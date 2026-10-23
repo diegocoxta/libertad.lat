@@ -6,10 +6,12 @@ import { Suspense } from 'react';
 import { CountryDetails } from '~/components/country-details';
 import { CountryHistory } from '~/components/country-history';
 import { EmblemLink } from '~/components/emblem-link';
+import { JsonLd } from '~/components/json-ld';
 import { SiteFooter } from '~/components/site-footer';
-import { getCountryName, getCountrySlug, getCountryStaticParams, parseCountrySlug } from '~/lib/countries';
-import { LOCALES, getTranslations, isSupportedLocale } from '~/lib/i18n';
+import { getCountrySlug, getCountryStaticParams, parseCountrySlug } from '~/lib/countries';
+import { getTranslations, isSupportedLocale } from '~/lib/i18n';
 import { getCountryContent } from '~/lib/country-content';
+import { createCountryJsonLd, createPageMetadata, getCountrySeo } from '~/lib/seo';
 
 import styles from './page.module.css';
 
@@ -23,15 +25,9 @@ export async function generateMetadata({ params }: PageProps<'/[locale]/[country
     return {};
   }
 
-  const slug = getCountrySlug(code);
+  const { slug, title, description, image } = getCountrySeo(locale, code);
 
-  return {
-    title: `${getCountryName(code, locale)} — ${getTranslations(locale)('page.title')}`,
-    alternates: {
-      canonical: `/${locale}/${slug}`,
-      languages: Object.fromEntries(LOCALES.map((loc) => [loc, `/${loc}/${slug}`])),
-    },
-  };
+  return createPageMetadata({ locale, path: `/${slug}`, title, description, image });
 }
 
 type CountryParamsType = PageProps<'/[locale]/[country]'>['params'];
@@ -54,9 +50,21 @@ async function CountryContent({ params }: { params: CountryParamsType }) {
 
   const t = getTranslations(locale);
   const content = getCountryContent(code);
+  const seo = getCountrySeo(locale, code);
 
   return (
     <>
+      <JsonLd
+        data={createCountryJsonLd({
+          locale,
+          slug: seo.slug,
+          countryName: seo.name,
+          title: seo.title,
+          description: seo.description,
+          image: seo.image,
+        })}
+      />
+
       <main className={styles.page}>
         <EmblemLink locale={locale} className={styles.emblem} />
 

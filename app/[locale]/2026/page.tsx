@@ -5,9 +5,11 @@ import { Suspense } from 'react';
 
 import { ArticleContent } from '~/components/article-content';
 import { EmblemLink } from '~/components/emblem-link';
+import { JsonLd } from '~/components/json-ld';
 import { SiteFooter } from '~/components/site-footer';
 import { OFFENSIVE_2026 } from '~/content/offensive-2026';
-import { LOCALES, getTranslations, isSupportedLocale } from '~/lib/i18n';
+import { getTranslations, isSupportedLocale } from '~/lib/i18n';
+import { createArticleJsonLd, createPageMetadata, getArticleSeo } from '~/lib/seo';
 
 import styles from './page.module.css';
 
@@ -18,13 +20,9 @@ export async function generateMetadata({ params }: PageProps<'/[locale]/2026'>):
     return {};
   }
 
-  return {
-    title: `${OFFENSIVE_2026.title[locale]} — ${getTranslations(locale)('page.title')}`,
-    alternates: {
-      canonical: `/${locale}/2026`,
-      languages: Object.fromEntries(LOCALES.map((loc) => [loc, `/${loc}/2026`])),
-    },
-  };
+  const { title, description, image } = getArticleSeo(locale);
+
+  return createPageMetadata({ locale, path: '/2026', title, description, image, type: 'article' });
 }
 
 type OffensiveParamsType = PageProps<'/[locale]/2026'>['params'];
@@ -45,9 +43,14 @@ async function OffensiveContent({ params }: { params: OffensiveParamsType }) {
   }
 
   const t = getTranslations(locale);
+  const seo = getArticleSeo(locale);
 
   return (
     <>
+      <JsonLd
+        data={createArticleJsonLd({ locale, title: seo.headline, description: seo.description, image: seo.image })}
+      />
+
       <main className={styles.page}>
         <EmblemLink locale={locale} className={styles.emblem} />
 
