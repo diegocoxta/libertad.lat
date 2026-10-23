@@ -40,6 +40,35 @@ export function getCountryName(code: CountryCode, locale: Locale): string {
   return getRegionNames(locale).of(code) ?? code;
 }
 
+// French needs the preposition that agrees with each country ("en Argentine", "au Brésil").
+const FRENCH_PLACES: Record<CountryCode, string> = {
+  AR: 'en Argentine',
+  BO: 'en Bolivie',
+  BR: 'au Brésil',
+  CL: 'au Chili',
+  CO: 'en Colombie',
+  CU: 'à Cuba',
+  DO: 'en République dominicaine',
+  EC: 'en Équateur',
+  SV: 'au Salvador',
+  GT: 'au Guatemala',
+  GY: 'au Guyana',
+  HT: 'en Haïti',
+  HN: 'au Honduras',
+  MX: 'au Mexique',
+  NI: 'au Nicaragua',
+  PA: 'au Panama',
+  PY: 'au Paraguay',
+  PR: 'à Porto Rico',
+  PE: 'au Pérou',
+  UY: 'en Uruguay',
+  VE: 'au Venezuela',
+};
+
+export function getCountryPlace(code: CountryCode, locale: Locale): string {
+  return locale === 'fr' ? FRENCH_PLACES[code] : getCountryName(code, locale);
+}
+
 export function getCountries(locale: Locale): CountryType[] {
   const names = getRegionNames(locale);
   const collator = new Intl.Collator(locale);

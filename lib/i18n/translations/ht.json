@@ -11,5 +11,7 @@
   "page.usActions": "Kijan Etazini te sipòte, finanse epi aji",
   "page.humanImpact": "Enpak imen",
   "page.otherCountries": "Entèferans nan lòt peyi",
-  "page.generalSources": "Sous jeneral ak achiv"
+  "page.generalSources": "Sous jeneral ak achiv",
+  "page.discover": "Dekouvri kijan \"Libète\" rive nan {country}",
+  "page.share": "Pataje kijan \"Libète\" rive nan {country}"
 }
