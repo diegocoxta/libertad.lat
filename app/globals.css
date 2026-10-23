@@ -3,6 +3,7 @@
   --footer-background: #d23336;
   --footer-foreground: #fff;
   --foreground: #535252;
+  --transition-duration: 0.5s;
 }
 
 html {
@@ -24,4 +25,18 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a,
+  button {
+    transition:
+      color var(--transition-duration) ease,
+      opacity var(--transition-duration) ease,
+      filter var(--transition-duration) ease,
+      border-color var(--transition-duration) ease,
+      background-color var(--transition-duration) ease,
+      text-decoration-color var(--transition-duration) ease,
+      text-decoration-thickness var(--transition-duration) ease;
+  }
 }
