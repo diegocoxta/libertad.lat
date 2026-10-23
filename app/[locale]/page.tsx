@@ -1,13 +1,13 @@
-import { notFound } from 'next/navigation';
+import { notFound } from "next/navigation";
 
-import { CondorHarpyEagle } from '~/components/condor-harpy-eagle';
-import { InvertedAmerica } from '~/components/inverted-america';
-import { LanguageSelector } from '~/components/language-selector';
-import { getTranslations, isSupportedLocale } from '~/lib/i18n';
+import { CondorHarpyEagle } from "~/components/condor-harpy-eagle";
+import { CountryList } from "~/components/country-list";
+import { SiteFooter } from "~/components/site-footer";
+import { getTranslations, isSupportedLocale } from "~/lib/i18n";
 
-import styles from './page.module.css';
+import styles from "./page.module.css";
 
-export default async function HomePage({ params }: PageProps<'/[locale]'>) {
+export default async function HomePage({ params }: PageProps<"/[locale]">) {
   const { locale } = await params;
 
   if (!isSupportedLocale(locale)) {
@@ -17,30 +17,29 @@ export default async function HomePage({ params }: PageProps<'/[locale]'>) {
   const t = getTranslations(locale);
 
   return (
-    <main className={styles.page}>
-      <CondorHarpyEagle
-        topText={t('page.joke').toLocaleUpperCase(locale)}
-        bottomText={t('page.title').toLocaleUpperCase(locale)}
-        className={styles.emblem}
-      />
+    <>
+      <main className={styles.page}>
+        <CondorHarpyEagle
+          topText={t("page.joke").toLocaleUpperCase(locale)}
+          bottomText={t("page.title").toLocaleUpperCase(locale)}
+          className={styles.emblem}
+        />
 
-      <div className={styles.heading}>
-        <h1 className={styles.title}>{t('page.title')}</h1>
-        <p className={styles.soon}>{t('page.soon')}</p>
-      </div>
+        <div className={styles.heading}>
+          <h1 className={styles.title}>{t("page.title")}</h1>
+          <p className={styles.soon}>{t("page.soon")}</p>
+        </div>
 
-      <figure className={styles.quote}>
-        <blockquote>
-          <p>{t('page.quote')}</p>
-        </blockquote>
-        <figcaption>— {t('page.author')}</figcaption>
-      </figure>
+        <CountryList locale={locale} className={styles.countries} />
 
-      <footer className={styles.footer}>
-        <InvertedAmerica className={styles.logo} />
+        {/* Plain anchor: a soft navigation to /[locale]/2026 would be intercepted by @modal/(.)[country]. */}
+        <a href={`/${locale}/2026`} className={styles.banner}>
+          {t("page.banner")}
+          <span aria-hidden="true">→</span>
+        </a>
+      </main>
 
-        <LanguageSelector locale={locale} label={t('page.languages')} className={styles.languages} />
-      </footer>
-    </main>
+      <SiteFooter locale={locale} />
+    </>
   );
 }

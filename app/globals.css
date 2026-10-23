@@ -1,6 +1,8 @@
 :root {
-  --background: #d23336;
-  --foreground: #fff;
+  --background: #fbfbfb;
+  --footer-background: #d23336;
+  --footer-foreground: #fff;
+  --foreground: #535252;
 }
 
 html {
@@ -8,6 +10,8 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   min-height: 100%;
   color: var(--foreground);
   background: var(--background);
