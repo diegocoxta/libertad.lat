@@ -25,5 +25,6 @@
   "page.otherCountries": "Injerencia en otros países",
   "page.generalSources": "Fuentes generales y archivos",
   "page.discover": "Descubre cómo la \"Libertad\" llegó a {country}",
-  "page.share": "Comparte cómo la \"Libertad\" llegó a {country}"
+  "page.share": "Comparte cómo la \"Libertad\" llegó a {country}",
+  "page.notFound": "Página no encontrada"
 }

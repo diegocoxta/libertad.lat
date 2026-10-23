@@ -25,5 +25,6 @@
   "page.otherCountries": "Ingerência em outros países",
   "page.generalSources": "Fontes gerais e acervos",
   "page.discover": "Descubra como a \"Liberdade\" chegou em {country}",
-  "page.share": "Compartilhe como a \"Liberdade\" chegou em {country}"
+  "page.share": "Compartilhe como a \"Liberdade\" chegou em {country}",
+  "page.notFound": "Página não encontrada"
 }

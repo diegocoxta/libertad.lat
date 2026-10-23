@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
   cacheComponents: true,
   partialPrefetching: true,
   experimental: {
+    globalNotFound: true,
     inlineCss: true,
   },
   async headers() {
