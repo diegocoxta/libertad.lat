@@ -17,14 +17,16 @@ export default async function HomePage({ params }: PageProps<'/[locale]'>) {
 
   return (
     <main className={styles.page}>
-      <InvertedAmerica className={styles.logo} />
+      <CondorHarpyEagle className={styles.emblem} />
+      
       <figure className={styles.quote}>
         <blockquote>
           <p>{t('page.quote')}</p>
         </blockquote>
         <figcaption>— {t('page.author')}</figcaption>
       </figure>
-      <CondorHarpyEagle className={styles.emblem} />
+
+      <InvertedAmerica className={styles.logo} />
     </main>
   );
 }
