@@ -18,7 +18,11 @@ export default async function HomePage({ params }: PageProps<'/[locale]'>) {
 
   return (
     <main className={styles.page}>
-      <CondorHarpyEagle className={styles.emblem} />
+      <CondorHarpyEagle
+        topText={t('page.joke').toLocaleUpperCase(locale)}
+        bottomText={t('page.title').toLocaleUpperCase(locale)}
+        className={styles.emblem}
+      />
 
       <div className={styles.heading}>
         <h1 className={styles.title}>{t('page.title')}</h1>
