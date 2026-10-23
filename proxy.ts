@@ -1,17 +1,27 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
-import { isSupportedLocale, negotiateLocale } from '~/lib/i18n/locale';
+import { DEFAULT_LOCALE, isSupportedLocale, negotiateLocale } from '~/lib/i18n/locale';
+
+const LOCALE_SHAPED = /^[a-z]{2}(-[a-z]{2})?$/i;
 
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  if (isSupportedLocale(pathname.split('/')[1])) {
+  const segment = pathname.split('/')[1];
+  const url = request.nextUrl.clone();
+
+  if (isSupportedLocale(segment)) {
     return NextResponse.next();
   }
 
+  if (LOCALE_SHAPED.test(segment)) {
+    url.pathname = `/${DEFAULT_LOCALE}${pathname.slice(segment.length + 1)}`;
+
+    return NextResponse.redirect(url);
+  }
+
   const locale = negotiateLocale(request.headers.get('accept-language'));
-  const url = request.nextUrl.clone();
 
   url.pathname = `/${locale}${pathname === '/' ? '' : pathname}`;
 
