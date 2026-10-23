@@ -33,6 +33,7 @@
   li a {
     color: inherit;
     text-underline-offset: 0.2em;
+    text-decoration-thickness: 1px;
 
     &:hover,
     &:focus-visible {
@@ -45,7 +46,7 @@
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.08em;
-  opacity: 0.7;
+  opacity: 0.82;
   text-align: center;
 }
 
@@ -65,6 +66,7 @@
   a {
     color: inherit;
     text-underline-offset: 0.2em;
+    text-decoration-thickness: 1px;
 
     &:hover,
     &:focus-visible {

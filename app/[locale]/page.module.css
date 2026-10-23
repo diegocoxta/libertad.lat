@@ -28,6 +28,11 @@
   background: var(--footer-background);
   border-radius: 8px;
 
+  &:hover,
+  &:focus-visible {
+    filter: brightness(0.9);
+  }
+
   @media (width >= 768px) {
     padding: 1.5rem 2rem;
     font-size: 1.25rem;
@@ -35,7 +40,7 @@
 
   @media (hover: hover) and (prefers-reduced-motion: no-preference) {
     span {
-      transition: transform 0.2s ease;
+      transition: transform var(--transition-duration) ease;
     }
 
     &:hover span,
@@ -84,7 +89,7 @@
 
   @media (hover: hover) and (prefers-reduced-motion: no-preference) {
     svg {
-      transition: transform 0.2s ease;
+      transition: transform var(--transition-duration) ease;
     }
 
     a:hover svg,
@@ -115,7 +120,7 @@
   text-align: center;
   text-transform: uppercase;
   text-wrap: balance;
-  opacity: 0.8;
+  opacity: 0.82;
 }
 
 .title {
