@@ -1,0 +1,236 @@
+import type { CountryContentType } from "~/lib/country-content";
+
+const content: CountryContentType = {
+  period: {
+    es: "1964–1978",
+    pt: "1964–1978",
+    fr: "1964–1978",
+    gn: "1964–1978",
+    qu: "1964–1978",
+    ht: "1964–1978",
+  },
+  summary: {
+    es: "Injerencia indirecta: dinero de la CIA para golpistas, apoyo a la captura del Che Guevara y ayuda a la dictadura de Banzer.",
+    pt: "Ingerência indireta: dinheiro da CIA para golpistas, apoio à captura de Che Guevara e ajuda à ditadura de Banzer.",
+    fr: "Ingérence indirecte : de l’argent de la CIA pour des putschistes, un appui à la capture de Che Guevara et une aide à la dictature de Banzer.",
+    gn: "Injerencia indirecta: CIA pirapire golpista kuéra-pe, pytyvõ Che Guevara ojejapyhy hag̃ua ha pytyvõ dictadura Banzer-pe.",
+    qu: "Injerencia indirecta: CIAq qullqinta golpistakunaman, Che Guevarata hap’inankupaq yanapay hinallataq Banzerpa dictadurantaq yanapay.",
+    ht: "Entèferans endirèk: lajan CIA pou moun ki t ap fè koudeta, sipò pou kaptire Che Guevara ak èd bay diktati Banzer a.",
+  },
+  happened: {
+    es: "En 1964, el general René Barrientos derrocó a Víctor Paz Estenssoro. En 1967, el Che Guevara fue capturado y ejecutado en la selva boliviana. En agosto de 1971, el coronel Hugo Banzer derrocó al presidente de izquierda Juan José Torres y gobernó como dictador hasta 1978.",
+    pt: "Em 1964, o general René Barrientos derrubou Víctor Paz Estenssoro. Em 1967, Che Guevara foi capturado e executado na selva boliviana. Em agosto de 1971, o coronel Hugo Banzer derrubou o presidente de esquerda Juan José Torres e governou como ditador até 1978.",
+    fr: "En 1964, le général René Barrientos a renversé Víctor Paz Estenssoro. En 1967, Che Guevara a été capturé et exécuté dans la jungle bolivienne. En août 1971, le colonel Hugo Banzer a renversé le président de gauche Juan José Torres et a gouverné en dictateur jusqu’en 1978.",
+    gn: "1964-pe, general René Barrientos oipeʼa Víctor Paz Estenssoro. 1967-pe, Che Guevara ojejapyhy ha ojejuka Bolivia ka’aguy-pe. 1971 jasypoapy-pe, coronel Hugo Banzer oipeʼa presidente izquierda Juan José Torres ha ogobierna dictador ramo 1978 peve.",
+    qu: "1964 watapi general René Barrientosqa Víctor Paz Estenssorota kamachikuymanta horqorqan. 1967 watapi Che Guevaraqa Bolivia sach’asachapi hap’isqa wañuchisqataq karqan. 1971 agosto killapi coronel Hugo Banzerqa izquierda presidente Juan José Torresta horqorqan, 1978 watakamataq dictador kamachirqan.",
+    ht: "An 1964, jeneral René Barrientos te ranvèse Víctor Paz Estenssoro. An 1967, Che Guevara te kaptire epi egzekite nan forè boliviyen an. An out 1971, kolonèl Hugo Banzer te ranvèse prezidan goch Juan José Torres epi li te gouvène kòm diktatè jiska 1978.",
+  },
+  usActions: [
+    {
+      label: {
+        es: "Elecciones y golpe de 1964",
+        pt: "Eleições e golpe de 1964",
+        fr: "Élections et coup d’État de 1964",
+        gn: "Elección ha golpe 1964-pe",
+        qu: "1964 akllay hinallataq golpe",
+        ht: "Eleksyon ak koudeta 1964 la",
+      },
+      text: {
+        es: "según el historiador John Prados, la CIA destinó unos 1,2 millones de dólares a políticos bolivianos entre 1963 y 1965. El general René Barrientos, que derrocó a Paz Estenssoro en 1964, tenía un instructor estadounidense vinculado a la CIA en La Paz en el momento del golpe, y Washington aprobó más dinero para él después. ([Truthout](https://truthout.org/articles/moraless-coup-fits-a-long-pattern-in-bolivian-history/))",
+        pt: "segundo o historiador John Prados, a CIA destinou cerca de US$ 1,2 milhão a políticos bolivianos entre 1963 e 1965. O general René Barrientos, que derrubou Paz Estenssoro em 1964, tinha um instrutor americano ligado à CIA em La Paz no momento do golpe, e Washington aprovou mais dinheiro para ele em seguida. ([Truthout](https://truthout.org/articles/moraless-coup-fits-a-long-pattern-in-bolivian-history/))",
+        fr: "selon l’historien John Prados, la CIA a destiné environ 1,2 million de dollars à des politiciens boliviens entre 1963 et 1965. Le général René Barrientos, qui a renversé Paz Estenssoro en 1964, avait un instructeur américain lié à la CIA à La Paz au moment du coup d’État, et Washington a ensuite approuvé davantage d’argent pour lui. ([Truthout](https://truthout.org/articles/moraless-coup-fits-a-long-pattern-in-bolivian-history/))",
+        gn: "historiador John Prados heʼi haguéicha, CIA ome’ẽ cerca 1,2 millones de dólares político boliviano-kuérape 1963 guive 1965 peve. General René Barrientos, oipeʼáva Paz Estenssoro 1964-pe, oguereko instructor norteamericano CIA ndive La Paz-pe golpe jave, ha Washington oaprueba hetave pirapire chupe upéi. ([Truthout](https://truthout.org/articles/moraless-coup-fits-a-long-pattern-in-bolivian-history/))",
+        qu: "historiador John Pradosman hina CIAqa 1963 watamanta 1965 watakama Boliviamanta politicokunaman 1,2 millón dólar hinata qurqan. General René Barrientosqa, 1964 watapi Paz Estenssorota horqoqqa, golpe kaptin La Pazpi CIAwan tinkisqa Estados Unidosmanta yachachiqniyuq karqan, Washingtonñataq chaymanta aswan qullqita aprobarqan. ([Truthout](https://truthout.org/articles/moraless-coup-fits-a-long-pattern-in-bolivian-history/))",
+        ht: "dapre istoryen John Prados, CIA a te bay anviwon 1,2 milyon dola politisyen boliviyen ant 1963 ak 1965. Jeneral René Barrientos, ki te ranvèse Paz Estenssoro an 1964, te gen yon enstriktè ameriken ki te lye ak CIA nan La Paz lè koudeta a te fèt, epi Washington te apwouve plis lajan pou li apre sa. ([Truthout](https://truthout.org/articles/moraless-coup-fits-a-long-pattern-in-bolivian-history/))",
+      },
+    },
+    {
+      label: {
+        es: "Caza del Che Guevara (1967)",
+        pt: "Caça a Che Guevara (1967)",
+        fr: "Traque de Che Guevara (1967)",
+        gn: "Che Guevara ñemuñe (1967)",
+        qu: "Che Guevarata qatiy (1967)",
+        ht: "Lachas Che Guevara (1967)",
+      },
+      text: {
+        es: "boinas verdes estadounidenses entrenaron al 2.º Batallón de Rangers del ejército boliviano, que cercó a la guerrilla. Agentes de la CIA acompañaron la operación y uno de ellos, Félix Rodríguez, estaba presente cuando el Che fue ejecutado el 9 de octubre.",
+        pt: "boinas-verdes americanos treinaram o 2º Batalhão de Rangers do exército boliviano, que cercou a guerrilha. Agentes da CIA acompanharam a operação e um deles, Félix Rodríguez, estava presente quando Che foi executado em 9 de outubro.",
+        fr: "des bérets verts américains ont formé le 2ᵉ bataillon de Rangers de l’armée bolivienne, qui a encerclé la guérilla. Des agents de la CIA ont accompagné l’opération et l’un d’eux, Félix Rodríguez, était présent lorsque Che a été exécuté le 9 octobre.",
+        gn: "boina verde norteamericano oentrena 2.º Batallón de Rangers ehérsito boliviano-gua, ojerere guerrilla. CIA agente oĩ operación-pe ha peteĩ chuguikuéra, Félix Rodríguez, oĩ Che ojejuka jave 9 de octubre-pe.",
+        qu: "Estados Unidosmanta boinas verdeskunaqa Bolivia ejercitopa 2.º Batallón de Rangersta yachachirqanku, paykunam guerrillata muyuykurqanku. CIA agentekunaqa operacionwan rirqanku, hukninkutaq, Félix Rodríguez, 9 de octubrepi Che wañuchisqa kaptin chaypi karqan.",
+        ht: "bere vèt ameriken te antrene 2yèm Batayon Ranjè lame boliviyen an, ki te antoure gerilya a. Ajan CIA te akonpaye operasyon an epi youn nan yo, Félix Rodríguez, te la lè yo te egzekite Che le 9 oktòb.",
+      },
+    },
+    {
+      label: {
+        es: "Golpe de 1971",
+        pt: "Golpe de 1971",
+        fr: "Coup d’État de 1971",
+        gn: "Golpe 1971-pe",
+        qu: "1971 golpe",
+        ht: "Koudeta 1971 la",
+      },
+      text: {
+        es: "el 8 de julio de 1971, el Comité 40 de la Casa Blanca, presidido por Kissinger, discutió una propuesta de la CIA de dar 410.000 dólares a políticos y militares que preparaban el derrocamiento de Torres. Al menos parte del dinero llegó a los líderes del golpe en los días anteriores. ([Harper's](https://harpers.org/2010/06/a-trip-down-memory-lane-us-financed-1971-bolivian-coup))",
+        pt: "em 8 de julho de 1971, o Comitê 40 da Casa Branca, presidido por Kissinger, discutiu uma proposta da CIA de dar US$ 410 mil a políticos e militares que preparavam a derrubada de Torres. Pelo menos parte do dinheiro chegou aos líderes do golpe nos dias anteriores. ([Harper's](https://harpers.org/2010/06/a-trip-down-memory-lane-us-financed-1971-bolivian-coup))",
+        fr: "le 8 juillet 1971, le Comité 40 de la Maison-Blanche, présidé par Kissinger, a discuté d’une proposition de la CIA de verser 410 000 dollars à des politiciens et à des militaires qui préparaient le renversement de Torres. Une partie au moins de l’argent est parvenue aux chefs du coup d’État les jours précédents. ([Harper's](https://harpers.org/2010/06/a-trip-down-memory-lane-us-financed-1971-bolivian-coup))",
+        gn: "1971 jasypokõi 8-pe, Comité 40 Casa Blanca-gua, Kissinger ruvicha, oñemongetá peteĩ propuesta CIA-gua ome’ẽ hag̃ua US$ 410 mil político ha militar-pe omoĩmbaʼeva Torres ojepeʼa hag̃ua. Mba’eveichagua pe pirapire pehẽngue oguahẽ golpe líder kuérape ára mboyve. ([Harper's](https://harpers.org/2010/06/a-trip-down-memory-lane-us-financed-1971-bolivian-coup))",
+        qu: "1971 julio killapi 8 p’unchawpi Casa Blancapa Comité 40nin, Kissingerpa umalliyninpi, Torresta horqonankupaq wakichiq politicokunaman hinallataq militarkunaman 410 mil dólar qunanpaq CIAq proposicionninta rimanakurqan. Qullqipa pisi pachanqa golpe umalliqkunaman ñawpaq p’unchawkunapi chayarqan. ([Harper's](https://harpers.org/2010/06/a-trip-down-memory-lane-us-financed-1971-bolivian-coup))",
+        ht: "le 8 jiyè 1971, Komite 40 Mezon Blanch lan, Kissinger te prezide, te diskite yon pwopozisyon CIA pou bay 410 000 dola politisyen ak militè ki t ap prepare ranvèse Torres. Omwen yon pati lajan an te rive jwenn lidè koudeta yo nan jou anvan yo. ([Harper's](https://harpers.org/2010/06/a-trip-down-memory-lane-us-financed-1971-bolivian-coup))",
+      },
+    },
+    {
+      label: {
+        es: "Ayuda a la dictadura",
+        pt: "Ajuda à ditadura",
+        fr: "Aide à la dictature",
+        gn: "Dictadura pytyvõ",
+        qu: "Dictaduraman yanapay",
+        ht: "Èd pou diktati a",
+      },
+      text: {
+        es: "en los cinco meses siguientes al golpe, el gobierno de Nixon dio a Banzer unos 50 millones de dólares en donaciones y ayuda, además de grandes volúmenes de suministros y asistencia técnica militar. ([History News Network](https://www.historynewsnetwork.org/article/127540))",
+        pt: "nos cinco meses seguintes ao golpe, o governo Nixon deu a Banzer cerca de US$ 50 milhões em doações e ajuda, além de grandes volumes de suprimentos e assistência técnica militar. ([History News Network](https://www.historynewsnetwork.org/article/127540))",
+        fr: "dans les cinq mois suivant le coup d’État, le gouvernement Nixon a donné à Banzer environ 50 millions de dollars en dons et en aide, ainsi que de grands volumes de fournitures et d’assistance technique militaire. ([History News Network](https://www.historynewsnetwork.org/article/127540))",
+        gn: "golpe rire mbohapy jasy, Nixon gobierno ome’ẽ Banzer-pe cerca 50 millones de dólares donación ha pytyvõ, heta suministro ha asistencia técnica militar avei. ([History News Network](https://www.historynewsnetwork.org/article/127540))",
+        qu: "golpe qhipa phichqa killapi Nixon gobiernoqa Banzerman 50 millón dólar hina donacionkunata yanapaytawan qurqan, achka suministrokunatawan militar técnica yanapaytapas. ([History News Network](https://www.historynewsnetwork.org/article/127540))",
+        ht: "nan senk mwa ki te swiv koudeta a, gouvènman Nixon an te bay Banzer anviwon 50 milyon dola nan don ak èd, anplis gwo kantite founiti ak asistans teknik militè. ([History News Network](https://www.historynewsnetwork.org/article/127540))",
+      },
+    },
+    {
+      label: {
+        es: "Negación oficial",
+        pt: "Negação oficial",
+        fr: "Déni officiel",
+        gn: "Negación oficial",
+        qu: "Oficial negacion",
+        ht: "Negasyon ofisyèl",
+      },
+      text: {
+        es: "en ese momento, el Departamento de Estado negó cualquier participación; documentos desclasificados décadas después mostraron la financiación.",
+        pt: "na época, o Departamento de Estado negou qualquer envolvimento; documentos liberados décadas depois mostraram o financiamento.",
+        fr: "à l’époque, le département d’État a nié toute implication ; des documents déclassifiés des décennies plus tard ont montré le financement.",
+        gn: "upe ramo, Departamento de Estado ndoikuaaséi oĩ hague; documento ojeipe’a heta áño rire ohechauka pirapire.",
+        qu: "chay pachapi Departamento de Estadoqa mana imapas chaypi kasqanta nirqan; chunka watakuna qhipa kichasqa documentokunaqa qullqichayta rikuchirqan.",
+        ht: "nan epòk la, Depatman Deta a te nye nenpòt enplikasyon; dokiman yo te dekasifye plizyè dizèn ane apre te montre finansman an.",
+      },
+    },
+  ],
+  impact: {
+    items: [
+      {
+        label: {
+          es: "Golpe de 1971",
+          pt: "Golpe de 1971",
+          fr: "Coup d’État de 1971",
+          gn: "Golpe 1971",
+          qu: "1971 golpe",
+          ht: "Koudeta 1971 la",
+        },
+        text: {
+          es: "unos 110 muertos y 600 heridos en tres días de combates, sobre todo estudiantes y obreros.",
+          pt: "cerca de 110 mortos e 600 feridos em três dias de combates, sobretudo estudantes e operários.",
+          fr: "environ 110 morts et 600 blessés en trois jours de combats, surtout des étudiants et des ouvriers.",
+          gn: "cerca 110 omano ha 600 ojejopy mbohapy árape, estudiante ha obrero hetave.",
+          qu: "110 hina wañusqa, 600 hina kuyusqa kimsa p’unchawpi maqanakuypi, aswanta estudiantekuna hinallataq obrerokuna.",
+          ht: "anviwon 110 mò ak 600 blese nan twa jou konba, sitou etidyan ak ouvriye.",
+        },
+      },
+      {
+        label: {
+          es: "Detenciones y tortura",
+          pt: "Prisões e tortura",
+          fr: "Arrestations et torture",
+          gn: "Preso ha tortura",
+          qu: "Presokuna hinallataq tormento",
+          ht: "Arestasyon ak tòti",
+        },
+        text: {
+          es: "bajo Banzer, más de 14.000 bolivianos fueron detenidos sin orden judicial y más de 8.000 torturados con descargas eléctricas, ahogamientos y golpizas.",
+          pt: "sob Banzer, mais de 14 mil bolivianos foram presos sem ordem judicial e mais de 8 mil torturados com choques elétricos, afogamentos e espancamentos.",
+          fr: "sous Banzer, plus de 14 000 Boliviens ont été arrêtés sans mandat et plus de 8 000 torturés par électrochocs, simulacres de noyade et passages à tabac.",
+          gn: "Banzer ogobierna aja, 14 mil hetave boliviano ojejapyhy orden judicial’ỹre ha 8 mil hetave ojetortura electricidad, y ha jejopy ndive.",
+          qu: "Banzer kamachikuqtin 14 mil hinamanta aswan boliviano orden judicial mana kaspa hap’isqa karqanku, 8 mil hinamanta aswantaq corrientewan, yakuwan hinallataq maqaywan tormentasqa.",
+          ht: "anba Banzer, plis pase 14 000 Boliviyen te arete san lòd jidisyè epi plis pase 8 000 te tòtire ak chòk elektrik, nwaye ak kou.",
+        },
+      },
+      {
+        label: {
+          es: "Muertos y desaparecidos",
+          pt: "Mortos e desaparecidos",
+          fr: "Morts et disparus",
+          gn: "Omano ha ojepyta desaparecido",
+          qu: "Wañusqa hinallataq chinkachisqa",
+          ht: "Mò ak disparèt",
+        },
+        text: {
+          es: "más de 200 personas ejecutadas o desaparecidas; en 1974, el ejército mató a decenas de campesinos que bloqueaban caminos en el valle de Cochabamba (masacre de Tolata).",
+          pt: "mais de 200 pessoas executadas ou desaparecidas; em 1974, o exército matou dezenas de camponeses que bloqueavam estradas no vale de Cochabamba (massacre de Tolata).",
+          fr: "plus de 200 personnes exécutées ou disparues ; en 1974, l’armée a tué des dizaines de paysans qui bloquaient des routes dans la vallée de Cochabamba (massacre de Tolata).",
+          gn: "200 hetave tapicha ojejuka térã ojepyta desaparecido; 1974-pe, ehérsito ojuka heta campesino ombyaty tape Cochabamba ñúme (masacre de Tolata).",
+          qu: "200 hinamanta aswan runa wañuchisqa utaq chinkachisqa; 1974 watapi ejercitoqa Cochabamba wayq’opi ñankunata hark’aq chunka campesinokunata wañuchirqan (Tolata masacre).",
+          ht: "plis pase 200 moun te egzekite oswa te disparèt; an 1974, lame a te touye plizyè dizèn peyizan ki t ap bloke wout nan vale Cochabamba (masak Tolata).",
+        },
+      },
+      {
+        label: {
+          es: "Exilio y Cóndor",
+          pt: "Exílio e Condor",
+          fr: "Exil et Condor",
+          gn: "Exilio ha Cóndor",
+          qu: "Exilio hinallataq Cóndor",
+          ht: "Ègzil ak Kondò",
+        },
+        text: {
+          es: "miles de opositores se exiliaron, y Bolivia pasó a perseguir opositores en cooperación con las dictaduras vecinas.",
+          pt: "milhares de opositores foram para o exílio, e a Bolívia passou a caçar opositores em cooperação com as ditaduras vizinhas.",
+          fr: "des milliers d’opposants sont partis en exil, et la Bolivie s’est mise à traquer les opposants en coopération avec les dictatures voisines.",
+          gn: "heta mil opositor osẽ exilio-pe, ha Bolivia oñepyrũ oheka opositor tetã ambue dictadura ndive.",
+          qu: "waranqa opositorkuna exiliopi karqanku, Boliviataq kay hichpa dictadurakunawan opositorkunata qatiyta qallarirqan.",
+          ht: "plizyè milye opozan te ale an ègzil, epi Bolivi te kòmanse pouswiv opozan an kolaborasyon ak diktati vwazen yo.",
+        },
+      },
+    ],
+  },
+  sources: [
+    {
+      title: "FRUS 1969–1976, vol. E-10: Bolívia",
+      url: "https://history.state.gov/historicaldocuments/frus1969-76ve10",
+      note: {
+        es: "documentos oficiales de Estados Unidos, dominio público",
+        pt: "documentos oficiais dos EUA, domínio público",
+        fr: "documents officiels des États-Unis, domaine public",
+        gn: "documento oficial Estados Unidos, dominio público",
+        qu: "Estados Unidosmanta oficial documentokuna, dominio publico",
+        ht: "dokiman ofisyèl Etazini, domèn piblik",
+      },
+    },
+    {
+      title: "Wikipédia: Golpe de 1971 na Bolívia",
+      url: "https://en.wikipedia.org/wiki/1971_Bolivian_coup_d%27%C3%A9tat",
+      note: {
+        es: "CC BY-SA",
+        pt: "CC BY-SA",
+        fr: "CC BY-SA",
+        gn: "CC BY-SA",
+        qu: "CC BY-SA",
+        ht: "CC BY-SA",
+      },
+    },
+    {
+      title: "Wikipédia: Hugo Banzer",
+      url: "https://en.wikipedia.org/wiki/Hugo_Banzer",
+      note: {
+        es: "CC BY-SA",
+        pt: "CC BY-SA",
+        fr: "CC BY-SA",
+        gn: "CC BY-SA",
+        qu: "CC BY-SA",
+        ht: "CC BY-SA",
+      },
+    },
+  ],
+};
+
+export default content;

@@ -1,0 +1,236 @@
+import type { CountryContentType } from "~/lib/country-content";
+
+const content: CountryContentType = {
+  period: {
+    es: "1980–2009",
+    pt: "1980–2009",
+    fr: "1980–2009",
+    gn: "1980–2009",
+    qu: "1980–2009",
+    ht: "1980–2009",
+  },
+  summary: {
+    es: "Injerencia indirecta: en los años ochenta, Honduras fue la principal base de Estados Unidos para la guerra contra la Nicaragua sandinista. El papel estadounidense en el golpe de 2009 es debatido.",
+    pt: "Ingerência indireta: nos anos 1980, Honduras foi a principal base dos EUA para a guerra contra a Nicarágua sandinista. O papel americano no golpe de 2009 é debatido.",
+    fr: "Ingérence indirecte : dans les années 1980, le Honduras a été la principale base des États-Unis pour la guerre contre le Nicaragua sandiniste. Le rôle américain dans le coup d’État de 2009 est débattu.",
+    gn: "Injerencia indirecta: 1980-pe, Honduras ha’e base Estados Unidos-pe guerra Nicaragua sandinista rehe. Papel norteamericano golpe 2009-pe oñemongetá gueteri.",
+    qu: "Injerencia indirecta: 1980 watakunapi Hondurasqa sandinista Nicaraguaman contra guerrapaq Estados Unidospa aswan hatun basen karqan. 2009 golpepi Estados Unidospa ruwasqanqa rimanakuypi kachkan.",
+    ht: "Entèferans endirèk: nan ane 1980 yo, Ondiras te pi gwo baz Etazini pou lagè kont Nikaragwa sandinis la. Wòl ameriken nan koudeta 2009 la se yon sijè deba.",
+  },
+  happened: {
+    es: "En los años ochenta, los contras nicaragüenses operaban desde territorio hondureño, y el país sufrió represión interna con desaparecidos. El 28 de junio de 2009, militares sacaron de la cama al presidente Manuel Zelaya y lo llevaron a Costa Rica.",
+    pt: "Nos anos 1980, os contras nicaraguenses operavam a partir do território hondurenho, e o país teve repressão interna com desaparecidos. Em 28 de junho de 2009, militares tiraram o presidente Manuel Zelaya da cama e o levaram para a Costa Rica.",
+    fr: "Dans les années 1980, les contras nicaraguayens opéraient depuis le territoire hondurien, et le pays a connu une répression interne avec des disparus. Le 28 juin 2009, des militaires ont sorti le président Manuel Zelaya de son lit et l’ont emmené au Costa Rica.",
+    gn: "1980-pe, contra nicaragüense omba’apo Honduras guive, ha tetã oguereko represión interna desaparecido ndive. 2009 jasypoteĩ 28-pe, militar kuéra ohupi presidente Manuel Zelaya hupi guive ha ogueraha Costa Rica-pe.",
+    qu: "1980 watakunapi Nicaragua contrakuna Honduras allpamanta llamk’arqanku, suyuqa ukhu llapchiywan chinkachisqakunawan karqan. 2009 junio killapi 28 p’unchawpi militarkunaqa presidente Manuel Zelayata puñunmanta horqospa Costa Ricaman apanku.",
+    ht: "Nan ane 1980 yo, kontra nikaragwayen yo t ap opere soti nan teritwa ondiryen an, epi peyi a te gen represyon andedan ak disparèt. Le 28 jen 2009, militè yo te rale prezidan Manuel Zelaya nan kabann li epi yo te mennen l nan Kosta Rika.",
+  },
+  usActions: [
+    {
+      label: {
+        es: "Dinero",
+        pt: "Dinheiro",
+        fr: "Argent",
+        gn: "Pirapire",
+        qu: "Qullqi",
+        ht: "Lajan",
+      },
+      text: {
+        es: "durante la gestión del embajador John Negroponte (1981–1985), la ayuda militar a Honduras subió de unos 4 millones de dólares a 77,4 millones por año, además de más de 200 millones en ayuda económica. ([Wikipédia: John Negroponte](https://en.wikipedia.org/wiki/John_Negroponte))",
+        pt: "durante a gestão do embaixador John Negroponte (1981–1985), a ajuda militar a Honduras subiu de cerca de US$ 4 milhões para US$ 77,4 milhões por ano, além de mais de US$ 200 milhões em ajuda econômica. ([Wikipédia: John Negroponte](https://en.wikipedia.org/wiki/John_Negroponte))",
+        fr: "durant la mission de l’ambassadeur John Negroponte (1981–1985), l’aide militaire au Honduras est passée d’environ 4 millions de dollars à 77,4 millions par an, en plus de plus de 200 millions d’aide économique. ([Wikipédia: John Negroponte](https://en.wikipedia.org/wiki/John_Negroponte))",
+        gn: "embajador John Negroponte omba’apo aja (1981–1985), ayuda militar Honduras-pe osẽ cerca 4 millones de dólares guive 77,4 millones ary-rupi, 200 millones hetave ayuda económica avei. ([Wikipédia: John Negroponte](https://en.wikipedia.org/wiki/John_Negroponte))",
+        qu: "embajador John Negropontepa kamachiyninpi (1981–1985) Honduraspaq militar yanapayqa sapa wata 4 millón dólar hinamanta 77,4 millón dólarkama wichariran, 200 millón dólarmanta aswan economía yanapaytawan. ([Wikipédia: John Negroponte](https://en.wikipedia.org/wiki/John_Negroponte))",
+        ht: "pandan administrasyon anbasadè John Negroponte (1981–1985), èd militè pou Ondiras te monte soti anviwon 4 milyon dola pou rive 77,4 milyon pa ane, anplis plis pase 200 milyon nan èd ekonomik. ([Wikipédia: John Negroponte](https://en.wikipedia.org/wiki/John_Negroponte))",
+      },
+    },
+    {
+      label: {
+        es: "Base para la guerra contra Nicaragua",
+        pt: "Base para a guerra contra a Nicarágua",
+        fr: "Base pour la guerre contre le Nicaragua",
+        gn: "Guerra Nicaragua rehe base",
+        qu: "Nicaraguaman contra guerrapaq base",
+        ht: "Baz pou lagè kont Nikaragwa",
+      },
+      text: {
+        es: "Honduras prestó su territorio a los contras. Estados Unidos construyó o amplió las bases de Soto Cano (Palmerola) y El Aguacate, donde se entrenaba a contras y donde, según críticos, se detenía y torturaba a presos. Grandes ejercicios militares, como los Big Pine, mantenían a miles de soldados estadounidenses en el país.",
+        pt: "Honduras emprestou seu território aos contras. Os EUA construíram ou ampliaram as bases de Soto Cano (Palmerola) e El Aguacate, onde contras eram treinados e onde, segundo críticos, presos eram detidos e torturados. Grandes exercícios militares, como os Big Pine, mantinham milhares de soldados americanos no país.",
+        fr: "le Honduras a prêté son territoire aux contras. Les États-Unis ont construit ou agrandi les bases de Soto Cano (Palmerola) et d’El Aguacate, où des contras étaient formés et où, selon les critiques, des prisonniers étaient détenus et torturés. De grands exercices militaires, comme les Big Pine, maintenaient des milliers de soldats américains dans le pays.",
+        gn: "Honduras oheja hetã contra kuéra-pe. Estados Unidos omopu’ã térã omoakãrapu’ã base Soto Cano (Palmerola) ha El Aguacate, upépe contra oñentrenáva ha, crítico kuéra heʼi haguéicha, preso ojejapyhy ha ojetortura. Ejercicio militar guasu, Big Pine ramo, opytáva heta mil soldado norteamericano tetãme.",
+        qu: "Hondurasqa allpanta contrakunaman mañachirqan. Estados Unidosqa Soto Cano (Palmerola) hinallataq El Aguacate basekunata ruwarqan utaq hatunchirqan, chaypi contrakuna yachachisqa karqanku, huchachaqkunaman hina presokunapas hap’isqa tormentasqapas karqanku. Big Pine hina hatun militar ejercicioqa waranqa Estados Unidosmanta soldadokunata suyupi kachirqan.",
+        ht: "Ondiras te prete teritwa li bay kontra yo. Etazini te konstwi oswa elaji baz Soto Cano (Palmerola) ak El Aguacate, kote yo te antrene kontra yo epi kote, dapre kritik yo, yo te detni epi tòtire prizonye. Gwo egzèsis militè, tankou Big Pine yo, te kenbe plizyè milye sòlda ameriken nan peyi a.",
+      },
+    },
+    {
+      label: {
+        es: "Batallón 3-16",
+        pt: "Batalhão 3-16",
+        fr: "Bataillon 3-16",
+        gn: "Batallón 3-16",
+        qu: "3-16 Batallón",
+        ht: "Batayon 3-16",
+      },
+      text: {
+        es: "esa unidad de inteligencia del ejército hondureño fue entrenada y apoyada por la CIA y por militares argentinos, y secuestró, torturó y mató a cientos de personas. Una investigación del _Baltimore Sun_ (1995) concluyó que la CIA y la embajada conocían los crímenes y siguieron colaborando, y que los informes anuales de derechos humanos enviados al Congreso omitían los abusos. Un inspector general de la propia CIA examinó el caso en 1997. ([Wikipédia: CIA activities in Honduras](https://en.wikipedia.org/wiki/CIA_activities_in_Honduras))",
+        pt: "essa unidade de inteligência do exército hondurenho foi treinada e apoiada pela CIA e por militares argentinos, e sequestrou, torturou e matou centenas de pessoas. Uma investigação do _Baltimore Sun_ (1995) concluiu que a CIA e a embaixada sabiam dos crimes e continuaram colaborando, e que os relatórios anuais de direitos humanos enviados ao Congresso omitiam os abusos. Um inspetor-geral da própria CIA examinou o caso em 1997. ([Wikipédia: CIA activities in Honduras](https://en.wikipedia.org/wiki/CIA_activities_in_Honduras))",
+        fr: "cette unité de renseignement de l’armée hondurienne a été formée et soutenue par la CIA et par des militaires argentins, et a enlevé, torturé et tué des centaines de personnes. Une enquête du _Baltimore Sun_ (1995) a conclu que la CIA et l’ambassade connaissaient les crimes et ont continué à collaborer, et que les rapports annuels sur les droits humains envoyés au Congrès omettaient les abus. Un inspecteur général de la CIA elle-même a examiné l’affaire en 1997. ([Wikipédia: CIA activities in Honduras](https://en.wikipedia.org/wiki/CIA_activities_in_Honduras))",
+        gn: "pe unidad inteligencia ehérsito hondureño-gua CIA ha militar argentino oentrena ha oipytyvõva, ojapyhy, ojetortura ha ojuka heta cientos de tapicha. _Baltimore Sun_ investigación (1995) heʼi CIA ha embajada oikuaa crimen ha opyta ojapo’ỹ, ha informe anual derecho humano Congreso-pe oñemondóva omokañy abuso. CIA inspector general voi ohesa’ỹijo caso 1997-pe. ([Wikipédia: CIA activities in Honduras](https://en.wikipedia.org/wiki/CIA_activities_in_Honduras))",
+        qu: "Honduras ejercitopa chay inteligencia unidadninqa CIAwan argentino militarkunawan yachachisqa yanapasqa karqan, pachakkuna runakunatataq suwarqan, tormentarqan wañuchirqantaq. _Baltimore Sun_ tapukuyqa (1995) CIAwan embajadawan huchakunata yacharqanku hinaspa yanapakusqallankum nirqan, Congresoman sapa wata derechos humanos willakuykunaqa abusokunata mana willarqanchu. CIAq kikin inspector generalninmi caso 1997 watapi qhawarqan. ([Wikipédia: CIA activities in Honduras](https://en.wikipedia.org/wiki/CIA_activities_in_Honduras))",
+        ht: "inite entèlijans lame ondiryen an te antrene epi sipòte pa CIA ak pa militè ajantin, epi li te kidnape, tòtire epi touye plizyè santèn moun. Yon ankèt _Baltimore Sun_ (1995) te konkli CIA a ak anbasad la te konnen krim yo epi yo te kontinye kolabore, epi rapò anyèl dwa moun yo voye bay Kongrè a te omèt abi yo. Yon enspektè jeneral CIA a menm te egzamine ka a an 1997. ([Wikipédia: CIA activities in Honduras](https://en.wikipedia.org/wiki/CIA_activities_in_Honduras))",
+      },
+    },
+    {
+      label: {
+        es: "Golpe de 2009",
+        pt: "Golpe de 2009",
+        fr: "Coup d’État de 2009",
+        gn: "Golpe 2009-pe",
+        qu: "2009 golpe",
+        ht: "Koudeta 2009 la",
+      },
+      text: {
+        es: "Obama condenó el golpe y suspendió parte de la ayuda, pero el Departamento de Estado evitó declararlo formalmente “golpe militar”, lo que cortaría toda la asistencia. Hillary Clinton apoyó la mediación costarricense y las elecciones de noviembre de 2009, que volvieron irrelevante el regreso de Zelaya; ella describió ese papel en sus memorias. El avión que llevó a Zelaya al exilio hizo escala en Soto Cano.",
+        pt: "Obama condenou o golpe e suspendeu parte da ajuda, mas o Departamento de Estado evitou declará-lo formalmente \"golpe militar\", o que cortaria toda a assistência. Hillary Clinton apoiou a mediação costarriquenha e as eleições de novembro de 2009, que tornaram a volta de Zelaya irrelevante; ela descreveu esse papel em seu livro de memórias. O avião que levou Zelaya ao exílio parou em Soto Cano.",
+        fr: "Obama a condamné le coup d’État et suspendu une partie de l’aide, mais le département d’État a évité de le déclarer formellement « coup d’État militaire », ce qui aurait coupé toute l’assistance. Hillary Clinton a soutenu la médiation costaricienne et les élections de novembre 2009, qui ont rendu le retour de Zelaya sans objet ; elle a décrit ce rôle dans ses mémoires. L’avion qui a conduit Zelaya en exil a fait escale à Soto Cano.",
+        gn: "Obama oñe’ẽ vai golpe rehe ha omboyke peteĩ ayuda, hákatu Departamento de Estado ndohenóirei formalmente “golpe militar”, opa asistencia omboyke hag̃ua. Hillary Clinton oipytyvõ mediación costarricense ha elección jasypateĩ 2009, ombotuichahína Zelaya ojey; ha’e ohai upe papel memoria-pe. Avión ogueraha Zelaya exilio-pe opyta Soto Cano-pe.",
+        qu: "Obamaqa golpeta huchacharqan hinaspa huk yanapayta tanqarqan, ichaqa Departamento de Estadoqa “militar golpe” nispa mana sut’inchasqachu, chaymi llapa yanapayta kuchunman karqan. Hillary Clintonqa Costa Rica rimanachiyninta hinallataq noviembre 2009 akllaykuna yanaparqan, chaykunam Zelayapa kutimuyninta mana ima kananman tukuchirqan; paymi chay ruwasqanta memorian libropi willarqan. Zelayata exiliuman apaq avionqa Soto Canopi tiyarqan.",
+        ht: "Obama te kondane koudeta a epi li te sispann yon pati nan èd la, men Depatman Deta a te evite deklare l fòmèlman “koudeta militè”, sa ki t ap koupe tout asistans lan. Hillary Clinton te sipòte medyasyon kosta-rikèn nan ak eleksyon novanm 2009 yo, ki te fè retou Zelaya pa gen enpòtans; li te dekri wòl sa a nan memwa li. Avyon ki te pote Zelaya nan ègzil la te fè eskal nan Soto Cano.",
+      },
+    },
+    {
+      label: {
+        es: "2025",
+        pt: "2025",
+        fr: "2025",
+        gn: "2025",
+        qu: "2025",
+        ht: "2025",
+      },
+      text: {
+        es: "antes de la elección presidencial de noviembre, Trump declaró su apoyo a uno de los candidatos y anunció el indulto del expresidente Juan Orlando Hernández, condenado en Estados Unidos por narcotráfico.",
+        pt: "antes da eleição presidencial de novembro, Trump declarou apoio a um dos candidatos e anunciou o perdão do ex-presidente Juan Orlando Hernández, condenado nos EUA por narcotráfico.",
+        fr: "avant l’élection présidentielle de novembre, Trump a déclaré son soutien à l’un des candidats et annoncé la grâce de l’ancien président Juan Orlando Hernández, condamné aux États-Unis pour narcotrafic.",
+        gn: "elección presidencial jasypateĩ mboyve, Trump heʼi oipytyvõtaha peteĩ candidato-pe ha omoĩ perdón ex presidente Juan Orlando Hernández-pe, ojecondena Estados Unidos-pe narcotráfico rehe.",
+        qu: "noviembre presidente akllay manaraq, Trumpqa huk candidatota yanapananta willarqan hinallataq Estados Unidospi narcotráficomanta huchachasqa ñawpaq presidente Juan Orlando Hernándezta pampachanta willarqan.",
+        ht: "anvan eleksyon prezidansyèl novanm lan, Trump te deklare sipò li pou youn nan kandida yo epi li te anonse padon ansyen prezidan Juan Orlando Hernández, ki te kondane nan Etazini pou trafik dwòg.",
+      },
+    },
+  ],
+  impact: {
+    items: [
+      {
+        label: {
+          es: "Batallón 3-16",
+          pt: "Batalhão 3-16",
+          fr: "Bataillon 3-16",
+          gn: "Batallón 3-16",
+          qu: "3-16 Batallón",
+          ht: "Batayon 3-16",
+        },
+        text: {
+          es: "en los años ochenta, esa unidad militar, entrenada y apoyada por la CIA, secuestró, torturó y mató a opositores; el comisionado de derechos humanos de Honduras registró en 1993 unos 180 desaparecidos.",
+          pt: "nos anos 1980, essa unidade militar, treinada e apoiada pela CIA, sequestrou, torturou e matou opositores; o comissário de direitos humanos de Honduras registrou em 1993 cerca de 180 desaparecidos.",
+          fr: "dans les années 1980, cette unité militaire, formée et soutenue par la CIA, a enlevé, torturé et tué des opposants ; le commissaire aux droits humains du Honduras a recensé en 1993 environ 180 disparus.",
+          gn: "1980-pe, unidad militar CIA oentrenáva ha oipytyvõva, ojapyhy, ojetortura ha ojuka opositor; derecho humano comisionado Honduras-pe omoĩ 1993-pe cerca 180 desaparecido.",
+          qu: "1980 watakunapi CIAwan yachachisqa yanapasqa chay militar unidadqa opositorkunata suwarqan, tormentarqan wañuchirqantaq; Honduraspa derechos humanos comisionadonqa 1993 watapi 180 hina chinkachisqakunata qillqarqan.",
+          ht: "nan ane 1980 yo, inite militè sa a, CIA te antrene epi sipòte, te kidnape, tòtire ak touye opozan; komisyonè dwa moun Ondiras te anrejistre an 1993 anviwon 180 disparèt.",
+        },
+      },
+      {
+        label: {
+          es: "Después de 2009",
+          pt: "Depois de 2009",
+          fr: "Après 2009",
+          gn: "2009 rire",
+          qu: "2009 qhipa",
+          ht: "Apre 2009",
+        },
+        text: {
+          es: "las protestas contra el golpe fueron reprimidas con muertes y detenciones, y decenas de periodistas, abogados y activistas fueron asesinados en los años siguientes, entre ellos la líder indígena Berta Cáceres (2016).",
+          pt: "protestos contra o golpe foram reprimidos com mortes e prisões, e dezenas de jornalistas, advogados e ativistas foram assassinados nos anos seguintes, entre eles a líder indígena Berta Cáceres (2016).",
+          fr: "les manifestations contre le coup d’État ont été réprimées par des morts et des arrestations, et des dizaines de journalistes, d’avocats et de militants ont été assassinés les années suivantes, dont la dirigeante autochtone Berta Cáceres (2016).",
+          gn: "protesta golpe rehe ojejoko ha ojejuka heta tapicha. Heta periodista, abogado ha activista ojejuka, Berta Cáceres (2016) avei.",
+          qu: "golpeman contra protestakunaqa wañuchispa hinallataq hap’ispa hark’asqa karqan, achka periodistakuna, abogadokuna hinallataq activistakuna wañuchisqa karqanku, paykunamanta Berta Cáceres indígena umalliq (2016).",
+          ht: "manifestasyon kont koudeta a te reprime ak mò ak arestasyon, epi plizyè dizèn jounalis, avoka ak aktivis te asasinen nan ane ki te swiv yo, pami yo lidè endijèn Berta Cáceres (2016).",
+        },
+      },
+      {
+        label: {
+          es: "Violencia y emigración",
+          pt: "Violência e emigração",
+          fr: "Violence et émigration",
+          gn: "Violencia ha emigración",
+          qu: "Violencia hinallataq lluqsiy",
+          ht: "Vyolans ak emigrasyon",
+        },
+        text: {
+          es: "hacia 2011–2012, Honduras tuvo la mayor tasa de homicidios del mundo. La violencia y la pobreza alimentaron las caravanas de migrantes rumbo a Estados Unidos a partir de 2018.",
+          pt: "por volta de 2011–2012, Honduras teve a maior taxa de homicídios do mundo. A violência e a pobreza alimentaram as caravanas de migrantes rumo aos EUA a partir de 2018.",
+          fr: "vers 2011–2012, le Honduras a connu le taux d’homicides le plus élevé du monde. La violence et la pauvreté ont alimenté les caravanes de migrants vers les États-Unis à partir de 2018.",
+          gn: "2011–2012 jerére, Honduras oguereko tasa de homicidio ijyvateveva yvy ape ári. Violencia ha pobreza oipytyvõ caravana migrante Estados Unidos-pe 2018 guive.",
+          qu: "2011–2012 hinapi Honduraspi aswan achka runa wañuchisqa karqan. Violencia hinallataq pobrezaqa 2018 watamanta Estados Unidosman rikuq migrante caravanakunata mamaykurqan.",
+          ht: "alantou 2011–2012, Ondiras te gen pi gwo to omisid nan mond lan. Vyolans ak povrete te alimante karavàn migran yo ki t ap ale Etazini depi 2018.",
+        },
+      },
+      {
+        label: {
+          es: "Soto Cano",
+          pt: "Soto Cano",
+          fr: "Soto Cano",
+          gn: "Soto Cano",
+          qu: "Soto Cano",
+          ht: "Soto Cano",
+        },
+        text: {
+          es: "sigue siendo la principal base estadounidense en Centroamérica.",
+          pt: "continua sendo a principal base americana na América Central.",
+          fr: "reste la principale base américaine en Amérique centrale.",
+          gn: "opyta base norteamericana tuichavéva Centroamérica-pe.",
+          qu: "Centroamericapi aswan hatun Estados Unidos basem kachkan.",
+          ht: "rete pi gwo baz ameriken nan Amerik Santral.",
+        },
+      },
+    ],
+  },
+  sources: [
+    {
+      title: "Wikipédia: Crise política em Honduras de 2009",
+      url: "https://pt.wikipedia.org/wiki/Crise_pol%C3%ADtica_em_Honduras_de_2009",
+      note: {
+        es: "CC BY-SA",
+        pt: "CC BY-SA",
+        fr: "CC BY-SA",
+        gn: "CC BY-SA",
+        qu: "CC BY-SA",
+        ht: "CC BY-SA",
+      },
+    },
+    {
+      title: "Wikipédia: Base Aérea de Soto Cano",
+      url: "https://en.wikipedia.org/wiki/Soto_Cano_Air_Base",
+      note: {
+        es: "CC BY-SA",
+        pt: "CC BY-SA",
+        fr: "CC BY-SA",
+        gn: "CC BY-SA",
+        qu: "CC BY-SA",
+        ht: "CC BY-SA",
+      },
+    },
+    {
+      title: "FAIR: entrevista sobre o golpe de 2009 e Soto Cano",
+      url: "https://fair.org/home/honduras-is-a-country-still-recovering-from-a-coup-the-us-helped-enable/",
+      note: {
+        es: "visión crítica del papel de Estados Unidos",
+        pt: "visão crítica ao papel dos EUA",
+        fr: "vision critique du rôle des États-Unis",
+        gn: "Estados Unidos papel rehe crítica",
+        qu: "Estados Unidospa ruwasqanta huchachaq qhaway",
+        ht: "vizyon kritik sou wòl Etazini",
+      },
+    },
+  ],
+};
+
+export default content;

@@ -1,0 +1,236 @@
+import type { CountryContentType } from "~/lib/country-content";
+
+const content: CountryContentType = {
+  period: {
+    es: "1961–1964",
+    pt: "1961–1964",
+    fr: "1961–1964",
+    gn: "1961–1964",
+    qu: "1961–1964",
+    ht: "1961–1964",
+  },
+  summary: {
+    es: "Injerencia indirecta: aún colonia británica, Guyana vio desestabilizado por la CIA su gobierno electo, con el aval de Londres, para impedir que Cheddi Jagan llevara al país a la independencia.",
+    pt: "Ingerência indireta: ainda colônia britânica, a Guiana teve seu governo eleito desestabilizado pela CIA, com aval de Londres, para impedir que Cheddi Jagan levasse o país à independência.",
+    fr: "Ingérence indirecte : encore colonie britannique, le Guyana a vu son gouvernement élu déstabilisé par la CIA, avec l’aval de Londres, pour empêcher Cheddi Jagan de mener le pays à l’indépendance.",
+    gn: "Injerencia indirecta: colonia británica gueteri, Guyana gobierno ojeporavova oñemoĩ vai CIA rupi, Londres oĩ porã ndive, Cheddi Jagan ndogueraháiva tetã independencia-pe.",
+    qu: "Injerencia indirecta: British colonia kachkaspa, Guyanaqa akllasqa gobiernonta CIAwan mana allin churasqa karqan, Londrespa riqsisqanwan, Cheddi Jagan suyuta independenciaman mana apananpaq.",
+    ht: "Entèferans endirèk: toujou yon koloni britanik, Giyàn te wè CIA destabilize gouvènman eli li a, ak apwobasyon Lond, pou anpeche Cheddi Jagan mennen peyi a nan endepandans.",
+  },
+  happened: {
+    es: "Cheddi Jagan, marxista y muy popular entre la mayoría de origen indio, ganó las elecciones de 1953, 1957 y 1961. Entre 1962 y 1964, huelgas y disturbios raciales destruyeron parte de Georgetown. En diciembre de 1964, bajo un nuevo sistema electoral, Jagan perdió el gobierno ante Forbes Burnham.",
+    pt: "Cheddi Jagan, marxista e muito popular entre a maioria de origem indiana, venceu as eleições de 1953, 1957 e 1961. Entre 1962 e 1964, greves e distúrbios raciais destruíram parte de Georgetown. Em dezembro de 1964, sob novo sistema eleitoral, Jagan perdeu o governo para Forbes Burnham.",
+    fr: "Cheddi Jagan, marxiste très populaire parmi la majorité d’origine indienne, a remporté les élections de 1953, 1957 et 1961. Entre 1962 et 1964, des grèves et des troubles raciaux ont détruit une partie de Georgetown. En décembre 1964, sous un nouveau système électoral, Jagan a perdu le pouvoir au profit de Forbes Burnham.",
+    gn: "Cheddi Jagan, marxista ha heta india ohayhúva, ohupyty elección 1953, 1957 ha 1961-pe. 1962 guive 1964 peve, huelga ha disturbio racial ohundi Georgetown pehẽngue. 1964 jasypakõi-pe, sistema electoral pyahu rupi, Jagan ohasa gobierno Forbes Burnham-pe.",
+    qu: "Cheddi Jagan, marxista India ayllumanta achka runakunapaq munasqa, 1953, 1957 hinallataq 1961 akllaykunata atiparqan. 1962 watamanta 1964 watakama huelgakuna hinallataq raza disturbiokuna Georgetownpa huk ladonta chinkachirqan. 1964 diciembre killapi musuq akllay sistemawan Jaganqa gobiernota Forbes Burnhamman chinkachirqan.",
+    ht: "Cheddi Jagan, yon maksis ki te trè popilè pami majorite ki gen orijin endyen, te genyen eleksyon 1953, 1957 ak 1961 yo. Ant 1962 ak 1964, grèv ak twoub rasyal te detwi yon pati nan Georgetown. An desanm 1964, anba yon nouvo sistèm elektoral, Jagan te pèdi gouvènman an devan Forbes Burnham.",
+  },
+  usActions: [
+    {
+      label: {
+        es: "Decisión política",
+        pt: "Decisão política",
+        fr: "Décision politique",
+        gn: "Decisión política",
+        qu: "Politica akllay",
+        ht: "Desizyon politik",
+      },
+      text: {
+        es: "en febrero de 1962, el secretario de Estado Dean Rusk escribió a los británicos que Estados Unidos no podía tolerar una Guyana independiente bajo Jagan. En julio, propuso a Kennedy basar la política en la premisa de que Jagan llevaría al país al bloque soviético. ([FRUS, doc. 280](https://history.state.gov/historicaldocuments/frus1961-63v12/d280))",
+        pt: "em fevereiro de 1962, o secretário de Estado Dean Rusk escreveu aos britânicos que os EUA não podiam tolerar uma Guiana independente sob Jagan. Em julho, propôs a Kennedy basear a política na premissa de que Jagan levaria o país ao bloco soviético. ([FRUS, doc. 280](https://history.state.gov/historicaldocuments/frus1961-63v12/d280))",
+        fr: "en février 1962, le secrétaire d’État Dean Rusk a écrit aux Britanniques que les États-Unis ne pouvaient pas tolérer un Guyana indépendant sous Jagan. En juillet, il a proposé à Kennedy de fonder la politique sur la prémisse que Jagan conduirait le pays vers le bloc soviétique. ([FRUS, doc. 280](https://history.state.gov/historicaldocuments/frus1961-63v12/d280))",
+        gn: "1962 jasykõi-pe, secretario de Estado Dean Rusk ohai británico kuérape Estados Unidos ndaikatúiha oguenoheẽ Guyana independiente Jagan ndive. Jasypokõi-pe, omoĩ Kennedy-pe política oñemopyenda hag̃ua premisa Jagan ogueraha tetã bloque soviético-pe. ([FRUS, doc. 280](https://history.state.gov/historicaldocuments/frus1961-63v12/d280))",
+        qu: "1962 febrero killapi secretario de Estado Dean Rusk inglesesman qillqarqan Estados Unidosqa Jaganwan independiente Guyanata mana aguantayta atisqanta. Julio killapi Kennedyman proponerqan politicata Jagan suyuta soviet blokeman apanan nisqa premisapi sayachinanpaq. ([FRUS, doc. 280](https://history.state.gov/historicaldocuments/frus1961-63v12/d280))",
+        ht: "an fevriye 1962, sekretè deta Dean Rusk te ekri Britanik yo Etazini pa t kapab tolere yon Giyàn endepandan anba Jagan. An jiyè, li te pwopoze Kennedy baze politik la sou premis Jagan t ap mennen peyi a nan blòk sovyetik la. ([FRUS, doc. 280](https://history.state.gov/historicaldocuments/frus1961-63v12/d280))",
+      },
+    },
+    {
+      label: {
+        es: "Promesas incumplidas",
+        pt: "Promessas não cumpridas",
+        fr: "Promesses non tenues",
+        gn: "Promesa ndojehupytýiva",
+        qu: "Mana hunt’asqa rimanakuykuna",
+        ht: "Pwomès yo pa t respekte",
+      },
+      text: {
+        es: "después de recibir a Jagan en Washington en 1961, Estados Unidos no cumplió el acuerdo de ayuda económica hecho con él. ([FRUS, doc. 263](https://history.state.gov/historicaldocuments/frus1961-63v12/d263))",
+        pt: "depois de receber Jagan em Washington em 1961, os EUA não cumpriram o acordo de ajuda econômica feito com ele. ([FRUS, doc. 263](https://history.state.gov/historicaldocuments/frus1961-63v12/d263))",
+        fr: "après avoir reçu Jagan à Washington en 1961, les États-Unis n’ont pas respecté l’accord d’aide économique conclu avec lui. ([FRUS, doc. 263](https://history.state.gov/historicaldocuments/frus1961-63v12/d263))",
+        gn: "Jagan ohupyty rire Washington-pe 1961-pe, Estados Unidos ndojapói acuerdo ayuda económica hendive ojejapóva. ([FRUS, doc. 263](https://history.state.gov/historicaldocuments/frus1961-63v12/d263))",
+        qu: "1961 watapi Jagantan Washingtonpi chaskispa, Estados Unidosqa paywan ruwasqan economía yanapay rimanakuyta mana hunt’arqanchu. ([FRUS, doc. 263](https://history.state.gov/historicaldocuments/frus1961-63v12/d263))",
+        ht: "apre yo te resevwa Jagan nan Washington an 1961, Etazini pa t respekte akò èd ekonomik yo te fè avèk li. ([FRUS, doc. 263](https://history.state.gov/historicaldocuments/frus1961-63v12/d263))",
+      },
+    },
+    {
+      label: {
+        es: "Disturbios de 1962",
+        pt: "Distúrbios de 1962",
+        fr: "Troubles de 1962",
+        gn: "Disturbio 1962-pe",
+        qu: "1962 llapchiykuna",
+        ht: "Twoub 1962 yo",
+      },
+      text: {
+        es: "la CIA ayudó a organizar y financiar las protestas de febrero de 1962 contra Jagan, que terminaron en huelgas, tumultos e incendios en Georgetown. ([Declassified UK](https://www.declassifieduk.org/?p=54170))",
+        pt: "a CIA ajudou a organizar e financiar os protestos de fevereiro de 1962 contra Jagan, que terminaram em greves, tumultos e incêndios em Georgetown. ([Declassified UK](https://www.declassifieduk.org/?p=54170))",
+        fr: "la CIA a aidé à organiser et à financer les manifestations de février 1962 contre Jagan, qui ont abouti à des grèves, des émeutes et des incendies à Georgetown. ([Declassified UK](https://www.declassifieduk.org/?p=54170))",
+        gn: "CIA oipytyvõ oñemoĩ ha ojepytyvõ protesta jasykõi 1962 Jagan rehe, opáva huelga, tumulto ha tata Georgetown-pe. ([Declassified UK](https://www.declassifieduk.org/?p=54170))",
+        qu: "CIAqa Jaganman contra 1962 febrero killapi protestakunata wakichiyta qullqichayta yanaparqan, chaykunaqa Georgetownpi huelgakunawan, thunikuykunawan hinallataq nina ruphachikuykunawan tukurqan. ([Declassified UK](https://www.declassifieduk.org/?p=54170))",
+        ht: "CIA a te ede òganize epi finanse manifestasyon fevriye 1962 yo kont Jagan, ki te fini ak grèv, twoub ak dife nan Georgetown. ([Declassified UK](https://www.declassifieduk.org/?p=54170))",
+      },
+    },
+    {
+      label: {
+        es: "Huelga general de 1963",
+        pt: "Greve geral de 1963",
+        fr: "Grève générale de 1963",
+        gn: "Huelga general 1963-pe",
+        qu: "1963 huelga general",
+        ht: "Grèv jeneral 1963 la",
+      },
+      text: {
+        es: "la pieza central de la operación fue la financiación de la huelga general iniciada en abril de 1963, que duró 80 días. El dinero pasó por sindicatos estadounidenses, como la AFL-CIO y la AFSCME; los funcionarios públicos en huelga eran pagados con fondos de la CIA.",
+        pt: "a peça central da operação foi o financiamento da greve geral iniciada em abril de 1963, que durou 80 dias. O dinheiro passou por sindicatos americanos, como a AFL-CIO e a AFSCME; funcionários públicos em greve eram pagos com fundos da CIA.",
+        fr: "la pièce maîtresse de l’opération a été le financement de la grève générale commencée en avril 1963, qui a duré 80 jours. L’argent a transité par des syndicats américains, comme l’AFL-CIO et l’AFSCME ; les fonctionnaires en grève étaient payés avec des fonds de la CIA.",
+        gn: "operación pehẽngue guasu ha’e financiación huelga general oñepyrũva jasyrundy 1963-pe, 80 ára oikóva. Pirapire ohasa sindicato norteamericano rupi, AFL-CIO ha AFSCME ramo; funcionario público huelga-pe oĩva ojepaga CIA pirapire ndive.",
+        qu: "operacionpa chawpi ruwayninqa abril 1963 killapi qallarisqa huelga generalta qullqichay karqan, chayqa 80 p’unchaw kurqan. Qullqiqa Estados Unidosmanta sindicatokunawan, AFL-CIO hinallataq AFSCME hina, rirqan; huelgapi kaq público llamk’aqkunaqa CIAq qullqinwan pagasqa karqanku.",
+        ht: "pyès santral operasyon an se te finansman grèv jeneral ki te kòmanse an avril 1963, ki te dire 80 jou. Lajan an te pase nan sendika ameriken yo, tankou AFL-CIO ak AFSCME; fonksyonè piblik ki te nan grèv yo te peye ak lajan CIA.",
+      },
+    },
+    {
+      label: {
+        es: "Elecciones de 1964",
+        pt: "Eleições de 1964",
+        fr: "Élections de 1964",
+        gn: "Elección 1964-pe",
+        qu: "1964 akllaykuna",
+        ht: "Eleksyon 1964 yo",
+      },
+      text: {
+        es: "fondos aprobados por el comité de acciones encubiertas de la Casa Blanca se usaron para mejorar las posibilidades electorales de la oposición. Kennedy y Macmillan acordaron en junio de 1963 que Guyana no se haría independiente bajo Jagan. ([GlobalSecurity, citando o FRUS](https://www.globalsecurity.org/military/world/caribbean/gy-jagan-3.htm))",
+        pt: "fundos aprovados pelo comitê de ações encobertas da Casa Branca foram usados para melhorar as chances eleitorais da oposição. Kennedy e Macmillan concordaram em junho de 1963 que a Guiana não se tornaria independente sob Jagan. ([GlobalSecurity, citando o FRUS](https://www.globalsecurity.org/military/world/caribbean/gy-jagan-3.htm))",
+        fr: "des fonds approuvés par le comité des actions clandestines de la Maison-Blanche ont été utilisés pour améliorer les chances électorales de l’opposition. Kennedy et Macmillan ont convenu en juin 1963 que le Guyana ne deviendrait pas indépendant sous Jagan. ([GlobalSecurity, citando o FRUS](https://www.globalsecurity.org/military/world/caribbean/gy-jagan-3.htm))",
+        gn: "fondo comité acciones encubiertas Casa Blanca-gua omoneĩva oñepuru oposición elección chance ojeporãve hag̃ua. Kennedy ha Macmillan oñe’ẽme’ẽ jasypoteĩ 1963-pe Guyana ndoikoséiha independiente Jagan ndive. ([GlobalSecurity, citando o FRUS](https://www.globalsecurity.org/military/world/caribbean/gy-jagan-3.htm))",
+        qu: "Casa Blancapa pakasqa ruwaykunata aprobaq comitenpa qullqinkuna oposicionpa akllaypi atipayninta allinyachinanpaq llamk’achisqa karqan. Kennedywan Macmillanwan 1963 junio killapi Guyana Jaganwan independiente mana kananpaq rimanakurqanku. ([GlobalSecurity, citando o FRUS](https://www.globalsecurity.org/military/world/caribbean/gy-jagan-3.htm))",
+        ht: "lajan komite aksyon kache Mezon Blanch lan te apwouve yo te itilize pou amelyore chans elektoral opozisyon an. Kennedy ak Macmillan te dakò an jen 1963 Giyàn pa t ap vin endepandan anba Jagan. ([GlobalSecurity, citando o FRUS](https://www.globalsecurity.org/military/world/caribbean/gy-jagan-3.htm))",
+      },
+    },
+    {
+      label: {
+        es: "Cambio de las reglas",
+        pt: "Mudança das regras",
+        fr: "Changement des règles",
+        gn: "Regla ñemoambue",
+        qu: "Kamachikuykuna tikray",
+        ht: "Chanjman regleman yo",
+      },
+      text: {
+        es: "Washington presionó a Londres para que adoptara el voto proporcional, que favorecía a la oposición, y aplazara la independencia hasta que las fuerzas anti-Jagan estuvieran más fuertes. Después de 1964, Estados Unidos siguió dando dinero a Burnham.",
+        pt: "Washington pressionou Londres a adotar o voto proporcional, que favorecia a oposição, e a adiar a independência até que as forças anti-Jagan estivessem mais fortes. Depois de 1964, os EUA continuaram dando dinheiro a Burnham.",
+        fr: "Washington a fait pression sur Londres pour qu’elle adopte le vote proportionnel, qui favorisait l’opposition, et reporte l’indépendance jusqu’à ce que les forces anti-Jagan soient plus fortes. Après 1964, les États-Unis ont continué à donner de l’argent à Burnham.",
+        gn: "Washington ojerure Londres-pe voto proporcional, oposición oipytyvõva, ha independencia opyta peve fuerza anti-Jagan ipyguasuve. 1964 rire, Estados Unidos opyta ome’ẽ pirapire Burnham-pe.",
+        qu: "Washingtonqa Londresta voto proporcionalta ruwananpaq, oposicionta yanapaqta, anti-Jagan kallpakuna aswan kallpayuq kanankama independenciatapas qhipaman churananpaq sasachakurqan. 1964 qhipata Estados Unidosqa Burnhamman qullqita qukallarqanmi.",
+        ht: "Washington te pouse Lond pou adopte vòt pwopòsyonèl la, ki te favorize opozisyon an, epi pou ranvwaye endepandans lan jiskaske fòs anti-Jagan yo te pi fò. Apre 1964, Etazini te kontinye bay Burnham lajan.",
+      },
+    },
+  ],
+  impact: {
+    items: [
+      {
+        label: {
+          es: "Violencia étnica",
+          pt: "Violência étnica",
+          fr: "Violence ethnique",
+          gn: "Violencia étnica",
+          qu: "Etnica violencia",
+          ht: "Vyolans etnik",
+        },
+        text: {
+          es: "los disturbios de 1962–1964 enfrentaron a comunidades de origen indio y africano; las estimaciones hablan de unos 200 muertos, cientos de heridos y miles de familias expulsadas de sus hogares, con masacres como la de Wismar (1964).",
+          pt: "os distúrbios de 1962–1964 opuseram comunidades de origem indiana e africana; estimativas falam em cerca de 200 mortos, centenas de feridos e milhares de famílias expulsas de suas casas, com massacres como o de Wismar (1964).",
+          fr: "les troubles de 1962–1964 ont opposé des communautés d’origine indienne et africaine ; les estimations parlent d’environ 200 morts, de centaines de blessés et de milliers de familles chassées de chez elles, avec des massacres comme celui de Wismar (1964).",
+          gn: "disturbio 1962–1964 omoĩ joaju india ha africano; cerca 200 omano, heta ojejopy ha mil família ojeheja’o hógagui, Wismar masacre (1964) ramo.",
+          qu: "1962–1964 disturbiokunaqa India hinallataq Africa ayllumanta runakunata maqanachirqan; 200 hina wañusqa, achka kuyusqa, waranqa familiakuna wasinmanta qarqusqa, Wismar masacre hina (1964).",
+          ht: "twoub 1962–1964 yo te opoze kominote ki gen orijin endyen ak afriken; estimasyon yo pale de anviwon 200 mò, plizyè santèn blese ak plizyè milye fanmi yo te chase kite kay yo, ak masak tankou sa Wismar (1964).",
+        },
+      },
+      {
+        label: {
+          es: "Régimen de Burnham",
+          pt: "Regime Burnham",
+          fr: "Régime Burnham",
+          gn: "Burnham régimen",
+          qu: "Burnham regimen",
+          ht: "Rejim Burnham",
+        },
+        text: {
+          es: "el gobierno instalado con ayuda estadounidense duró hasta 1985, con elecciones fraudulentas y persecución de opositores. El historiador Walter Rodney fue asesinado en 1980; una comisión de investigación concluyó en 2016 que el Estado estuvo involucrado.",
+          pt: "o governo instalado com ajuda americana durou até 1985, com eleições fraudadas e perseguição a opositores. O historiador Walter Rodney foi assassinado em 1980; uma comissão de inquérito concluiu em 2016 que o Estado esteve envolvido.",
+          fr: "le gouvernement installé avec l’aide américaine a duré jusqu’en 1985, avec des élections truquées et la persécution des opposants. L’historien Walter Rodney a été assassiné en 1980 ; une commission d’enquête a conclu en 2016 que l’État était impliqué.",
+          gn: "gobierno Estados Unidos pytyvõ ndive oñemoĩva opyta 1985 peve, elección fraude ha opositor ñemoĩ vai ndive. Historiador Walter Rodney ojejuka 1980-pe; comisión investigación heʼi 2016-pe Estado oĩ hague.",
+          qu: "Estados Unidospa yanapayninwan churasqa gobiernoqa 1985 watakama kachkarqan, llulla akllaykunawan opositorkunata qatiykachaspa. Historiador Walter Rodneyqa 1980 watapi wañuchisqa karqan; tapukuy comisionqa 2016 watapi Estado chaypi kasqanta nirqan.",
+          ht: "gouvènman ki te enstale ak èd ameriken an te dire jiska 1985, ak eleksyon fwode ak pèsekisyon opozan. Istoryen Walter Rodney te asasinen an 1980; yon komisyon ankèt te konkli an 2016 Leta a te enplike.",
+        },
+      },
+      {
+        label: {
+          es: "Legado",
+          pt: "Legado",
+          fr: "Héritage",
+          gn: "Herencia",
+          qu: "Saqisqa",
+          ht: "Eritaj",
+        },
+        text: {
+          es: "la división étnica profundizada en aquellos años aún estructura la política del país, y la crisis económica de los años 1970–1980 provocó una gran emigración.",
+          pt: "a divisão étnica aprofundada naqueles anos ainda estrutura a política do país, e a crise econômica dos anos 1970–1980 provocou grande emigração.",
+          fr: "la division ethnique aggravée à cette époque structure encore la politique du pays, et la crise économique des années 1970–1980 a provoqué une forte émigration.",
+          gn: "división étnica ipypuku upe áño-pe gueteri ombosako’i tetã política, ha crisis económica 1970–1980-pe omoĩ heta emigración.",
+          qu: "chay watakunapi ukhunchasqa etnica t’aqaqa kunankamapas suyupa politicanta ruwan, 1970–1980 economía crisistaq achka lluqsiyta ruwarqan.",
+          ht: "divizyon etnik ki te apwofondi nan ane sa yo toujou estriktire politik peyi a, epi kriz ekonomik ane 1970–1980 yo te lakòz gwo emigrasyon.",
+        },
+      },
+    ],
+  },
+  sources: [
+    {
+      title: "FRUS 1961–1963, vol. XII, doc. 280: memorando de Rusk a Kennedy",
+      url: "https://history.state.gov/historicaldocuments/frus1961-63v12/d280",
+      note: {
+        es: "dominio público",
+        pt: "domínio público",
+        fr: "domaine public",
+        gn: "dominio público",
+        qu: "dominio publico",
+        ht: "domèn piblik",
+      },
+    },
+    {
+      title: "FRUS 1961–1963, vol. XII, doc. 263",
+      url: "https://history.state.gov/historicaldocuments/frus1961-63v12/d263",
+      note: {
+        es: "dominio público",
+        pt: "domínio público",
+        fr: "domaine public",
+        gn: "dominio público",
+        qu: "dominio publico",
+        ht: "domèn piblik",
+      },
+    },
+    {
+      title: "Wikipédia: Cheddi Jagan",
+      url: "https://pt.wikipedia.org/wiki/Cheddi_Jagan",
+      note: {
+        es: "CC BY-SA",
+        pt: "CC BY-SA",
+        fr: "CC BY-SA",
+        gn: "CC BY-SA",
+        qu: "CC BY-SA",
+        ht: "CC BY-SA",
+      },
+    },
+  ],
+};
+
+export default content;
