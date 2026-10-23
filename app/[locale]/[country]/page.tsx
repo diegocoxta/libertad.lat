@@ -8,6 +8,7 @@ import { CountryHistory } from '~/components/country-history';
 import { EmblemLink } from '~/components/emblem-link';
 import { JsonLd } from '~/components/json-ld';
 import { SiteFooter } from '~/components/site-footer';
+import { SuggestLink } from '~/components/suggest-link';
 import { getCountrySlug, getCountryStaticParams, parseCountrySlug } from '~/lib/countries';
 import { getTranslations, isSupportedLocale } from '~/lib/i18n';
 import { getCountryContent } from '~/lib/country-content';
@@ -71,6 +72,8 @@ async function CountryContent({ params }: { params: CountryParamsType }) {
         <CountryDetails code={code} locale={locale} />
 
         {content && <CountryHistory content={content} locale={locale} />}
+
+        <SuggestLink locale={locale} path={`/${seo.slug}`} />
 
         <Link href={`/${locale}`} className={styles.back}>
           ← {t('page.otherCountries')}

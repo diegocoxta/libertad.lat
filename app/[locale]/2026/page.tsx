@@ -7,6 +7,7 @@ import { ArticleContent } from '~/components/article-content';
 import { EmblemLink } from '~/components/emblem-link';
 import { JsonLd } from '~/components/json-ld';
 import { SiteFooter } from '~/components/site-footer';
+import { SuggestLink } from '~/components/suggest-link';
 import { OFFENSIVE_2026 } from '~/content/offensive-2026';
 import { getTranslations, isSupportedLocale } from '~/lib/i18n';
 import { createArticleJsonLd, createPageMetadata, getArticleSeo } from '~/lib/seo';
@@ -57,6 +58,8 @@ async function OffensiveContent({ params }: { params: OffensiveParamsType }) {
         <h1 className={styles.title}>{OFFENSIVE_2026.title[locale]}</h1>
 
         <ArticleContent blocks={OFFENSIVE_2026.blocks} locale={locale} />
+
+        <SuggestLink locale={locale} path="/2026" />
 
         <Link href={`/${locale}`} className={styles.back}>
           ← {t('page.title')}
