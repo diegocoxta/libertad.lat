@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import { Suspense } from 'react';
 
 import { ArticleContent } from '~/components/article-content';
-import { CondorHarpyEagle } from '~/components/condor-harpy-eagle';
+import { EmblemLink } from '~/components/emblem-link';
 import { SiteFooter } from '~/components/site-footer';
 import { OFFENSIVE_2026 } from '~/content/offensive-2026';
 import { LOCALES, getTranslations, isSupportedLocale } from '~/lib/i18n';
@@ -49,11 +49,7 @@ async function OffensiveContent({ params }: { params: OffensiveParamsType }) {
   return (
     <>
       <main className={styles.page}>
-        <CondorHarpyEagle
-          topText={t('page.joke').toLocaleUpperCase(locale)}
-          bottomText={t('page.title').toLocaleUpperCase(locale)}
-          className={styles.emblem}
-        />
+        <EmblemLink locale={locale} className={styles.emblem} />
 
         <h1 className={styles.title}>{OFFENSIVE_2026.title[locale]}</h1>
 

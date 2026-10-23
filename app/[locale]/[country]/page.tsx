@@ -3,9 +3,9 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Suspense } from 'react';
 
-import { CondorHarpyEagle } from '~/components/condor-harpy-eagle';
 import { CountryDetails } from '~/components/country-details';
 import { CountryHistory } from '~/components/country-history';
+import { EmblemLink } from '~/components/emblem-link';
 import { SiteFooter } from '~/components/site-footer';
 import { getCountryName, getCountrySlug, getCountryStaticParams, parseCountrySlug } from '~/lib/countries';
 import { LOCALES, getTranslations, isSupportedLocale } from '~/lib/i18n';
@@ -58,11 +58,7 @@ async function CountryContent({ params }: { params: CountryParamsType }) {
   return (
     <>
       <main className={styles.page}>
-        <CondorHarpyEagle
-          topText={t('page.joke').toLocaleUpperCase(locale)}
-          bottomText={t('page.title').toLocaleUpperCase(locale)}
-          className={styles.emblem}
-        />
+        <EmblemLink locale={locale} className={styles.emblem} />
 
         <CountryDetails code={code} locale={locale} />
 

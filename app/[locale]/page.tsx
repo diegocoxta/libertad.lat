@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 
-import { CondorHarpyEagle } from "~/components/condor-harpy-eagle";
 import { CountryList } from "~/components/country-list";
+import { EmblemLink } from "~/components/emblem-link";
 import { SiteFooter } from "~/components/site-footer";
 import { getTranslations, isSupportedLocale } from "~/lib/i18n";
 
@@ -19,11 +19,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
   return (
     <>
       <main className={styles.page}>
-        <CondorHarpyEagle
-          topText={t("page.joke").toLocaleUpperCase(locale)}
-          bottomText={t("page.title").toLocaleUpperCase(locale)}
-          className={styles.emblem}
-        />
+        <EmblemLink locale={locale} className={styles.emblem} />
 
         <div className={styles.heading}>
           <h1 className={styles.title}>{t("page.title")}</h1>
