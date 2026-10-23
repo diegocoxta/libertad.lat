@@ -1,4 +1,4 @@
-export const LOCALES = ['es', 'pt', 'en', 'gn', 'fr', 'qu'] as const;
+export const LOCALES = ['es', 'pt', 'en', 'gn', 'fr', 'qu', 'ht'] as const;
 
 export type Locale = (typeof LOCALES)[number];
 
@@ -9,6 +9,7 @@ export const LOCALE_NAMES: Record<Locale, string> = {
   gn: "Avañe'ẽ",
   fr: 'Français',
   qu: 'Runasimi',
+  ht: 'Kreyòl ayisyen',
 };
 
 export const DEFAULT_LOCALE: Locale = LOCALES[0];
