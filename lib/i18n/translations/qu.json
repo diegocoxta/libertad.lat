@@ -9,5 +9,7 @@
   "page.humanImpact": "Runakunaman ruwasqan",
   "page.sources": "Fuentekuna",
   "page.otherCountries": "Injerencia huk suyukunapi",
-  "page.generalSources": "Tukuy fuentekuna hinallataq archivokuna"
+  "page.generalSources": "Tukuy fuentekuna hinallataq archivokuna",
+  "page.discover": "Yachay imaynatam “Qispiy” {country}man chayarqan",
+  "page.share": "Willakuy imaynatam “Qispiy” {country}man chayarqan"
 }

@@ -23,5 +23,7 @@
   "page.usActions": "Comment les États-Unis ont soutenu, financé et agi",
   "page.humanImpact": "Impact humain",
   "page.otherCountries": "Ingérence dans d’autres pays",
-  "page.generalSources": "Sources générales et fonds d’archives"
+  "page.generalSources": "Sources générales et fonds d’archives",
+  "page.discover": "Découvrez comment la « Liberté » est arrivée {country}",
+  "page.share": "Partagez comment la « Liberté » est arrivée {country}"
 }
