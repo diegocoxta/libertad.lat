@@ -6,15 +6,16 @@ type LanguageSelectorProps = {
   locale: Locale;
   label: string;
   className?: string;
+  path?: string;
 };
 
-export function LanguageSelector({ locale, label, className }: LanguageSelectorProps) {
+export function LanguageSelector({ locale, label, className, path = '' }: LanguageSelectorProps) {
   return (
     <nav aria-label={label} className={className}>
       <ul>
         {LOCALES.map((loc) => (
           <li key={loc}>
-            <Link href={`/${loc}`} hrefLang={loc} lang={loc} aria-current={loc === locale ? 'page' : undefined}>
+            <Link href={`/${loc}${path}`} hrefLang={loc} lang={loc} aria-current={loc === locale ? 'page' : undefined}>
               {LOCALE_NAMES[loc]}
             </Link>
           </li>
