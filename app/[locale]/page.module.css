@@ -2,12 +2,13 @@
   display: grid;
   place-items: center;
   align-content: center;
-  gap: 5rem;
+  gap: 1.5rem;
   min-height: 100dvh;
   padding: 48px 24px;
 }
 
 .footer {
+  margin-top: 3.5rem;
   display: grid;
   place-items: center;
   gap: 2rem;
@@ -51,6 +52,32 @@
 .emblem {
   width: 300px;
   height: auto;
+}
+
+.heading {
+  display: grid;
+  place-items: center;
+  gap: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.soon {
+  font-size: 1rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-align: center;
+  text-transform: uppercase;
+
+  @media (width >= 640px) {
+    font-size: 2rem;
+  }
 }
 
 .quote {

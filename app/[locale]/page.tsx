@@ -19,7 +19,12 @@ export default async function HomePage({ params }: PageProps<'/[locale]'>) {
   return (
     <main className={styles.page}>
       <CondorHarpyEagle className={styles.emblem} />
-      
+
+      <div className={styles.heading}>
+        <h1 className={styles.title}>{t('page.title')}</h1>
+        <p className={styles.soon}>{t('page.soon')}</p>
+      </div>
+
       <figure className={styles.quote}>
         <blockquote>
           <p>{t('page.quote')}</p>
