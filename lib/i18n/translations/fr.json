@@ -28,5 +28,6 @@
   "page.share": "Partagez comment la « Liberté » est arrivée {country}",
   "page.contact": "Contribuez",
   "page.suggest": "Suggérez des corrections ou de nouvelles informations",
-  "page.notFound": "Page introuvable"
+  "page.notFound": "Page introuvable",
+  "page.error": "Une erreur s’est produite."
 }
