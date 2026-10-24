@@ -21,7 +21,7 @@ export function SiteFooter({ locale, path }: SiteFooterProps) {
 
       <Image src="/inverted-america.svg" alt="" width={91} height={96} unoptimized className={styles.logo} />
 
-      <LanguageSelector locale={locale} label={t('page.languages')} className={styles.languages} path={path} />
+      <LanguageSelector locale={locale} label={t('page.languages')} path={path} />
 
       <a href={getContactHref(`/${locale}${path ?? ''}`)} className={styles.contact}>
         <svg
