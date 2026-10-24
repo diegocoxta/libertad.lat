@@ -6,12 +6,44 @@ import { DEFAULT_LOCALE, isSupportedLocale, negotiateLocale } from '~/lib/i18n/l
 
 const LOCALE_SHAPED = /^[a-z]{2}(-[a-z]{2})?$/i;
 
+// Countries that get a 404 on everything, files included. Vercel sends the visitor's country in this header.
+const BLOCKED_COUNTRIES = ['US'];
+const COUNTRY_HEADER = 'x-vercel-ip-country';
+// Google's crawlers are the one exception. The user agent can be faked, so this only keeps honest crawlers out of
+// the block; a firewall rule on Vercel's verified bots is what makes it strict.
+const ALLOWED_CRAWLERS = /Googlebot|Google-InspectionTool/i;
+// Files and framework assets are not pages, so they only go through the country check.
+const ASSET = /^\/(api|_next\/(static|image))(\/|$)|\.[^/]+$/;
+
 function isPage(slug: string): boolean {
   return slug === '2026' || slug === 'sitemap' || parseCountrySlug(slug) !== null;
 }
 
+// A page that fails after it started streaming cannot change its status anymore, so a 404 is sent to a
+// path no route matches (three segments), which answers 404 with app/global-not-found.tsx.
+function notFound(request: NextRequest) {
+  const url = request.nextUrl.clone();
+  url.pathname = '/not-found/404/404';
+
+  return NextResponse.rewrite(url);
+}
+
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
+
+  const blocked = BLOCKED_COUNTRIES.includes(request.headers.get(COUNTRY_HEADER) ?? '');
+
+  if (blocked && !ALLOWED_CRAWLERS.test(request.headers.get('user-agent') ?? '')) {
+    const response = notFound(request);
+    // The same address answers differently by country, so no shared cache may keep this answer.
+    response.headers.set('Cache-Control', 'private, no-store');
+
+    return response;
+  }
+
+  if (ASSET.test(pathname)) {
+    return NextResponse.next();
+  }
 
   const [, segment, ...path] = pathname.split('/');
   const url = request.nextUrl.clone();
@@ -30,12 +62,7 @@ export function proxy(request: NextRequest) {
       return NextResponse.redirect(url, 308);
     }
 
-    // A page that fails after it started streaming cannot change its status anymore, so an unknown
-    // address is sent to a path no route matches (three segments), which answers 404 with
-    // app/global-not-found.tsx.
-    url.pathname = '/not-found/404/404';
-
-    return NextResponse.rewrite(url);
+    return notFound(request);
   }
 
   if (LOCALE_SHAPED.test(segment)) {
@@ -51,6 +78,11 @@ export function proxy(request: NextRequest) {
   return NextResponse.redirect(url);
 }
 
+// The matcher has to be literal, so the country here repeats BLOCKED_COUNTRIES.
 export const config = {
-  matcher: ['/((?!api|_next/static|_next/image|favicon.ico|.*\\.[^/]+$).*)'],
+  matcher: [
+    '/((?!api|_next/static|_next/image|favicon.ico|.*\\.[^/]+$).*)',
+    // Requests from blocked countries also pass through for files and assets, which the rule above skips.
+    { source: '/:path*', has: [{ type: 'header', key: 'x-vercel-ip-country', value: 'US' }] },
+  ],
 };
