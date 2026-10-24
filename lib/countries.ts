@@ -78,12 +78,42 @@ export function getCountries(locale: Locale): CountryType[] {
   );
 }
 
+// Each address is the country's own name in its local language, without accents ("brasil", "peru").
+const COUNTRY_SLUGS: Record<CountryCode, string> = {
+  AR: 'argentina',
+  BO: 'bolivia',
+  BR: 'brasil',
+  CL: 'chile',
+  CO: 'colombia',
+  CU: 'cuba',
+  DO: 'republica-dominicana',
+  EC: 'ecuador',
+  SV: 'el-salvador',
+  GT: 'guatemala',
+  GY: 'guyana',
+  HT: 'haiti',
+  HN: 'honduras',
+  MX: 'mexico',
+  NI: 'nicaragua',
+  PA: 'panama',
+  PY: 'paraguay',
+  PR: 'puerto-rico',
+  PE: 'peru',
+  UY: 'uruguay',
+  VE: 'venezuela',
+};
+
 export function getCountrySlug(code: CountryCode): string {
-  return code.toLowerCase();
+  return COUNTRY_SLUGS[code];
 }
 
 export function parseCountrySlug(slug: string): CountryCode | null {
   return COUNTRY_CODES.find((code) => getCountrySlug(code) === slug) ?? null;
+}
+
+// The addresses used to be the two-letter code ("/es/br"); those links are still out there.
+export function parseLegacyCountrySlug(slug: string): CountryCode | null {
+  return COUNTRY_CODES.find((code) => code.toLowerCase() === slug.toLowerCase()) ?? null;
 }
 
 export function getCountryStaticParams(): { country: string }[] {
