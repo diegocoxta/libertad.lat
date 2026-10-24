@@ -16,7 +16,7 @@ const ALLOWED_CRAWLERS = /Googlebot|Google-InspectionTool/i;
 const ASSET = /^\/(api|_next\/(static|image))(\/|$)|\.[^/]+$/;
 
 function isPage(slug: string): boolean {
-  return slug === '2026' || slug === 'sitemap' || parseCountrySlug(slug) !== null;
+  return slug === 'sitemap' || parseCountrySlug(slug) !== null;
 }
 
 // A page that fails after it started streaming cannot change its status anymore, so a 404 is sent to a

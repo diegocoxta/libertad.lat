@@ -4,7 +4,7 @@ import { COUNTRY_CODES, getCountrySlug } from '~/lib/countries';
 import { DEFAULT_LOCALE, LOCALES } from '~/lib/i18n';
 import { getAbsoluteUrl } from '~/lib/site';
 
-const PATHS = ['', '/2026', ...COUNTRY_CODES.map((code) => `/${getCountrySlug(code)}`)];
+const PATHS = ['', ...COUNTRY_CODES.map((code) => `/${getCountrySlug(code)}`)];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return LOCALES.flatMap((locale) =>

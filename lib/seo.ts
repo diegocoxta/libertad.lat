@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 
-import { OFFENSIVE_2026 } from '~/content/offensive-2026';
 import { getCountryName, getCountrySlug, type CountryCode } from '~/lib/countries';
 import { getCountryContent } from '~/lib/country-content';
 import { DEFAULT_LOCALE, LOCALES, getTranslations, type Locale } from '~/lib/i18n';
@@ -8,7 +7,6 @@ import { getOgImagePath } from '~/lib/share';
 import { OG_LOCALES, getAbsoluteUrl } from '~/lib/site';
 
 export const OG_IMAGE_SIZE = { width: 1200, height: 630 };
-export const ARTICLE_PUBLISHED_AT = '2026-10-23';
 
 type PageMetadataParamsType = {
   locale: Locale;
@@ -16,7 +14,6 @@ type PageMetadataParamsType = {
   title: string;
   description: string;
   image: string;
-  type?: 'website' | 'article';
 };
 
 // Removes the mini markup used in the content: [label](url) links, **bold** and _italic_.
@@ -69,18 +66,6 @@ export function getCountrySeo(locale: Locale, code: CountryCode) {
   };
 }
 
-export function getArticleSeo(locale: Locale) {
-  const intro = OFFENSIVE_2026.blocks.find((block) => block.type === 'paragraph');
-  const title = OFFENSIVE_2026.title[locale];
-
-  return {
-    title: composeTitle(title, locale),
-    headline: title,
-    description: intro ? truncate(stripMarkup(intro.text[locale]), 200) : getHomeDescription(locale),
-    image: getOgImagePath(locale, '2026'),
-  };
-}
-
 export function getSitemapSeo(locale: Locale) {
   return {
     title: composeTitle(getTranslations(locale)('page.sitemap'), locale),
@@ -90,14 +75,7 @@ export function getSitemapSeo(locale: Locale) {
 }
 
 // Next merges metadata one field at a time, so each page has to give its own openGraph and twitter.
-export function createPageMetadata({
-  locale,
-  path = '',
-  title,
-  description,
-  image,
-  type = 'website',
-}: PageMetadataParamsType): Metadata {
+export function createPageMetadata({ locale, path = '', title, description, image }: PageMetadataParamsType): Metadata {
   const url = `/${locale}${path}`;
 
   return {
@@ -116,7 +94,7 @@ export function createPageMetadata({
       },
     },
     openGraph: {
-      type,
+      type: 'website',
       url,
       siteName: getTranslations(locale)('page.title'),
       title,
@@ -134,7 +112,12 @@ function createBreadcrumb(pageUrl: string, locale: Locale, name: string) {
     '@type': 'BreadcrumbList',
     '@id': `${pageUrl}#breadcrumb`,
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: getTranslations(locale)('page.title'), item: getAbsoluteUrl(`/${locale}`) },
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: getTranslations(locale)('page.title'),
+        item: getAbsoluteUrl(`/${locale}`),
+      },
       { '@type': 'ListItem', position: 2, name, item: pageUrl },
     ],
   };
@@ -175,41 +158,14 @@ export function createCountryJsonLd({ locale, slug, countryName, title, descript
         inLanguage: locale,
         image: getAbsoluteUrl(image),
         about: { '@type': 'Country', name: countryName },
-        isPartOf: { '@type': 'WebSite', name: getTranslations(locale)('page.title'), url: getAbsoluteUrl(`/${locale}`) },
+        isPartOf: {
+          '@type': 'WebSite',
+          name: getTranslations(locale)('page.title'),
+          url: getAbsoluteUrl(`/${locale}`),
+        },
         breadcrumb: { '@id': `${pageUrl}#breadcrumb` },
       },
       createBreadcrumb(pageUrl, locale, countryName),
-    ],
-  };
-}
-
-type ArticleJsonLdParamsType = {
-  locale: Locale;
-  title: string;
-  description: string;
-  image: string;
-};
-
-export function createArticleJsonLd({ locale, title, description, image }: ArticleJsonLdParamsType) {
-  const pageUrl = getAbsoluteUrl(`/${locale}/2026`);
-  const siteName = getTranslations(locale)('page.title');
-
-  return {
-    '@context': 'https://schema.org',
-    '@graph': [
-      {
-        '@type': 'Article',
-        '@id': pageUrl,
-        headline: title,
-        description,
-        inLanguage: locale,
-        image: getAbsoluteUrl(image),
-        datePublished: ARTICLE_PUBLISHED_AT,
-        mainEntityOfPage: pageUrl,
-        publisher: { '@type': 'Organization', name: siteName, url: getAbsoluteUrl(`/${locale}`) },
-        breadcrumb: { '@id': `${pageUrl}#breadcrumb` },
-      },
-      createBreadcrumb(pageUrl, locale, title),
     ],
   };
 }

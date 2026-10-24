@@ -61,9 +61,6 @@ async function SitemapContent({ params }: { params: SitemapParamsType }) {
               <li>
                 <a href={`/${locale}`}>{t('page.title')}</a>
               </li>
-              <li>
-                <a href={`/${locale}/2026`}>{t('page.banner')}</a>
-              </li>
             </ul>
           </section>
 
