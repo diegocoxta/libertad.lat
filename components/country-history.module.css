@@ -30,6 +30,7 @@
     padding-left: 1.25rem;
   }
 
+  p a,
   li a {
     color: inherit;
     text-underline-offset: 0.2em;
@@ -39,6 +40,16 @@
     &:focus-visible {
       text-decoration-thickness: 2px;
     }
+  }
+}
+
+.era {
+  display: grid;
+  gap: 1.75rem;
+
+  & + & {
+    padding-top: 1.75rem;
+    border-top: 1px solid color-mix(in srgb, currentcolor 20%, transparent);
   }
 }
 

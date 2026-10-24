@@ -16,17 +16,22 @@ export type GeneralSourcesType = {
   outro: LocalizedType;
 };
 
-export type CountryContentType = {
+export type CountryEraType = {
   period: LocalizedType;
   summary: LocalizedType;
   happened: LocalizedType;
   usActions: { label: LocalizedType; text: LocalizedType }[];
-  impact: {
+  impact?: {
     items?: { label: LocalizedType; text: LocalizedType }[];
     text?: LocalizedType;
     context?: LocalizedType;
   };
   sources: CountrySourceType[];
+};
+
+export type CountryContentType = CountryEraType & {
+  // A more recent chapter, shown above the main one.
+  latest?: CountryEraType;
 };
 
 export function getCountryContent(code: CountryCode): CountryContentType | null {
