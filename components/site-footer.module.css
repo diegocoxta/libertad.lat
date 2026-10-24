@@ -40,6 +40,20 @@
   }
 }
 
+.sitemap {
+  color: inherit;
+  font-size: 0.875rem;
+  letter-spacing: 0.04em;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 0.3em;
+
+  &:hover,
+  &:focus-visible {
+    text-decoration-color: currentcolor;
+  }
+}
+
 .quote {
   max-width: 44rem;
   margin-bottom: 1.5rem;

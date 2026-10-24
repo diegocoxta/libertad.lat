@@ -1,0 +1,90 @@
+.page {
+  display: grid;
+  place-items: center;
+  align-content: start;
+  flex: 1;
+  gap: 1.5rem;
+  padding: 48px 24px;
+}
+
+.emblem {
+  width: 300px;
+  height: auto;
+}
+
+.title {
+  max-width: 40rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-align: center;
+  text-transform: uppercase;
+  text-wrap: balance;
+
+  @media (width >= 640px) {
+    font-size: 2rem;
+  }
+}
+
+.sitemap {
+  display: grid;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 40rem;
+
+  section {
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  h2 {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+
+  ul {
+    display: grid;
+    gap: 0.5rem 1.5rem;
+    list-style: none;
+  }
+
+  a {
+    color: inherit;
+    font-size: 0.9375rem;
+    letter-spacing: 0.04em;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-underline-offset: 0.3em;
+
+    &:hover,
+    &:focus-visible {
+      text-decoration-color: currentcolor;
+    }
+  }
+}
+
+.countries {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  @media (width >= 640px) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.back {
+  color: inherit;
+  font-size: 0.875rem;
+  letter-spacing: 0.04em;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 0.3em;
+  opacity: 0.82;
+
+  &:hover,
+  &:focus-visible {
+    text-decoration-color: currentcolor;
+    opacity: 1;
+  }
+}

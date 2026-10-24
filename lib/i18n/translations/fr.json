@@ -29,5 +29,8 @@
   "page.contact": "Contribuez",
   "page.suggest": "Suggérez des corrections ou de nouvelles informations",
   "page.notFound": "Page introuvable",
-  "page.error": "Une erreur s’est produite."
+  "page.error": "Une erreur s’est produite.",
+  "page.sitemap": "Plan du site",
+  "page.pages": "Pages",
+  "page.countries": "Pays"
 }

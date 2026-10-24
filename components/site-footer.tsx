@@ -39,6 +39,11 @@ export function SiteFooter({ locale, path }: SiteFooterProps) {
         </svg>
         {t('page.contact')}
       </a>
+
+      {/* Plain anchor: a soft navigation to /[locale]/sitemap would be intercepted by @modal/(.)[country]. */}
+      <a href={`/${locale}/sitemap`} className={styles.sitemap}>
+        {t('page.sitemap')}
+      </a>
     </footer>
   );
 }
