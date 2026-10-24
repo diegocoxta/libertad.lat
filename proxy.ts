@@ -7,7 +7,7 @@ import { DEFAULT_LOCALE, isSupportedLocale, negotiateLocale } from '~/lib/i18n/l
 const LOCALE_SHAPED = /^[a-z]{2}(-[a-z]{2})?$/i;
 
 function isPage(slug: string): boolean {
-  return slug === '2026' || parseCountrySlug(slug) !== null;
+  return slug === '2026' || slug === 'sitemap' || parseCountrySlug(slug) !== null;
 }
 
 export function proxy(request: NextRequest) {

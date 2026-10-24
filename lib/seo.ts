@@ -81,6 +81,14 @@ export function getArticleSeo(locale: Locale) {
   };
 }
 
+export function getSitemapSeo(locale: Locale) {
+  return {
+    title: composeTitle(getTranslations(locale)('page.sitemap'), locale),
+    description: getHomeDescription(locale),
+    image: getOgImagePath(locale, 'home'),
+  };
+}
+
 // Next merges metadata one field at a time, so each page has to give its own openGraph and twitter.
 export function createPageMetadata({
   locale,

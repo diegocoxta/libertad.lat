@@ -29,5 +29,8 @@
   "page.contact": "Colabora",
   "page.suggest": "Sugiere correcciones o nueva información",
   "page.notFound": "Página no encontrada",
-  "page.error": "Algo salió mal."
+  "page.error": "Algo salió mal.",
+  "page.sitemap": "Mapa del sitio",
+  "page.pages": "Páginas",
+  "page.countries": "Países"
 }
