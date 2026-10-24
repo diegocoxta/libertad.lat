@@ -51,12 +51,6 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
         </div>
 
         <CountryList locale={locale} className={styles.countries} />
-
-        {/* Plain anchor: a soft navigation to /[locale]/2026 would be intercepted by @modal/(.)[country]. */}
-        <a href={`/${locale}/2026`} className={styles.banner}>
-          {t("page.banner")}
-          <span aria-hidden="true">→</span>
-        </a>
       </main>
 
       <SiteFooter locale={locale} />

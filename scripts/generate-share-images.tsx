@@ -13,7 +13,6 @@ import sharp from 'sharp';
 import { CondorHarpyEagle, SEAL_ART_PATH } from '~/components/condor-harpy-eagle';
 import { ART_VIEWBOX, CondorHarpyEagleArt } from '~/components/condor-harpy-eagle-art';
 import { InvertedAmerica } from '~/components/inverted-america';
-import { OFFENSIVE_2026 } from '~/content/offensive-2026';
 import { COUNTRY_CODES, getCountrySlug, type CountryCode } from '~/lib/countries';
 import { LOCALES, getTranslations, type Locale } from '~/lib/i18n';
 import { getOgImagePath, getShareHeadline, getSharePath } from '~/lib/share';
@@ -56,7 +55,6 @@ const INPUTS = [
   'components/condor-harpy-eagle-art.tsx',
   'components/condor-harpy-eagle-layers.ts',
   'components/inverted-america.tsx',
-  'content/offensive-2026.ts',
   ...LOCALES.map((locale) => `lib/i18n/translations/${locale}.json`),
   'node_modules/geist/package.json',
   'node_modules/country-flag-icons/package.json',
@@ -295,7 +293,7 @@ ${drawLines([SITE_DISPLAY_HOST], STORY_URL, width / 2, urlY)}
   return renderPng(svg, width);
 }
 
-type PreviewType = { kind: 'home' } | { kind: 'article' } | { kind: 'country'; code: CountryCode };
+type PreviewType = { kind: 'home' } | { kind: 'country'; code: CountryCode };
 
 async function drawCountryColumn(locale: Locale, code: CountryCode, centerX: number): Promise<string> {
   const { height, columnWidth } = PREVIEW;
@@ -327,21 +325,15 @@ async function drawCountryColumn(locale: Locale, code: CountryCode, centerX: num
   ].join('\n');
 }
 
-function drawTitleColumn(locale: Locale, kind: 'home' | 'article', centerX: number): string {
+function drawTitleColumn(locale: Locale, centerX: number): string {
   const { height, columnWidth } = PREVIEW;
   const t = getTranslations(locale);
-  const heading = (kind === 'home' ? t('page.title') : OFFENSIVE_2026.title[locale]).toLocaleUpperCase(locale);
-  const headingStyle = fitHeadingStyle(
-    heading,
-    columnWidth,
-    kind === 'home'
-      ? { size: 60, weight: 900, spacing: 2, lineHeight: 70 }
-      : { size: 44, weight: 900, spacing: 1.5, lineHeight: 56 },
-  );
+  const heading = t('page.title').toLocaleUpperCase(locale);
+  const headingStyle = fitHeadingStyle(heading, columnWidth, { size: 60, weight: 900, spacing: 2, lineHeight: 70 });
   const subtitleStyle: TextStyleType = { size: 28, weight: 700, spacing: 2, lineHeight: 40 };
 
   const headingLines = layoutLines(heading, columnWidth, headingStyle);
-  const subtitleLines = kind === 'home' ? layoutLines(t('page.soon').toLocaleUpperCase(locale), columnWidth, subtitleStyle) : [];
+  const subtitleLines = layoutLines(t('page.soon').toLocaleUpperCase(locale), columnWidth, subtitleStyle);
   const headingHeight = headingLines.length * headingStyle.lineHeight;
   const subtitleHeight = subtitleLines.length ? 24 + subtitleLines.length * subtitleStyle.lineHeight : 0;
   const urlGap = 40;
@@ -360,7 +352,7 @@ async function drawPreview(locale: Locale, preview: PreviewType): Promise<Uint8A
   const column =
     preview.kind === 'country'
       ? await drawCountryColumn(locale, preview.code, centerX)
-      : drawTitleColumn(locale, preview.kind, centerX);
+      : drawTitleColumn(locale, centerX);
 
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}">
 <rect width="${width}" height="${height}" fill="${BACKGROUND}"/>
@@ -437,10 +429,7 @@ function createJobs(): JobType[] {
   const jobs: JobType[] = [];
 
   for (const locale of LOCALES) {
-    jobs.push(
-      { file: getOgImagePath(locale, 'home'), draw: () => drawPreview(locale, { kind: 'home' }) },
-      { file: getOgImagePath(locale, '2026'), draw: () => drawPreview(locale, { kind: 'article' }) },
-    );
+    jobs.push({ file: getOgImagePath(locale, 'home'), draw: () => drawPreview(locale, { kind: 'home' }) });
 
     for (const code of COUNTRY_CODES) {
       jobs.push(
