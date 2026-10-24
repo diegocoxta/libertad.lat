@@ -57,12 +57,14 @@ export function getCountrySeo(locale: Locale, code: CountryCode) {
   const slug = getCountrySlug(code);
   const name = getCountryName(code, locale);
   const content = getCountryContent(code);
+  // The page opens with its latest chapter, so that is the one the description has to match.
+  const lead = content?.latest ?? content;
 
   return {
     slug,
     name,
     title: composeTitle(name, locale),
-    description: content ? truncate(stripMarkup(content.summary[locale])) : getHomeDescription(locale),
+    description: lead ? truncate(stripMarkup(lead.summary[locale])) : getHomeDescription(locale),
     image: getOgImagePath(locale, slug),
   };
 }
