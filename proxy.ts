@@ -6,7 +6,7 @@ import { DEFAULT_LOCALE, isSupportedLocale, negotiateLocale } from '~/lib/i18n/l
 
 const LOCALE_SHAPED = /^[a-z]{2}(-[a-z]{2})?$/i;
 
-// Countries that get a 404 on everything, files included. Vercel sends the visitor's country in this header.
+// Countries that get an empty 404 on everything, files included. Vercel sends the visitor's country in this header.
 const BLOCKED_COUNTRIES = ['US'];
 const COUNTRY_HEADER = 'x-vercel-ip-country';
 // Google's crawlers are the one exception. The user agent can be faked, so this only keeps honest crawlers out of
@@ -34,11 +34,9 @@ export function proxy(request: NextRequest) {
   const blocked = BLOCKED_COUNTRIES.includes(request.headers.get(COUNTRY_HEADER) ?? '');
 
   if (blocked && !ALLOWED_CRAWLERS.test(request.headers.get('user-agent') ?? '')) {
-    const response = notFound(request);
-    // The same address answers differently by country, so no shared cache may keep this answer.
-    response.headers.set('Cache-Control', 'private, no-store');
-
-    return response;
+    // Nothing that says a site is here: no page, no body. The same address answers differently by country,
+    // so no shared cache may keep this answer.
+    return new NextResponse(null, { status: 404, headers: { 'Cache-Control': 'private, no-store' } });
   }
 
   if (ASSET.test(pathname)) {

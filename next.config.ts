@@ -50,6 +50,9 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/:path*",
+        // Blocked countries get an empty 404 (see proxy.ts), so they get none of these either. The country repeats
+        // BLOCKED_COUNTRIES, since the config cannot import from the app.
+        missing: [{ type: "header", key: "x-vercel-ip-country", value: "US" }],
         headers: SECURITY_HEADERS,
       },
       {
