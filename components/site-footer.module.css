@@ -1,7 +1,7 @@
 .footer {
   display: grid;
   place-items: center;
-  gap: 2rem;
+  gap: 1.5rem;
   margin-top: 50px;
   padding: 3.5rem 24px 48px;
   background: var(--footer-background);
