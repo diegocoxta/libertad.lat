@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
-import { parseCountrySlug } from '~/lib/countries';
+import { getCountrySlug, parseCountrySlug, parseLegacyCountrySlug } from '~/lib/countries';
 import { DEFAULT_LOCALE, isSupportedLocale, negotiateLocale } from '~/lib/i18n/locale';
 
 const LOCALE_SHAPED = /^[a-z]{2}(-[a-z]{2})?$/i;
@@ -51,6 +51,14 @@ export function proxy(request: NextRequest) {
 
     if (parts.length === 0 || (parts.length === 1 && isPage(parts[0]))) {
       return NextResponse.next();
+    }
+
+    const legacy = parts.length === 1 ? parseLegacyCountrySlug(parts[0]) : null;
+
+    if (legacy) {
+      url.pathname = `/${segment}/${getCountrySlug(legacy)}`;
+
+      return NextResponse.redirect(url, 308);
     }
 
     // Wrong letter case is the same page under another address.
