@@ -1,6 +1,124 @@
 import type { CountryContentType } from "~/lib/country-content";
 
 const content: CountryContentType = {
+  latest: {
+    period: {
+      es: "2025",
+      pt: "2025",
+      fr: "2025",
+      gn: "2025",
+      qu: "2025",
+      ht: "2025",
+    },
+    summary: {
+      es: "Presión para “recuperar” el canal: acusación a la empresa de Hong Kong, venta de los puertos a un consorcio de BlackRock y un memorando que permite el uso de instalaciones por tropas estadounidenses.",
+      pt: 'Pressão para "retomar" o canal: acusação à empresa de Hong Kong, venda dos portos a um consórcio da BlackRock e um memorando que permite o uso de instalações por tropas americanas.',
+      fr: "Pression pour « reprendre » le canal : accusation contre l’entreprise de Hong Kong, vente des ports à un consortium de BlackRock et mémorandum permettant l’usage d’installations par des troupes américaines.",
+      gn: "Presión “ogueru jey hag̃ua” canal: empresa Hong Kong-pegua acusación, puerto venta BlackRock consorcio-pe ha memorando omoneĩva tropa estadounidense oipuru instalación.",
+      qu: "Canalta “kutichiy” munaq presion: Hong Kongmanta empresaman huchachay, puertokunata BlackRock consorcioman rantiy hinallataq estadounidense tropakuna instalacionkunata llamk’achinankupaq memorando.",
+      ht: "Presyon pou “reprann” kanal la: akizasyon kont konpayi Hong Kong lan, lavant pò yo bay yon konsòsyòm BlackRock ak yon memorandòm ki pèmèt twoup ameriken itilize enstalasyon.",
+    },
+    happened: {
+      es: "El canal fue devuelto a Panamá en 1999. En 2025, el presidente José Raúl Mulino enfrentó la presión de Washington para reducir la influencia china en la vía.",
+      pt: "O canal foi devolvido ao Panamá em 1999. Em 2025, o presidente José Raúl Mulino enfrentou a pressão de Washington para reduzir a influência chinesa na via.",
+      fr: "Le canal a été rendu au Panama en 1999. En 2025, le président José Raúl Mulino a fait face à la pression de Washington pour réduire l’influence chinoise sur la voie.",
+      gn: "Canal ojevy Panamá-pe 1999-pe. 2025-pe, presidente José Raúl Mulino ohupyty Washington presión omboguejy hag̃ua China influencia tape rehe.",
+      qu: "Canalqa 1999 watapi Panamaman kutichisqa karqan. 2025 watapi presidente José Raúl Mulinoqa Washingtonpa presionninta chaskirqan Chinap ñanpi atiyninta pisichinanpaq.",
+      ht: "Kanal la te remèt Panama an 1999. An 2025, prezidan José Raúl Mulino te fè fas ak presyon Washington pou diminye enfliyans Chinwa sou vwa a.",
+    },
+    usActions: [
+      {
+        label: {
+          es: "“Recuperar” el canal",
+          pt: '"Recuperar" o canal',
+          fr: "« Récupérer » le canal",
+          gn: "“Ojevy” canal",
+          qu: "Canalta “kutichiy”",
+          ht: "“Reprann” kanal la",
+        },
+        text: {
+          es: "Trump dijo que su gobierno iba a “recuperar” el canal, devuelto a Panamá en 1999. ([Acento/BBC Mundo](https://acento.com.do/bbc-news-mundo/panama-permitira-a-ee-uu-incrementar-su-presencia-militar-en-su-territorio-segun-un-memorando-firmado-con-el-gobierno-de-trump-9483074.html))",
+          pt: 'Trump disse que seu governo ia "recuperar" o canal, devolvido ao Panamá em 1999. ([Acento/BBC Mundo](https://acento.com.do/bbc-news-mundo/panama-permitira-a-ee-uu-incrementar-su-presencia-militar-en-su-territorio-segun-un-memorando-firmado-con-el-gobierno-de-trump-9483074.html))',
+          fr: "Trump a dit que son gouvernement allait « récupérer » le canal, rendu au Panama en 1999. ([Acento/BBC Mundo](https://acento.com.do/bbc-news-mundo/panama-permitira-a-ee-uu-incrementar-su-presencia-militar-en-su-territorio-segun-un-memorando-firmado-con-el-gobierno-de-trump-9483074.html))",
+          gn: "Trump heʼi ijgobierno “ogueru jey vaʼerã” canal, ojevýva Panamá-pe 1999-pe. ([Acento/BBC Mundo](https://acento.com.do/bbc-news-mundo/panama-permitira-a-ee-uu-incrementar-su-presencia-militar-en-su-territorio-segun-un-memorando-firmado-con-el-gobierno-de-trump-9483074.html))",
+          qu: "Trumpqa gobiernonqa 1999 watapi Panamaman kutichisqa canalta “kutichinqa” nirqan. ([Acento/BBC Mundo](https://acento.com.do/bbc-news-mundo/panama-permitira-a-ee-uu-incrementar-su-presencia-militar-en-su-territorio-segun-un-memorando-firmado-con-el-gobierno-de-trump-9483074.html))",
+          ht: "Trump te di gouvènman li t ap “reprann” kanal la, ki te remèt Panama an 1999. ([Acento/BBC Mundo](https://acento.com.do/bbc-news-mundo/panama-permitira-a-ee-uu-incrementar-su-presencia-militar-en-su-territorio-segun-un-memorando-firmado-con-el-gobierno-de-trump-9483074.html))",
+        },
+      },
+      {
+        label: {
+          es: "Los puertos",
+          pt: "Os portos",
+          fr: "Les ports",
+          gn: "Puerto kuéra",
+          qu: "Puertokuna",
+          ht: "Pò yo",
+        },
+        text: {
+          es: "bajo presión de la Casa Blanca, Panamá acusó a Panama Ports Company de violar el contrato; la controladora CK Hutchison aceptó vender 43 puertos, incluidos los dos del canal, a un consorcio liderado por BlackRock, y Pekín anunció una revisión antimonopolio. ([Acento/BBC Mundo](https://acento.com.do/bbc-news-mundo/panama-permitira-a-ee-uu-incrementar-su-presencia-militar-en-su-territorio-segun-un-memorando-firmado-con-el-gobierno-de-trump-9483074.html))",
+          pt: "sob pressão da Casa Branca, o Panamá acusou a Panama Ports Company de violar o contrato; a controladora CK Hutchison aceitou vender 43 portos, incluindo os dois do canal, a um consórcio liderado pela BlackRock, e Pequim anunciou uma revisão antitruste. ([Acento/BBC Mundo](https://acento.com.do/bbc-news-mundo/panama-permitira-a-ee-uu-incrementar-su-presencia-militar-en-su-territorio-segun-un-memorando-firmado-con-el-gobierno-de-trump-9483074.html))",
+          fr: "sous la pression de la Maison-Blanche, le Panama a accusé Panama Ports Company de violer le contrat ; la maison mère CK Hutchison a accepté de vendre 43 ports, dont les deux du canal, à un consortium dirigé par BlackRock, et Pékin a annoncé un examen antitrust. ([Acento/BBC Mundo](https://acento.com.do/bbc-news-mundo/panama-permitira-a-ee-uu-incrementar-su-presencia-militar-en-su-territorio-segun-un-memorando-firmado-con-el-gobierno-de-trump-9483074.html))",
+          gn: "Casa Blanca presión guýpe, Panamá oacusa Panama Ports Company-pe oñemoĩ’ỹ hague contrato; controladora CK Hutchison oneʼẽ ovende 43 puerto, mokõi canal-pegua ndive, BlackRock consorcio-pe, ha Pekín heʼi revisión antimonopolio. ([Acento/BBC Mundo](https://acento.com.do/bbc-news-mundo/panama-permitira-a-ee-uu-incrementar-su-presencia-militar-en-su-territorio-segun-un-memorando-firmado-con-el-gobierno-de-trump-9483074.html))",
+          qu: "Casa Blancapa presionninpi Panamaqa Panama Ports Companyta contratota p’akisqanmanta huchacharqan; CK Hutchison kamachiqqa 43 puertokunata, canalpa iskaynintapas, BlackRockpa pusasqan consorcioman rantinanta munarqan, Pekintaq antimonopolio qhawariyta willarqan. ([Acento/BBC Mundo](https://acento.com.do/bbc-news-mundo/panama-permitira-a-ee-uu-incrementar-su-presencia-militar-en-su-territorio-segun-un-memorando-firmado-con-el-gobierno-de-trump-9483074.html))",
+          ht: "anba presyon Mezon Blanch lan, Panama te akize Panama Ports Company vyole kontra a; konpayi manman CK Hutchison te dakò pou vann 43 pò, ladan yo de pò kanal la, bay yon konsòsyòm BlackRock dirije, epi Pekin te anonse yon revizyon antitrès. ([Acento/BBC Mundo](https://acento.com.do/bbc-news-mundo/panama-permitira-a-ee-uu-incrementar-su-presencia-militar-en-su-territorio-segun-un-memorando-firmado-con-el-gobierno-de-trump-9483074.html))",
+        },
+      },
+      {
+        label: {
+          es: "Memorando (abril de 2025)",
+          pt: "Memorando (abril de 2025)",
+          fr: "Mémorandum (avril 2025)",
+          gn: "Memorando (jasyrundy 2025)",
+          qu: "Memorando (abril 2025)",
+          ht: "Memorandòm (avril 2025)",
+        },
+        text: {
+          es: "el memorando firmado por Hegseth permite que fuerzas estadounidenses usen instalaciones como Rodman, Howard y Fort Sherman, antiguas áreas militares de Estados Unidos en el canal, para entrenamiento y ejercicios, sin bases permanentes; Hegseth dijo que Estados Unidos podría “revivir” bases “por invitación” y rotar tropas. La versión en inglés del comunicado omitió la frase de la versión en español que reconocía la “soberanía irrenunciable” de Panamá, y la cancillería pidió a la embajada que la incluyera. ([Acento/BBC Mundo](https://acento.com.do/bbc-news-mundo/panama-permitira-a-ee-uu-incrementar-su-presencia-militar-en-su-territorio-segun-un-memorando-firmado-con-el-gobierno-de-trump-9483074.html), [SolarDaily](https://spacewar.com/panama-deal-allows-us-to-deploy-troops-to-canal-999/))",
+          pt: 'o memorando assinado por Hegseth permite que forças americanas usem instalações como Rodman, Howard e Fort Sherman, antigas áreas militares dos EUA no canal, para treinamento e exercícios, sem bases permanentes; Hegseth disse que os EUA poderiam "reviver" bases "por convite" e enviar tropas em rodízio. A versão em inglês do comunicado omitiu a frase da versão em espanhol que reconhecia a "soberania irrenunciável" do Panamá, e a chancelaria pediu à embaixada que a incluísse. ([Acento/BBC Mundo](https://acento.com.do/bbc-news-mundo/panama-permitira-a-ee-uu-incrementar-su-presencia-militar-en-su-territorio-segun-un-memorando-firmado-con-el-gobierno-de-trump-9483074.html), [SolarDaily](https://spacewar.com/panama-deal-allows-us-to-deploy-troops-to-canal-999/))',
+          fr: "le mémorandum signé par Hegseth permet aux forces américaines d’utiliser des installations comme Rodman, Howard et Fort Sherman, anciennes zones militaires des États-Unis au canal, pour l’entraînement et des exercices, sans bases permanentes ; Hegseth a dit que les États-Unis pourraient « faire revivre » des bases « sur invitation » et faire tourner des troupes. La version anglaise du communiqué a omis la phrase de la version espagnole reconnaissant la « souveraineté inaliénable » du Panama, et la chancellerie a demandé à l’ambassade de l’ajouter. ([Acento/BBC Mundo](https://acento.com.do/bbc-news-mundo/panama-permitira-a-ee-uu-incrementar-su-presencia-militar-en-su-territorio-segun-un-memorando-firmado-con-el-gobierno-de-trump-9483074.html), [SolarDaily](https://spacewar.com/panama-deal-allows-us-to-deploy-troops-to-canal-999/))",
+          gn: "memorando Hegseth osignáva omoneĩ fuerza estadounidense oipuru instalación Rodman, Howard ha Fort Sherman, canal-pe Estados Unidos área militar ypykuegua, entrenamiento ha ejercicio-rã, base permanente’ỹre; Hegseth heʼi Estados Unidos ikatuha “ombojevy” base “invitación rupi” ha omoambue tropa. Comunicado inglés-pe ndojeikóri frase español-pe oikuaa vaʼekue Panamá “soberanía irrenunciable”, ha cancillería ojerure embajada-pe omoĩ hag̃ua. ([Acento/BBC Mundo](https://acento.com.do/bbc-news-mundo/panama-permitira-a-ee-uu-incrementar-su-presencia-militar-en-su-territorio-segun-un-memorando-firmado-con-el-gobierno-de-trump-9483074.html), [SolarDaily](https://spacewar.com/panama-deal-allows-us-to-deploy-troops-to-canal-999/))",
+          qu: "Hegsethpa siqichasqan memorandoqa estadounidense kallpakuna Rodman, Howard Fort Sherman nisqa instalacionkunata, canalpi ñawpaq Estados Unidospa militar kitikunata, yachachinapaq ejercicionkunapaqwan llamk’achinankuta saqin, mana wiñaypaq basekunawan; Hegsethqa Estados Unidosqa basekunata “invitacionwan kawsarichiyta” tropakunatapas tikrachiyta atinman nirqan. Inglés willakuypiqa mana kasqachu español willakuypi Panamapa “mana saqeyta atiy soberaniantam” reqsiq rimay, cancilleriataq embajadata yapananta mañarqan. ([Acento/BBC Mundo](https://acento.com.do/bbc-news-mundo/panama-permitira-a-ee-uu-incrementar-su-presencia-militar-en-su-territorio-segun-un-memorando-firmado-con-el-gobierno-de-trump-9483074.html), [SolarDaily](https://spacewar.com/panama-deal-allows-us-to-deploy-troops-to-canal-999/))",
+          ht: "memorandòm Hegseth te siyen an pèmèt fòs ameriken itilize enstalasyon tankou Rodman, Howard ak Fort Sherman, ansyen zòn militè Etazini nan kanal la, pou fòmasyon ak egzèsis, san baz pèmanan; Hegseth te di Etazini te ka “resisite” baz “sou envitasyon” epi woule twoup. Vèsyon anglè kominike a te omèt fraz vèsyon espanyòl la ki te rekonèt “souverènte ki pa ka transfere” Panama a, epi chanselri a te mande anbasad la ajoute l. ([Acento/BBC Mundo](https://acento.com.do/bbc-news-mundo/panama-permitira-a-ee-uu-incrementar-su-presencia-militar-en-su-territorio-segun-un-memorando-firmado-con-el-gobierno-de-trump-9483074.html), [SolarDaily](https://spacewar.com/panama-deal-allows-us-to-deploy-troops-to-canal-999/))",
+        },
+      },
+    ],
+    impact: {
+      text: {
+        es: "Ejercicio Panamax 2026 de defensa del canal; cumbre del Escudo en el país.",
+        pt: "Exercício Panamax 2026 de defesa do canal; cúpula do Escudo no país.",
+        fr: "Exercice Panamax 2026 de défense du canal ; sommet du Bouclier dans le pays.",
+        gn: "Ejercicio Panamax 2026 kanal defensa g̃uarã; Escudo cumbre tetã-pe.",
+        qu: "Canalpa defensanpaq Panamax 2026 ejercicio; suyupi Escudop cumbren.",
+        ht: "Egzèsis Panamax 2026 pou defans kanal la; sonmè Boukliye a nan peyi a.",
+      },
+    },
+    sources: [
+      {
+        title: "Acento/BBC Mundo: Panamá permitirá aos EUA aumentar sua presença militar, segundo memorando",
+        url: "https://acento.com.do/bbc-news-mundo/panama-permitira-a-ee-uu-incrementar-su-presencia-militar-en-su-territorio-segun-un-memorando-firmado-con-el-gobierno-de-trump-9483074.html",
+        note: {
+          es: "reportaje (10/04/2025); derechos reservados",
+          pt: "reportagem (10/04/2025); direitos reservados",
+          fr: "reportage (10/04/2025) ; droits réservés",
+          gn: "reportaje (10/04/2025); derecho reservado",
+          qu: "willakuy (10/04/2025); derechokuna waqaychasqa",
+          ht: "repòtaj (10/04/2025); dwa rezève",
+        },
+      },
+      {
+        title: "SolarDaily/AFP: acordo do Panamá permite que os EUA destaquem tropas ao canal",
+        url: "https://spacewar.com/panama-deal-allows-us-to-deploy-troops-to-canal-999/",
+        note: {
+          es: "reportaje (04/2025); derechos reservados",
+          pt: "reportagem (04/2025); direitos reservados",
+          fr: "reportage (04/2025) ; droits réservés",
+          gn: "reportaje (04/2025); derecho reservado",
+          qu: "willakuy (04/2025); derechokuna waqaychasqa",
+          ht: "repòtaj (04/2025); dwa rezève",
+        },
+      },
+    ],
+  },
   period: {
     es: "1903–1999",
     pt: "1903–1999",
@@ -19,7 +137,7 @@ const content: CountryContentType = {
   },
   happened: {
     es: "En 1903, Panamá se separó de Colombia. Semanas después, un tratado dio a Estados Unidos la Zona del Canal “a perpetuidad”. En 1964, protestas por la soberanía de la zona dejaron muertos panameños. En los años ochenta, el general Manuel Noriega, antiguo informante de la CIA, dominaba el país; en mayo de 1989, anuló una elección ganada por la oposición.",
-    pt: "Em 1903, o Panamá se separou da Colômbia. Semanas depois, um tratado deu aos EUA a Zona do Canal \"em perpetuidade\". Em 1964, protestos pela soberania da zona deixaram mortos panamenhos. Nos anos 1980, o general Manuel Noriega, antigo informante da CIA, dominava o país; em maio de 1989, anulou uma eleição vencida pela oposição.",
+    pt: 'Em 1903, o Panamá se separou da Colômbia. Semanas depois, um tratado deu aos EUA a Zona do Canal "em perpetuidade". Em 1964, protestos pela soberania da zona deixaram mortos panamenhos. Nos anos 1980, o general Manuel Noriega, antigo informante da CIA, dominava o país; em maio de 1989, anulou uma eleição vencida pela oposição.',
     fr: "En 1903, le Panama s’est séparé de la Colombie. Quelques semaines plus tard, un traité a donné aux États-Unis la zone du canal « à perpétuité ». En 1964, des manifestations pour la souveraineté sur la zone ont fait des morts panaméens. Dans les années 1980, le général Manuel Noriega, ancien informateur de la CIA, dominait le pays ; en mai 1989, il a annulé une élection remportée par l’opposition.",
     gn: "1903-pe, Panamá osẽ Colombia-gui. Semana rire, peteĩ tratado ome’ẽ Estados Unidos-pe Zona del Canal “opa’ỹva”. 1964-pe, protesta soberanía zona rehe omoĩ panameño omano. 1980-pe, general Manuel Noriega, CIA informante ypyguáva, ogobierna tetã; jasypo 1989-pe, oanula elección oposición ohupytýva.",
     qu: "1903 watapi Panamáqa Colombiamanta t’aqakurqan. Hukllamanta semanas qhipata huk tratadoqa Estados Unidosman Zona del Canalta “wiñaypaq” qurqan. 1964 watapi zonapa kamachikuyninmanta protestakunaqa panameñokunata wañuchirqan. 1980 watakunapi general Manuel Noriega, ñawpaq CIA willaqqa, suyuta kamachirqan; 1989 mayo killapi oposicion atipasqan akllayta chinkachirqan.",
@@ -37,7 +155,7 @@ const content: CountryContentType = {
       },
       text: {
         es: "buques estadounidenses protegieron a los separatistas panameños. El tratado Hay–Bunau-Varilla, firmado en Washington por un francés que ni siquiera era panameño, dio a Estados Unidos la Zona del Canal “a perpetuidad”, con soberanía de hecho sobre una franja que cortaba el país por la mitad.",
-        pt: "navios americanos protegeram os separatistas panamenhos. O tratado Hay–Bunau-Varilla, assinado em Washington por um francês que nem era panamenho, deu aos EUA a Zona do Canal \"em perpetuidade\", com soberania de fato sobre uma faixa que cortava o país ao meio.",
+        pt: 'navios americanos protegeram os separatistas panamenhos. O tratado Hay–Bunau-Varilla, assinado em Washington por um francês que nem era panamenho, deu aos EUA a Zona do Canal "em perpetuidade", com soberania de fato sobre uma faixa que cortava o país ao meio.',
         fr: "des navires américains ont protégé les séparatistes panaméens. Le traité Hay–Bunau-Varilla, signé à Washington par un Français qui n’était même pas panaméen, a donné aux États-Unis la zone du canal « à perpétuité », avec une souveraineté de fait sur une bande qui coupait le pays en deux.",
         gn: "barco norteamericano oñangareko separatista panameño kuérape. Tratado Hay–Bunau-Varilla, Washington-pe osẽva peteĩ francés panameño’ỹva, ome’ẽ Estados Unidos-pe Zona del Canal “opa’ỹva”, soberanía de hecho yvy pehẽngue tetã mbyte-pe oikóva.",
         qu: "Estados Unidosmanta barcokunaqa panameño t’aqakuqkunata harkarqanku. Washingtonpi panameñopas mana kaq huk francesq firmasqan Hay–Bunau-Varilla tratadoqa Estados Unidosman Zona del Canalta “wiñaypaq” qurqan, suyuta iskayman t’aqaq huk siq’iman chiqap kamachikuyniyuq.",

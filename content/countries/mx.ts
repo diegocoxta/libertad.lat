@@ -1,6 +1,107 @@
 import type { CountryContentType } from "~/lib/country-content";
 
 const content: CountryContentType = {
+  latest: {
+    period: {
+      es: "2026",
+      pt: "2026",
+      fr: "2026",
+      gn: "2026",
+      qu: "2026",
+      ht: "2026",
+    },
+    summary: {
+      es: "Presión militar y designación de cárteles como terroristas: en febrero de 2026, militares mexicanos mataron a “El Mencho” con inteligencia estadounidense, y Trump reivindicó la operación.",
+      pt: 'Pressão militar e designação de cartéis como terroristas: em fevereiro de 2026, militares mexicanos mataram "El Mencho" com inteligência americana, e Trump reivindicou a operação.',
+      fr: "Pression militaire et désignation de cartels comme terroristes : en février 2026, des militaires mexicains ont tué « El Mencho » avec des renseignements américains, et Trump a revendiqué l’opération.",
+      gn: "Presión militar ha cartel terrorista ramo ojehero: jasykõi 2026-pe, militar mexicano ojuka “El Mencho” inteligencia estadounidense ndive ha Trump heʼi ha’e ojapo hague.",
+      qu: "Militar presionkuna cartelkunata terrorista nispa sutichaykuna: febrero 2026 killapi mexicano militarkunaqa “El Menchota” Estados Unidosmanta inteligenciawan wañuchirqanku, Trumptaq ruwayta paypaq nirqan.",
+      ht: "Presyon militè ak deziyasyon katèl kòm teworis: an fevriye 2026, militè meksiken te touye “El Mencho” ak entèlijans ameriken, epi Trump te revandike operasyon an.",
+    },
+    happened: {
+      es: "El 22 de febrero de 2026, militares mexicanos mataron a “El Mencho”, jefe del Cártel Jalisco Nueva Generación (CJNG).",
+      pt: 'Em 22 de fevereiro de 2026, militares mexicanos mataram "El Mencho", chefe do Cartel Jalisco Nova Geração (CJNG).',
+      fr: "Le 22 février 2026, des militaires mexicains ont tué « El Mencho », chef du Cartel Jalisco Nouvelle Génération (CJNG).",
+      gn: "22 jasykõi 2026-pe, militar mexicano ojuka “El Mencho”, Cártel Jalisco Nueva Generación (CJNG) ruvicha.",
+      qu: "22 de febrero 2026 p’unchawpi mexicano militarkunaqa “El Menchota”, Cártel Jalisco Nueva Generación (CJNG) umalliqta, wañuchirqanku.",
+      ht: "Le 22 fevriye 2026, militè meksiken te touye “El Mencho”, chèf Katèl Jalisco Nouvèl Jenerasyon an (CJNG).",
+    },
+    usActions: [
+      {
+        label: {
+          es: "“El Mencho” (22 de febrero)",
+          pt: '"El Mencho" (22 de fevereiro)',
+          fr: "« El Mencho » (22 février)",
+          gn: "“El Mencho” (22 jasykõi)",
+          qu: "“El Mencho” (22 de febrero)",
+          ht: "“El Mencho” (22 fevriye)",
+        },
+        text: {
+          es: "militares mexicanos matan a “El Mencho”, jefe del CJNG, con inteligencia estadounidense; Trump reivindica la operación y Sheinbaum lo desmiente. ([La Estrella de Panamá](https://www.laestrella.com.pa/mundo/sheinbaum-revela-llamada-con-trump-y-desmiente-que-estados-unidos-eliminara-a-el-mencho-FE20242241))",
+          pt: 'militares mexicanos matam "El Mencho", chefe do CJNG, com inteligência americana; Trump reivindica a operação, e Sheinbaum o desmente. ([La Estrella de Panamá](https://www.laestrella.com.pa/mundo/sheinbaum-revela-llamada-con-trump-y-desmiente-que-estados-unidos-eliminara-a-el-mencho-FE20242241))',
+          fr: "des militaires mexicains tuent « El Mencho », chef du CJNG, avec des renseignements américains ; Trump revendique l’opération et Sheinbaum le dément. ([La Estrella de Panamá](https://www.laestrella.com.pa/mundo/sheinbaum-revela-llamada-con-trump-y-desmiente-que-estados-unidos-eliminara-a-el-mencho-FE20242241))",
+          gn: "militar mexicano ojuka “El Mencho”, CJNG ruvicha, inteligencia norteamericana ndive; Trump heʼi ha’e ojapoha ha Sheinbaum onega. ([La Estrella de Panamá](https://www.laestrella.com.pa/mundo/sheinbaum-revela-llamada-con-trump-y-desmiente-que-estados-unidos-eliminara-a-el-mencho-FE20242241))",
+          qu: "mexicano militarkunaqa “El Mencho”ta wañuchinku, CJNGpa umalliqnin, Estados Unidosmanta inteligenciawan; Trumpqa operaciontaqa paypam nin hinaspa Sheinbaumqa negan. ([La Estrella de Panamá](https://www.laestrella.com.pa/mundo/sheinbaum-revela-llamada-con-trump-y-desmiente-que-estados-unidos-eliminara-a-el-mencho-FE20242241))",
+          ht: "militè meksiken touye “El Mencho”, chèf CJNG a, ak entèlijans ameriken; Trump revandike operasyon an, epi Sheinbaum demanti l. ([La Estrella de Panamá](https://www.laestrella.com.pa/mundo/sheinbaum-revela-llamada-con-trump-y-desmiente-que-estados-unidos-eliminara-a-el-mencho-FE20242241))",
+        },
+      },
+      {
+        label: {
+          es: "Política interna estadounidense",
+          pt: "Política interna americana",
+          fr: "Politique intérieure américaine",
+          gn: "Estados Unidos política interna",
+          qu: "Estados Unidospa ukhu politican",
+          ht: "Politik entèn ameriken",
+        },
+        text: {
+          es: "la ofensiva ocurre en el año de las elecciones de medio mandato en Estados Unidos, el 3 de noviembre. Trump reivindicó en el discurso del Estado de la Unión la muerte de “El Mencho”, operación que México dice haber ejecutado solo con inteligencia estadounidense.",
+          pt: 'a ofensiva ocorre no ano das eleições de meio de mandato nos EUA, em 3 de novembro. Trump reivindicou no discurso do Estado da União a morte de "El Mencho", operação que o México diz ter executado sozinho com inteligência americana.',
+          fr: "l’offensive a lieu l’année des élections de mi-mandat aux États-Unis, le 3 novembre. Trump a revendiqué dans le discours sur l’état de l’Union la mort d’« El Mencho », opération que le Mexique dit avoir menée seul avec des renseignements américains.",
+          gn: "ofensiva oiko elección de medio mandato Estados Unidos-pe áño-pe, jasypateĩ 3-pe. Trump heʼi discurso Estado de la Unión-pe “El Mencho” ñemano ha’e rembiapoha, operación México heʼíva ha’e añoite ojapoha inteligencia norteamericana ndive.",
+          qu: "ofensivaqa Estados Unidospi chawpi kamachikuy akllaykunapa watanpi kachkan, 3 de noviembrepi. Trumpqa Estado de la Unión rimayninpi “El Mencho”pa wañuyninta paypam nisqa hina nirqan, Méxicotaq inteligencia americanowan sapallanmi ruwasqanta nin.",
+          ht: "ofansiv la fèt nan ane eleksyon mitan manda yo nan Etazini, 3 novanm. Trump te revandike lanmò “El Mencho” nan diskou Eta Inyon an, yon operasyon Meksik di li te fè poukont li ak entèlijans ameriken.",
+        },
+      },
+    ],
+    impact: {
+      text: {
+        es: "Cooperación de inteligencia en la muerte de “El Mencho”, seguida de una ola de violencia con decenas de muertos, entre ellos 25 militares; disputa pública sobre soberanía. ([Última Hora](https://www.ultimahora.com/sheinbaum-revela-que-hablo-con-trump-tras-el-operativo-en-el-que-murio-el-mencho))",
+        pt: 'Cooperação em inteligência na morte de "El Mencho", seguida de onda de violência com dezenas de mortos, entre eles 25 militares; disputa pública sobre soberania. ([Última Hora](https://www.ultimahora.com/sheinbaum-revela-que-hablo-con-trump-tras-el-operativo-en-el-que-murio-el-mencho))',
+        fr: "Coopération en matière de renseignement lors de la mort d’« El Mencho », suivie d’une vague de violence faisant des dizaines de morts, dont 25 militaires ; dispute publique sur la souveraineté. ([Última Hora](https://www.ultimahora.com/sheinbaum-revela-que-hablo-con-trump-tras-el-operativo-en-el-que-murio-el-mencho))",
+        gn: "Cooperación inteligencia “El Mencho” ñemano-pe, upe rire ola violencia heta omano ndive, 25 militar apytépe; disputa pública soberanía rehe. ([Última Hora](https://www.ultimahora.com/sheinbaum-revela-que-hablo-con-trump-tras-el-operativo-en-el-que-murio-el-mencho))",
+        qu: "“El Mencho” wañuyninpi inteligencia yanapay, chaymanta chunkakunapi wañusqakunawan violencia ola, paykuna ukhupi 25 militar; soberaniamanta publico tinkuy. ([Última Hora](https://www.ultimahora.com/sheinbaum-revela-que-hablo-con-trump-tras-el-operativo-en-el-que-murio-el-mencho))",
+        ht: "Kowoperasyon entèlijans nan lanmò “El Mencho”, swiv pa yon vag vyolans ak dizèn de mò, ki gen 25 militè ladan yo; dispit piblik sou souverènte. ([Última Hora](https://www.ultimahora.com/sheinbaum-revela-que-hablo-con-trump-tras-el-operativo-en-el-que-murio-el-mencho))",
+      },
+    },
+    sources: [
+      {
+        title:
+          'La Estrella de Panamá: Sheinbaum revela chamada com Trump e desmente que os EUA tenham eliminado "El Mencho"',
+        url: "https://www.laestrella.com.pa/mundo/sheinbaum-revela-llamada-con-trump-y-desmiente-que-estados-unidos-eliminara-a-el-mencho-FE20242241",
+        note: {
+          es: "reportaje; derechos reservados",
+          pt: "reportagem; direitos reservados",
+          fr: "reportage ; droits réservés",
+          gn: "reportaje; derecho reservado",
+          qu: "willakuy; derechokuna waqaychasqa",
+          ht: "repòtaj; dwa rezève",
+        },
+      },
+      {
+        title: 'Última Hora: Sheinbaum revela que falou com Trump após a operação em que morreu "El Mencho"',
+        url: "https://www.ultimahora.com/sheinbaum-revela-que-hablo-con-trump-tras-el-operativo-en-el-que-murio-el-mencho",
+        note: {
+          es: "reportaje; derechos reservados",
+          pt: "reportagem; direitos reservados",
+          fr: "reportage ; droits réservés",
+          gn: "reportaje; derecho reservado",
+          qu: "willakuy; derechokuna waqaychasqa",
+          ht: "repòtaj; dwa rezève",
+        },
+      },
+    ],
+  },
   period: {
     es: "1846–1917",
     pt: "1846–1917",

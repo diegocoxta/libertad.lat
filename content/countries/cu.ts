@@ -1,6 +1,156 @@
 import type { CountryContentType } from "~/lib/country-content";
 
 const content: CountryContentType = {
+  latest: {
+    period: {
+      es: "2026",
+      pt: "2026",
+      fr: "2026",
+      gn: "2026",
+      qu: "2026",
+      ht: "2026",
+    },
+    summary: {
+      es: "Las sanciones se mantuvieron y, en 2026, se endurecieron con un bloqueo petrolero y sanciones a la estatal Cupet.",
+      pt: "As sanções se mantiveram e, em 2026, foram endurecidas com um bloqueio de petróleo e sanções à estatal Cupet.",
+      fr: "Les sanctions se sont maintenues et, en 2026, elles ont été durcies par un blocus pétrolier et des sanctions contre l’entreprise d’État Cupet.",
+      gn: "Sanción opyta ha, 2026-pe, ojejapo mbarete bloqueo petrolero ha Cupet estatal sanción ndive.",
+      qu: "Sancionkunaqa kaqllam karqan, 2026 watapitaq petróleo harkaywan hinallataq Cupet estatal empresaman sancionkunawan sinchiyachisqa karqan.",
+      ht: "Sanksyon yo te kenbe epi, an 2026, yo te vin pi di ak yon blokis petwòl ak sanksyon kont konpayi leta Cupet la.",
+    },
+    happened: {
+      es: "Tras la caída de Maduro, Cuba perdió a su principal proveedor de petróleo y quedó en la mira de Washington.",
+      pt: "Depois da queda de Maduro, Cuba perdeu seu principal fornecedor de petróleo e passou a ser alvo de Washington.",
+      fr: "Après la chute de Maduro, Cuba a perdu son principal fournisseur de pétrole et est devenue la cible de Washington.",
+      gn: "Maduro ho’a rire, Cuba omano hague hembipota petróleo ome’ẽva ha oiko Washington objetivo.",
+      qu: "Maduro urmaptin Cubaqa hatun petróleo quqninta chinkarqan, Washingtonpa qhawasqan kapurqantaq.",
+      ht: "Apre Maduro te tonbe, Kiba te pèdi gwo founisè petwòl li a epi li te vin sib Washington.",
+    },
+    usActions: [
+      {
+        label: {
+          es: "Orden Ejecutiva 14380 (29 de enero, tras la caída de Maduro)",
+          pt: "Ordem Executiva 14380 (29 de janeiro, após a queda de Maduro)",
+          fr: "Décret 14380 (29 janvier, après la chute de Maduro)",
+          gn: "Orden Ejecutiva 14380 (29 jasyteĩ, Maduro ho’a rire)",
+          qu: "Orden Ejecutiva 14380 (29 de enero, Maduro urmaptin)",
+          ht: "Dekrè Egzekitif 14380 (29 janvye, apre Maduro tonbe)",
+        },
+        text: {
+          es: "declaró que la situación con Cuba constituye “una amenaza inusual y extraordinaria” para la seguridad nacional y la política exterior de Estados Unidos y autorizó aranceles adicionales sobre los productos de cualquier país que venda o suministre petróleo a Cuba, directa o indirectamente. ([Casa Blanca](https://whitehouse.gov/presidential-actions/2026/01/addressing-threats-to-the-united-states-by-the-government-of-cuba))",
+          pt: 'declarou que a situação com Cuba constitui "uma ameaça incomum e extraordinária" à segurança nacional e à política externa dos EUA e autorizou tarifas adicionais sobre produtos de qualquer país que venda ou forneça petróleo a Cuba, direta ou indiretamente. ([Casa Branca](https://whitehouse.gov/presidential-actions/2026/01/addressing-threats-to-the-united-states-by-the-government-of-cuba))',
+          fr: "elle a déclaré que la situation à Cuba constitue « une menace inhabituelle et extraordinaire » pour la sécurité nationale et la politique étrangère des États-Unis et autorisé des droits de douane supplémentaires sur les produits de tout pays qui vend ou fournit du pétrole à Cuba, directement ou indirectement. ([Maison-Blanche](https://whitehouse.gov/presidential-actions/2026/01/addressing-threats-to-the-united-states-by-the-government-of-cuba))",
+          gn: "heʼi Cuba rehegua situación ha’eha “amenaza inusual ha extraordinaria” Estados Unidos seguridad nacional ha política exterior-pe ha omoneĩ arancel adicional producto kuéra opaite tetã ovendéva térã ome’ẽva petróleo Cuba-pe, directa térã indirecta. ([Casa Blanca](https://whitehouse.gov/presidential-actions/2026/01/addressing-threats-to-the-united-states-by-the-government-of-cuba))",
+          qu: "Cuba kasqanta Estados Unidospa suyu seguridadninpaq hinallataq hawa politicanpaq “mana kikinniyuq hinallataq hatun manchay” nispa willarqan, hinallataq Cubaman petróleota rantiq qoqpas directa mana directa kaqpas suyukunap productonkunaman yapasqa aranceleskunata saqirqan. ([Casa Blanca](https://whitehouse.gov/presidential-actions/2026/01/addressing-threats-to-the-united-states-by-the-government-of-cuba))",
+          ht: "li te deklare ke sitiyasyon ak Kiba a konstitye “yon menas ensolit ak ekstraòdinè” pou sekirite nasyonal ak politik etranjè Etazini epi li te otorize tarif adisyonèl sou pwodui nenpòt peyi ki vann oswa ki bay Kiba petwòl, dirèkteman oswa endirèkteman. ([Mezon Blanch](https://whitehouse.gov/presidential-actions/2026/01/addressing-threats-to-the-united-states-by-the-government-of-cuba))",
+        },
+      },
+      {
+        label: {
+          es: "Cupet (junio)",
+          pt: "Cupet (junho)",
+          fr: "Cupet (juin)",
+          gn: "Cupet (jasypoteĩ)",
+          qu: "Cupet (junio)",
+          ht: "Cupet (jen)",
+        },
+        text: {
+          es: "el Tesoro (OFAC) incluyó a la estatal Cupet en la lista de sancionados; personas y empresas extranjeras que hagan negocios con ella corren el riesgo de ser sancionadas. ([Bernama](https://www.bernama.com/es/otras.php?id=2567592))",
+          pt: "o Tesouro (OFAC) incluiu a estatal Cupet na lista de sancionados; pessoas e empresas estrangeiras que façam negócios com ela correm o risco de ser sancionadas. ([Bernama](https://www.bernama.com/es/otras.php?id=2567592))",
+          fr: "le Trésor (OFAC) a inscrit l’entreprise d’État Cupet sur la liste des sanctionnés ; les personnes et entreprises étrangères qui font affaire avec elle risquent d’être sanctionnées. ([Bernama](https://www.bernama.com/es/otras.php?id=2567592))",
+          gn: "Tesoro (OFAC) omoĩ Cupet estatal lista sancionado-pe; tapicha ha empresa extranjera ojapóva negocio hendive oĩ riesgo ojesanciona. ([Bernama](https://www.bernama.com/es/otras.php?id=2567592))",
+          qu: "Tesoroqa (OFAC) Cupet estatalta sancionasqakunap listanman churarqan; hawa suyumanta runakuna empresakunapas paywan negociota ruwaqkunaqa sancionasqa kanankupaq manchakunku. ([Bernama](https://www.bernama.com/es/otras.php?id=2567592))",
+          ht: "Trezò a (OFAC) te mete konpayi leta Cupet sou lis sanksyone yo; moun ak konpayi etranje ki fè afè avè l riske pran sanksyon. ([Bernama](https://www.bernama.com/es/otras.php?id=2567592))",
+        },
+      },
+    ],
+    impact: {
+      text: {
+        es: "Apagones, falta de combustible para hospitales y transporte, escasez de alimentos, salida de empresas y nueva ola de emigración.",
+        pt: "Apagões, falta de combustível para hospitais e transporte, escassez de alimentos, saída de empresas e nova onda de emigração.",
+        fr: "Pannes d’électricité, manque de carburant pour les hôpitaux et les transports, pénurie alimentaire, départ d’entreprises et nouvelle vague d’émigration.",
+        gn: "Tesape’ỹ, hospital ha transporte g̃uarã combustible’ỹ, tembi’u ndaipóri, empresa ojeho ha ambue ola emigración.",
+        qu: "Mana k’anchay, hospitalkunapaq hinallataq transportepaq mana combustible, mikhuy pisiy, empresakuna lluqsiy hinallataq musuq emigracion ola.",
+        ht: "Pàn kouran, mank gaz pou lopital ak transpò, mank manje, konpayi ki kite peyi a ak yon nouvo vag emigrasyon.",
+      },
+      items: [
+        {
+          label: {
+            es: "Apagones y combustible",
+            pt: "Apagões e combustível",
+            fr: "Coupures et carburant",
+            gn: "Apagón ha combustible",
+            qu: "Apagonkuna hinallataq combustible",
+            ht: "Blakawout ak gaz",
+          },
+          text: {
+            es: "el artículo habla de apagones de 20 a 22 horas diarias, sin citar fuente, y de escasez de diésel y fueloil en mayo. ([El Diario de Hoy](https://www.eldiariodehoy.com/?p=77820))",
+            pt: "a reportagem fala em apagões de 20 a 22 horas por dia, sem citar fonte, e em falta de diesel e óleo combustível em maio. ([El Diario de Hoy](https://www.eldiariodehoy.com/?p=77820))",
+            fr: "l’article parle de coupures de 20 à 22 heures par jour, sans citer de source, et d’une pénurie de diesel et de fioul en mai. ([El Diario de Hoy](https://www.eldiariodehoy.com/?p=77820))",
+            gn: "artículo oñeʼẽ apagón 20 guive 22 hora ára-pe, fuente’ỹre, ha diésel ha fueloil ñandu’ỹ jasypo-pe. ([El Diario de Hoy](https://www.eldiariodehoy.com/?p=77820))",
+            qu: "qillqaqa p’unchawpi 20 manta 22 horakama mana k’anchaymanta rimarqan, mana willakuq rikuchispa, hinallataq mayo killapi diésel fueloilpas pisiyaymanta. ([El Diario de Hoy](https://www.eldiariodehoy.com/?p=77820))",
+            ht: "atik la pale de blakawout 20 a 22 èdtan pa jou, san site sous, ak mank dyezèl ak fyoul an me. ([El Diario de Hoy](https://www.eldiariodehoy.com/?p=77820))",
+          },
+        },
+        {
+          label: {
+            es: "Empresas extranjeras",
+            pt: "Empresas estrangeiras",
+            fr: "Entreprises étrangères",
+            gn: "Empresa extranjera",
+            qu: "Hawa suyu empresakuna",
+            ht: "Konpayi etranje",
+          },
+          text: {
+            es: "la agencia Bernama cita la salida parcial o total de Sherritt, Meliá, Blue Diamond, Iberostar e Iberia, atribuida al conjunto de las medidas. ([Bernama](https://www.bernama.com/es/otras.php?id=2567592))",
+            pt: "a agência Bernama cita a saída parcial ou total de Sherritt, Meliá, Blue Diamond, Iberostar e Iberia, atribuída ao conjunto das medidas. ([Bernama](https://www.bernama.com/es/otras.php?id=2567592))",
+            fr: "l’agence Bernama cite le retrait partiel ou total de Sherritt, Meliá, Blue Diamond, Iberostar et Iberia, attribué à l’ensemble des mesures. ([Bernama](https://www.bernama.com/es/otras.php?id=2567592))",
+            gn: "agencia Bernama ohero Sherritt, Meliá, Blue Diamond, Iberostar ha Iberia osẽ parcial térã opaite, medida kuéra rehe. ([Bernama](https://www.bernama.com/es/otras.php?id=2567592))",
+            qu: "Bernama agenciaqa Sherritt, Meliá, Blue Diamond, Iberostar Iberiawan pisi chaypas lliw lluqsisqankumanta willarqan, tukuy medidakunamanta. ([Bernama](https://www.bernama.com/es/otras.php?id=2567592))",
+            ht: "ajans Bernama site wetre pasyèl oswa total Sherritt, Meliá, Blue Diamond, Iberostar ak Iberia, ki atribiye a tout mezi yo. ([Bernama](https://www.bernama.com/es/otras.php?id=2567592))",
+          },
+        },
+      ],
+    },
+    sources: [
+      {
+        title: 'Casa Branca: Ordem Executiva 14380, "Enfrentando ameaças aos Estados Unidos pelo governo de Cuba"',
+        url: "https://whitehouse.gov/presidential-actions/2026/01/addressing-threats-to-the-united-states-by-the-government-of-cuba",
+        note: {
+          es: "dominio público",
+          pt: "domínio público",
+          fr: "domaine public",
+          gn: "dominio público",
+          qu: "dominio público",
+          ht: "domèn piblik",
+        },
+      },
+      {
+        title: "El Diario de Hoy: a Ordem Executiva 14380 e o bloqueio petrolífero contra Cuba",
+        url: "https://www.eldiariodehoy.com/?p=77820",
+        note: {
+          es: "reportaje; derechos reservados",
+          pt: "reportagem; direitos reservados",
+          fr: "reportage ; droits réservés",
+          gn: "reportaje; derecho reservado",
+          qu: "willakuy; derechokuna waqaychasqa",
+          ht: "repòtaj; dwa rezève",
+        },
+      },
+      {
+        title: "Bernama/Telesur: sanções à Cupet e outras medidas contra Cuba",
+        url: "https://www.bernama.com/es/otras.php?id=2567592",
+        note: {
+          es: "reportaje (12/06/2026); derechos reservados",
+          pt: "reportagem (12/06/2026); direitos reservados",
+          fr: "reportage (12/06/2026) ; droits réservés",
+          gn: "reportaje (12/06/2026); derecho reservado",
+          qu: "willakuy (12/06/2026); derechokuna waqaychasqa",
+          ht: "repòtaj (12/06/2026); dwa rezève",
+        },
+      },
+    ],
+  },
   period: {
     es: "1898–2026",
     pt: "1898–2026",
@@ -163,7 +313,7 @@ const content: CountryContentType = {
       },
       text: {
         es: "el 29 de enero, Trump firmó la Orden Ejecutiva 14380, declarando a Cuba una “amenaza extraordinaria” y amenazando con aranceles y sanciones a cualquier país que le suministrara petróleo. En febrero, liberó ventas solo a empresas privadas, no al gobierno. En junio, puso a la petrolera estatal Cupet en la lista de sanciones. ([El Diario de Hoy](https://www.eldiariodehoy.com/?p=77820), [Bernama](https://www.bernama.com/es/otras.php?id=2567592))",
-        pt: "em 29 de janeiro, Trump assinou a Ordem Executiva 14380, declarando Cuba uma \"ameaça extraordinária\" e ameaçando com tarifas e sanções qualquer país que lhe fornecesse petróleo. Em fevereiro, liberou vendas apenas a empresas privadas, não ao governo. Em junho, colocou a estatal de petróleo Cupet na lista de sanções. ([El Diario de Hoy](https://www.eldiariodehoy.com/?p=77820), [Bernama](https://www.bernama.com/es/otras.php?id=2567592))",
+        pt: 'em 29 de janeiro, Trump assinou a Ordem Executiva 14380, declarando Cuba uma "ameaça extraordinária" e ameaçando com tarifas e sanções qualquer país que lhe fornecesse petróleo. Em fevereiro, liberou vendas apenas a empresas privadas, não ao governo. Em junho, colocou a estatal de petróleo Cupet na lista de sanções. ([El Diario de Hoy](https://www.eldiariodehoy.com/?p=77820), [Bernama](https://www.bernama.com/es/otras.php?id=2567592))',
         fr: "le 29 janvier, Trump a signé le décret 14380, déclarant Cuba une « menace extraordinaire » et menaçant de droits de douane et de sanctions tout pays qui lui fournirait du pétrole. En février, il a autorisé les ventes uniquement aux entreprises privées, pas au gouvernement. En juin, il a placé l’entreprise pétrolière publique Cupet sur la liste des sanctions. ([El Diario de Hoy](https://www.eldiariodehoy.com/?p=77820), [Bernama](https://www.bernama.com/es/otras.php?id=2567592))",
         gn: "29 de enero-pe, Trump osẽ Decreto 14380, ohenói Cuba “amenaza extraordinaria” ha omoĩ arancel ha sanción tetã ome’ẽva petróleo chupe. Jasykõi-pe, oheja ñevende empresa privada-pe añoite, gobierno-pe nahániri. Jasypoteĩ-pe, omoĩ empresa petrolera estatal Cupet lista de sanciones-pe. ([El Diario de Hoy](https://www.eldiariodehoy.com/?p=77820), [Bernama](https://www.bernama.com/es/otras.php?id=2567592))",
         qu: "enero killapi 29 p’unchawpi Trumpqa 14380 Decretota firmarqan, Cubata “mana kaq manchay” nispa willaspa hinallataq petróleota qukuq mayqin suyutapas aranceleskunawan sancionkunawan manchachispa. Febrero killapi privada empresakunallaman rantichiyta saqirqan, gobiernoman manam. Junio killapi petroleo estatal empresa Cupetta sancion listaman churarqan. ([El Diario de Hoy](https://www.eldiariodehoy.com/?p=77820), [Bernama](https://www.bernama.com/es/otras.php?id=2567592))",
@@ -220,7 +370,7 @@ const content: CountryContentType = {
         },
         text: {
           es: "desde hace más de 60 años restringe el acceso a alimentos, medicinas y equipos médicos, y agravó el hambre y la escasez del “Período Especial” en los años noventa. La Asamblea General de la ONU lo condena casi por unanimidad todos los años.",
-          pt: "há mais de 60 anos restringe o acesso a alimentos, remédios e equipamentos médicos, e agravou a fome e a escassez do \"Período Especial\" nos anos 1990. A Assembleia Geral da ONU o condena quase por unanimidade todos os anos.",
+          pt: 'há mais de 60 anos restringe o acesso a alimentos, remédios e equipamentos médicos, e agravou a fome e a escassez do "Período Especial" nos anos 1990. A Assembleia Geral da ONU o condena quase por unanimidade todos os anos.',
           fr: "depuis plus de 60 ans, il restreint l’accès aux aliments, aux médicaments et aux équipements médicaux, et a aggravé la faim et les pénuries de la « période spéciale » des années 1990. L’Assemblée générale de l’ONU le condamne presque à l’unanimité chaque année.",
           gn: "60 áño hetave omboyke tembi’u, ñemoñe’ẽ ha equipo médico, ha omoĩ vai tembihu ha escasez “Período Especial” 1990-pe. ONU Asamblea General omboyke ary ary.",
           qu: "60 watamanta aswan mikhuyta, hampikunata hinallataq hampi llamk’anakunata hark’an, 1990 watakunapi “Período Especial” yarqaytapas pisiyaytapas aswanchirqan. ONU Asamblea Generalqa sapa wata yaqa llapanmanta paywan manan ninchu.",
