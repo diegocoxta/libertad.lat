@@ -1,6 +1,243 @@
 import type { CountryContentType } from "~/lib/country-content";
 
 const content: CountryContentType = {
+  latest: {
+    period: {
+      es: "2025–2026",
+      pt: "2025–2026",
+      fr: "2025–2026",
+      gn: "2025–2026",
+      qu: "2025–2026",
+      ht: "2025–2026",
+    },
+    summary: {
+      es: "Acusaciones de interferencia en la elección: aranceles y sanciones y, en la recta final de la contienda, la actuación de Meta, cuestionada por la Justicia Electoral, el MPF y expertos de la ONU.",
+      pt: "Acusações de interferência na eleição: tarifas e sanções e, na reta final da disputa, a atuação da Meta, questionada pela Justiça Eleitoral, pelo MPF e por especialistas da ONU.",
+      fr: "Accusations d’ingérence dans l’élection : droits de douane et sanctions puis, dans la dernière ligne droite, rôle de Meta, mise en cause par la justice électorale, le MPF et des experts de l’ONU.",
+      gn: "Elección-pe interferencia rehe acusación: arancel ha sanción ha, elección paha jave, Meta rembiapo, Justicia Electoral, MPF ha ONU-pegua especialista kuéra oporandúva.",
+      qu: "Akllaypi interferenciamanta huchachaykuna: aranceleskuna sancionkunawan, hinallataq akllay tukukuyninpi Metap ruwasqan, Justicia Electoralpa, MPFpa hinallataq ONUpa especialistankunap tapusqan.",
+      ht: "Akizasyon entèferans nan eleksyon an: tarif ak sanksyon epi, nan dènye liy dwat la, wòl Meta, ki kesyone pa Jistis Elektoral la, MPF ak ekspè ONI yo.",
+    },
+    happened: {
+      es: "En 2025, Estados Unidos impuso aranceles del 50 % a Brasil y, en 2026, nuevos aranceles del 25 %. Entre septiembre y octubre, senadores demócratas acusaron al gobierno de Trump de una campaña “multifacética de interferencia” en la elección presidencial.",
+      pt: 'Em 2025, os EUA impuseram tarifas de 50% ao Brasil e, em 2026, novas tarifas de 25%. Entre setembro e outubro, senadores democratas acusaram o governo Trump de uma campanha "multifacetada de interferência" na eleição presidencial.',
+      fr: "En 2025, les États-Unis ont imposé des droits de douane de 50 % au Brésil et, en 2026, de nouveaux droits de 25 %. En septembre et octobre, des sénateurs démocrates ont accusé le gouvernement Trump d’une campagne « multiforme d’ingérence » dans l’élection présidentielle.",
+      gn: "2025-pe, Estados Unidos omoĩ arancel 50% Brasil-pe ha 2026-pe arancel pyahu 25%. Jasyporundy ha jasypa mbytépe, senador demócrata kuéra oacusa Trump gobierno-pe peteĩ campaña “multifacética de interferencia” rehe elección presidencial-pe.",
+      qu: "2025 watapi Estados Unidosqa Brasilman 50 % aranceleta churarqan, 2026 watapitaq musuq 25 % aranceleta. Setiembre killamanta octubre killakama demócrata senadorkunaqa Trump gobiernota presidencial akllaypi “multifacética de interferencia” campañawan huchacharqanku.",
+      ht: "An 2025, Etazini te enpoze tarif 50% sou Brezil epi an 2026, nouvo tarif 25%. Ant septanm ak oktòb, senatè demokrat yo te akize gouvènman Trump la pou yon kanpay “miltifasèt entèferans” nan eleksyon prezidansyèl la.",
+    },
+    usActions: [
+      {
+        label: {
+          es: "Aranceles y designaciones (2025–2026)",
+          pt: "Tarifas e designações (2025–2026)",
+          fr: "Droits de douane et désignations (2025–2026)",
+          gn: "Arancel ha designación (2025–2026)",
+          qu: "Aranceleskuna hinallataq sutichaykuna (2025–2026)",
+          ht: "Tarif ak deziyasyon (2025–2026)",
+        },
+        text: {
+          es: "aranceles del 50 % en 2025 y nuevos aranceles del 25 % en 2026, que Marco Rubio atribuyó directamente a Lula ([CSMonitor](https://www.csmonitor.com/World/Americas/2026/1020/Brazil-US-election-meddling)). El Escudo de las Américas designó al PCC y al Comando Vermelho como “narcoterroristas”.",
+          pt: 'tarifas de 50% em 2025 e novas tarifas de 25% em 2026, que Marco Rubio atribuiu diretamente a Lula ([CSMonitor](https://www.csmonitor.com/World/Americas/2026/1020/Brazil-US-election-meddling)). O Escudo das Américas designou o PCC e o Comando Vermelho como "narcoterroristas".',
+          fr: "droits de douane de 50 % en 2025 et nouveaux droits de 25 % en 2026, que Marco Rubio a attribués directement à Lula ([CSMonitor](https://www.csmonitor.com/World/Americas/2026/1020/Brazil-US-election-meddling)). Le Bouclier des Amériques a désigné le PCC et le Comando Vermelho comme « narcoterroristes ».",
+          gn: "arancel 50% 2025-pe ha arancel pyahu 25% 2026-pe, Marco Rubio omoĩ Lula rehe ([CSMonitor](https://www.csmonitor.com/World/Americas/2026/1020/Brazil-US-election-meddling)). Escudo de las Américas omoĩ PCC ha Comando Vermelho “narcoterrorista” ramo.",
+          qu: "2025 watapi 50 % aranceleskuna hinallataq 2026 watapi musuq 25 % aranceleskuna, Marco Rubiotaq chaykunata Lulaman churan ([CSMonitor](https://www.csmonitor.com/World/Americas/2026/1020/Brazil-US-election-meddling)). Escudo de las Américasqa PCCta hinallataq Comando Vermelhota “narcoterrorista” nispa sutichasqa.",
+          ht: "tarif 50% an 2025 ak nouvo tarif 25% an 2026, ke Marco Rubio atribiye dirèkteman bay Lula ([CSMonitor](https://www.csmonitor.com/World/Americas/2026/1020/Brazil-US-election-meddling)). Boukliye Amerik la te deziyen PCC ak Comando Vermelho kòm “narkoteworis”.",
+        },
+      },
+      {
+        label: {
+          es: "Acusaciones de interferencia (sept.–oct. 2026)",
+          pt: "Acusações de interferência (set.–out. 2026)",
+          fr: "Accusations d’ingérence (sept.–oct. 2026)",
+          gn: "Interferencia acusación (jasyporundy–jasypa 2026)",
+          qu: "Interferenciamanta huchachaykuna (setiembre–octubre 2026)",
+          ht: "Akizasyon entèferans (septanm–oktòb 2026)",
+        },
+        text: {
+          es: "senadores demócratas acusan al gobierno de Trump de una campaña “multifacética de interferencia” en la elección; la Abin dice tener pruebas. La Casa Blanca lo niega. ([TIME](https://time.com/article/2026/10/01/trump-brazil-election-interference-accusations-lula-bolsonaro-tensions/))",
+          pt: 'senadores democratas acusam o governo Trump de uma campanha "multifacetada de interferência" na eleição; a Abin diz ter provas. A Casa Branca nega. ([TIME](https://time.com/article/2026/10/01/trump-brazil-election-interference-accusations-lula-bolsonaro-tensions/))',
+          fr: "des sénateurs démocrates accusent le gouvernement Trump d’une campagne « multiforme d’ingérence » dans l’élection ; l’Abin dit avoir des preuves. La Maison-Blanche dément. ([TIME](https://time.com/article/2026/10/01/trump-brazil-election-interference-accusations-lula-bolsonaro-tensions/))",
+          gn: "senador demócrata kuéra oacusa Trump gobierno-pe peteĩ campaña “multifacética de interferencia” rehe elección-pe; Abin heʼi oguerekoha prueba. Casa Blanca onega. ([TIME](https://time.com/article/2026/10/01/trump-brazil-election-interference-accusations-lula-bolsonaro-tensions/))",
+          qu: "demócrata senadorkunaqa Trump gobiernotam “multifacética de interferencia” campañawan huchachanku akllaypi; Abinqa pruebayuq kasqanta nin. Casa Blancaqa negan. ([TIME](https://time.com/article/2026/10/01/trump-brazil-election-interference-accusations-lula-bolsonaro-tensions/))",
+          ht: "senatè demokrat yo akize gouvènman Trump la pou yon kanpay “miltifasèt entèferans” nan eleksyon an; Abin di li gen prèv. Mezon Blanch lan nye sa. ([TIME](https://time.com/article/2026/10/01/trump-brazil-election-interference-accusations-lula-bolsonaro-tensions/))",
+        },
+      },
+      {
+        label: {
+          es: "Meta y la campaña de Lula (octubre de 2026)",
+          pt: "A Meta e a campanha de Lula (outubro de 2026)",
+          fr: "Meta et la campagne de Lula (octobre 2026)",
+          gn: "Meta ha Lula campaña (jasypa 2026)",
+          qu: "Meta hinallataq Lulap campañan (octubre 2026)",
+          ht: "Meta ak kanpay Lula (oktòb 2026)",
+        },
+        text: {
+          es: "la campaña de Lula acusó a Meta, dueña de Facebook, Instagram y WhatsApp, de reducir el alcance de sus publicaciones y de favorecer a Flávio Bolsonaro con algoritmos y restricciones de inteligencia artificial. La empresa lo niega y atribuye los incidentes a fallas técnicas globales, medidas antifraude y cumplimiento de las normas electorales. La Folha de S.Paulo, citando comunicaciones internas, informó que empleados de Meta reconocieron que a las cuentas de la campaña de Lula sí se les impidió impulsar algunas publicaciones por fallas técnicas y limitaciones de los algoritmos, aunque ingenieros de la empresa insisten en que se trató de fallas del sistema y errores automatizados. ([AP/CTV](https://www.ctvnews.ca/world/article/meta-denies-accusation-of-anti-lula-political-bias-in-brazil-after-electoral-court-ruling/))",
+          pt: "a campanha de Lula acusou a Meta, dona de Facebook, Instagram e WhatsApp, de reduzir o alcance de suas publicações e de favorecer Flávio Bolsonaro com algoritmos e restrições de inteligência artificial. A empresa nega e atribui os incidentes a falhas técnicas globais, medidas antifraude e cumprimento das regras eleitorais. A Folha de S.Paulo, citando comunicações internas, informou que funcionários da Meta reconheceram que as contas da campanha de Lula foram de fato impedidas de impulsionar algumas publicações por falhas técnicas e limitações dos algoritmos, embora engenheiros da empresa insistam que se tratou de falhas de sistema e erros automatizados. ([AP/CTV](https://www.ctvnews.ca/world/article/meta-denies-accusation-of-anti-lula-political-bias-in-brazil-after-electoral-court-ruling/))",
+          fr: "la campagne de Lula a accusé Meta, propriétaire de Facebook, Instagram et WhatsApp, de réduire la portée de ses publications et de favoriser Flávio Bolsonaro par des algorithmes et des restrictions d’intelligence artificielle. L’entreprise dément et attribue les incidents à des pannes techniques mondiales, à des mesures antifraude et au respect des règles électorales. La Folha de S.Paulo, citant des communications internes, a rapporté que des employés de Meta ont reconnu que les comptes de la campagne de Lula avaient bien été empêchés de promouvoir certaines publications à cause de pannes techniques et de limites des algorithmes, tandis que des ingénieurs de l’entreprise soutiennent qu’il s’agissait de défaillances du système et d’erreurs automatisées. ([AP/CTV](https://www.ctvnews.ca/world/article/meta-denies-accusation-of-anti-lula-political-bias-in-brazil-after-electoral-court-ruling/))",
+          gn: "Lula campaña oacusa Meta-pe, Facebook, Instagram ha WhatsApp jára, omboguejy hag̃ua publicación kuéra alcance ha oipytyvõ hag̃ua Flávio Bolsonaro-pe algoritmo ha inteligencia artificial restricción rupi. Empresa onega ha heʼi umi mba’e vai ha’eha falla técnica global, medida antifraude ha regla electoral ñemboguata. Folha de S.Paulo, comunicación interna rehe, omombe’u Meta empleado kuéra oikuaaha Lula campaña cuenta kuéra ojejokoha oimpulsa hag̃ua alguna publicación; ingeniero kuéra katu heʼi falla de sistema ha error automático. ([AP/CTV](https://www.ctvnews.ca/world/article/meta-denies-accusation-of-anti-lula-political-bias-in-brazil-after-electoral-court-ruling/))",
+          qu: "Lulap campañanqa Metata (Facebook, Instagram hinallataq WhatsApp dueñonta) huchachan publicacionninkunap chayayninta pisichisqanmanta hinallataq algoritmokunawan hinallataq inteligencia artificial harkaykunawan Flávio Bolsonarota yanapasqanmanta. Metaqa negan, hinallataq chay pantaykunata tukuy suyupi técnica pantaykunawan, fraudeman contra ruwaykunawan hinallataq akllay kamachikuykunata hunt’aywan sutichan. Folha de S.Paulo ukhu willakuykunata nisqa willan: Metap llamkaqninkuna reqsirqanku Lulap campañan cuentankunata wakin publicacionkunata ñawpachiyta harkasqa kasqanta; ichaqa ingenierokunaqa sistema pantaykuna hinallataq automatico pantaykuna kasqanta nin. ([AP/CTV](https://www.ctvnews.ca/world/article/meta-denies-accusation-of-anti-lula-political-bias-in-brazil-after-electoral-court-ruling/))",
+          ht: "kanpay Lula a te akize Meta, ki posede Facebook, Instagram ak WhatsApp, pou li diminye pòte piblikasyon li yo epi pou li favorize Flávio Bolsonaro ak aljorit ak restriksyon entèlijans atifisyèl. Konpayi an nye sa epi li atribiye ensidan yo a pàn teknik mondyal, mezi kont fwod ak respè règ elektoral yo. Folha de S.Paulo, ki site kominikasyon entèn, te rapòte ke anplwaye Meta te rekonèt yo te vrèman anpeche kont kanpay Lula a fè pwomosyon kèk piblikasyon akoz pàn teknik ak limit aljorit yo, byenke enjenyè konpayi an ensiste se te defayans sistèm ak erè otomatik. ([AP/CTV](https://www.ctvnews.ca/world/article/meta-denies-accusation-of-anti-lula-political-bias-in-brazil-after-electoral-court-ruling/))",
+        },
+      },
+      {
+        label: {
+          es: "Anuncios políticos irregulares",
+          pt: "Anúncios políticos irregulares",
+          fr: "Publicités politiques irrégulières",
+          gn: "Anuncio político irregular",
+          qu: "Mana kamachikuy hina politico anuncios",
+          ht: "Piblisite politik ki pa regilye",
+        },
+        text: {
+          es: "un estudio de un grupo de investigación de la UFRJ, divulgado en octubre, señaló que Meta permitió al menos 1.613 anuncios políticos irregulares entre julio y septiembre, con 171 millones de visualizaciones y cerca de 2 millones de reales en ingresos, financiados principalmente desde Estados Unidos. Según la investigadora Marie Santini, que participó en el estudio, la ley brasileña prohíbe que cualquier entidad que no sea un partido, un candidato o una coalición compre anuncios electorales. ([AP/CTV](https://www.ctvnews.ca/world/article/meta-denies-accusation-of-anti-lula-political-bias-in-brazil-after-electoral-court-ruling/))",
+          pt: "um estudo de um grupo de pesquisa da UFRJ, divulgado em outubro, apontou que a Meta permitiu ao menos 1.613 anúncios políticos irregulares entre julho e setembro, com 171 milhões de visualizações e cerca de R$ 2 milhões em receita, financiados principalmente a partir dos EUA. Segundo a pesquisadora Marie Santini, que participou do estudo, a lei brasileira proíbe que qualquer entidade que não seja partido, candidato ou coligação compre anúncios eleitorais. ([AP/CTV](https://www.ctvnews.ca/world/article/meta-denies-accusation-of-anti-lula-political-bias-in-brazil-after-electoral-court-ruling/))",
+          fr: "une étude d’un groupe de recherche de l’UFRJ, publiée en octobre, indique que Meta a laissé passer au moins 1 613 publicités politiques irrégulières entre juillet et septembre, avec 171 millions de vues et environ 2 millions de reais de recettes, financées principalement depuis les États-Unis. Selon la chercheuse Marie Santini, qui a participé à l’étude, la loi brésilienne interdit à toute entité autre qu’un parti, un candidat ou une coalition d’acheter de la publicité électorale. ([AP/CTV](https://www.ctvnews.ca/world/article/meta-denies-accusation-of-anti-lula-political-bias-in-brazil-after-electoral-court-ruling/))",
+          gn: "UFRJ grupo de investigación estudio, ojepubliká jasypa-pe, heʼi Meta omoneĩ 1.613 anuncio político irregular jasypokõi guive jasyporundy peve, 171 millón visualización ha cerca 2 millón real ingreso, ojefinancia hague hetave Estados Unidos-gui. Investigadora Marie Santini, estudio-pe oĩva, heʼi ley brasileña ojokoha mávapa ndaha’éiva partido, candidato térã coalición ojogua anuncio electoral. ([AP/CTV](https://www.ctvnews.ca/world/article/meta-denies-accusation-of-anti-lula-political-bias-in-brazil-after-electoral-court-ruling/))",
+          qu: "UFRJpa investigacion huñunpa estudionqa, octubre killapi lluqsisqa, nin Metaqa julio killamanta septiembre killakama 1.613 mana kamachikuy hina politico anunciokunata saqisqanta, 171 millón qhawariykunawan hinallataq 2 millón real hina chaskiywan, astawanqa Estados Unidosmanta qullqichasqa. Investigadora Marie Santini, estudiopi kaqqa, nin Brasilpa kamachikuyninqa mana partido, candidato nitaq coalición kaqkunata electoral anunciokunata randiyta harkasqa. ([AP/CTV](https://www.ctvnews.ca/world/article/meta-denies-accusation-of-anti-lula-political-bias-in-brazil-after-electoral-court-ruling/))",
+          ht: "yon etid yon gwoup rechèch UFRJ, pibliye an oktòb, montre ke Meta te kite pase omwen 1.613 piblisite politik ki pa regilye ant jiyè ak septanm, ak 171 milyon vi ak apeprè 2 milyon real kòm revni, ki te finanse sitou depi Etazini. Dapre chèchè Marie Santini, ki te patisipe nan etid la, lwa brezilyen an entèdi nenpòt antite ki pa yon pati, yon kandida oswa yon kowalisyon achte piblisite elektoral. ([AP/CTV](https://www.ctvnews.ca/world/article/meta-denies-accusation-of-anti-lula-political-bias-in-brazil-after-electoral-court-ruling/))",
+        },
+      },
+      {
+        label: {
+          es: "Consejo asesor de contenido de Meta (20 de octubre)",
+          pt: "Comitê de Supervisão da Meta (20 de outubro)",
+          fr: "Conseil de surveillance de Meta (20 octobre)",
+          gn: "Oversight Board Meta rehegua (20 jasypa)",
+          qu: "Metap Oversight Boardnin (20 de octubre)",
+          ht: "Oversight Board Meta (20 oktòb)",
+        },
+        text: {
+          es: "el órgano independiente que revisa decisiones de la empresa dijo estar preocupado por las fallas recurrentes en la protección de la integridad electoral. Para sus copresidentes, las restricciones técnicas que afectaron cuentas de un candidato presidencial en Brasil llevaron a acusaciones de interferencia electoral, y el bloqueo excesivo de las cuentas de anuncios de Lula por las normas antifraude fue una falla que debió haberse elevado a un equipo interno de revisores especializados. ([Consejo asesor](https://www.oversightboard.com/news/oversight-board-statement-on-protecting-election-integrity-on-metas-platforms/), [BHRRC](https://www.business-humanrights.org/en/latest-news/brazil-metas-election-integrity-efforts-criticised-by-oversight-board-for-enforcement-failures/))",
+          pt: "o órgão independente que revisa decisões da empresa disse estar preocupado com falhas recorrentes na proteção da integridade eleitoral. Para seus copresidentes, restrições técnicas que atingiram contas de um candidato presidencial no Brasil levaram a acusações de interferência eleitoral, e o bloqueio excessivo das contas de anúncios de Lula pelas regras antifraude foi uma falha que deveria ter sido levada a uma equipe interna de revisores especializados. ([Comitê de Supervisão](https://www.oversightboard.com/news/oversight-board-statement-on-protecting-election-integrity-on-metas-platforms/), [BHRRC](https://www.business-humanrights.org/en/latest-news/brazil-metas-election-integrity-efforts-criticised-by-oversight-board-for-enforcement-failures/))",
+          fr: "l’organe indépendant qui examine les décisions de l’entreprise s’est dit préoccupé par des défaillances récurrentes dans la protection de l’intégrité électorale. Pour ses coprésidents, des restrictions techniques qui ont touché les comptes d’un candidat à la présidence au Brésil ont conduit à des accusations d’ingérence électorale, et le blocage excessif des comptes publicitaires de Lula par les règles antifraude était une défaillance qui aurait dû être remontée à une équipe interne de réviseurs spécialisés. ([Conseil de surveillance](https://www.oversightboard.com/news/oversight-board-statement-on-protecting-election-integrity-on-metas-platforms/), [BHRRC](https://www.business-humanrights.org/en/latest-news/brazil-metas-election-integrity-efforts-criticised-by-oversight-board-for-enforcement-failures/))",
+          gn: "órgano independiente ohechaukáva decisión Meta rehegua heʼi ojepy’apy falla recurrente rehe integridad electoral ñangareko-pe. Copresidente kuéra heʼi restricción técnica cuenta candidato presidencial Brasil-pe-gua rehe oiko acusación interferencia electoral, ha Lula cuenta de anuncios bloqueo excesivo regla antifraude rupi ha’e falla, ojeꞌe va’ekue equipo interno revisor especializado-pe. ([Oversight Board](https://www.oversightboard.com/news/oversight-board-statement-on-protecting-election-integrity-on-metas-platforms/), [BHRRC](https://www.business-humanrights.org/en/latest-news/brazil-metas-election-integrity-efforts-criticised-by-oversight-board-for-enforcement-failures/))",
+          qu: "empresap decisionninkunata qhawariq independiente órganoqa nirqan hayk’aqpas kutipakuq pantaykunamanta llakisqa kasqanta akllay integridadta waqaychaypi. Copresidentenkunaq nisqanmanta, técnica harkaykuna Brasilpi presidencial candidatop cuentankunata chayarqan, chaymi akllay interferenciamanta huchachaykunaman apawarqan; Lulap anuncio cuentankunata fraude contra kamachikuykunawan mana allin harkasqanqa pantaymi karqan, chayqa especializado revisorkunap ukhu equipoman apasqa kanan karqan. ([Oversight Board](https://www.oversightboard.com/news/oversight-board-statement-on-protecting-election-integrity-on-metas-platforms/), [BHRRC](https://www.business-humanrights.org/en/latest-news/brazil-metas-election-integrity-efforts-criticised-by-oversight-board-for-enforcement-failures/))",
+          ht: "òganis endepandan ki revize desizyon konpayi an di li enkyete pou echèk ki repete nan pwoteksyon entegrite eleksyon an. Dapre ko-prezidan li yo, restriksyon teknik ki frape kont yon kandida prezidansyèl nan Brezil te lakòz akizasyon entèferans elektoral, epi blokaj twòp kont piblisite Lula a pa règ kont fwod yo se te yon echèk ki ta dwe te voye bay yon ekip entèn reviyè espesyalize. ([Oversight Board](https://www.oversightboard.com/news/oversight-board-statement-on-protecting-election-integrity-on-metas-platforms/), [BHRRC](https://www.business-humanrights.org/en/latest-news/brazil-metas-election-integrity-efforts-criticised-by-oversight-board-for-enforcement-failures/))",
+        },
+      },
+      {
+        label: {
+          es: "ONU y MPF (21 de octubre)",
+          pt: "ONU e MPF (21 de outubro)",
+          fr: "ONU et MPF (21 octobre)",
+          gn: "ONU ha MPF (21 jasypa)",
+          qu: "ONU hinallataq MPF (21 de octubre)",
+          ht: "ONI ak MPF (21 oktòb)",
+        },
+        text: {
+          es: "nueve expertos independientes de la ONU pidieron que Meta proteja la expresión política y garantice una reparación efectiva, y que evalúe si sus sistemas de moderación, recomendación e inteligencia artificial restringieron de forma desproporcionada a uno de los lados del debate electoral. ([ONU](https://www.ohchr.org/en/press-releases/2026/10/meta-must-protect-political-expression-and-guarantee-effective-remedy-during)) Ese mismo día, el MPF recomendó a la empresa medidas de transparencia y revisión humana en los bloqueos y presentó una acción civil pública en la Justicia Federal de Porto Alegre. ([MPF](https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/mpf-recomenda-a-meta-medidas-para-garantir-a-liberdade-de-expressao-e-transparencia-na-moderacao-de-conteudo-durante-as-eleicoes))",
+          pt: "nove especialistas independentes da ONU pediram que a Meta proteja a expressão política e garanta reparação efetiva, e que avalie se seus sistemas de moderação, recomendação e inteligência artificial restringiram de forma desproporcional um dos lados do debate eleitoral. ([ONU](https://www.ohchr.org/en/press-releases/2026/10/meta-must-protect-political-expression-and-guarantee-effective-remedy-during)) No mesmo dia, o MPF recomendou à empresa medidas de transparência e revisão humana nos bloqueios e ajuizou ação civil pública na Justiça Federal de Porto Alegre. ([MPF](https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/mpf-recomenda-a-meta-medidas-para-garantir-a-liberdade-de-expressao-e-transparencia-na-moderacao-de-conteudo-durante-as-eleicoes))",
+          fr: "neuf experts indépendants de l’ONU ont demandé à Meta de protéger l’expression politique et de garantir un recours effectif, et d’évaluer si ses systèmes de modération, de recommandation et d’intelligence artificielle ont restreint de manière disproportionnée l’un des camps du débat électoral. ([ONU](https://www.ohchr.org/en/press-releases/2026/10/meta-must-protect-political-expression-and-guarantee-effective-remedy-during)) Le même jour, le MPF a recommandé à l’entreprise des mesures de transparence et d’examen humain des blocages et a déposé une action civile publique devant la justice fédérale de Porto Alegre. ([MPF](https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/mpf-recomenda-a-meta-medidas-para-garantir-a-liberdade-de-expressao-e-transparencia-na-moderacao-de-conteudo-durante-as-eleicoes))",
+          gn: "porundy ONU-pegua especialista independiente ojerure Meta-pe oñangareko hag̃ua expresión política rehe ha ome’ẽ hag̃ua reparación efectiva, ha ohecha hag̃ua ijsistema moderación, recomendación ha inteligencia artificial omboykeha peteĩ lado debate electoral-pe. ([ONU](https://www.ohchr.org/en/press-releases/2026/10/meta-must-protect-political-expression-and-guarantee-effective-remedy-during)) Upe ára jeývo, MPF orekomenda empresa-pe transparencia ha revisión humana bloqueo kuéra rehe ha omoĩ acción civil pública Justicia Federal Porto Alegre-pe. ([MPF](https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/mpf-recomenda-a-meta-medidas-para-garantir-a-liberdade-de-expressao-e-transparencia-na-moderacao-de-conteudo-durante-as-eleicoes))",
+          qu: "isqun independiente ONU especialistakunaqa Metata mañarqanku politica rimayta waqaychananta hinallataq allin hampiyta qunanta, hinallataq moderacion, recomendacion hinallataq inteligencia artificial sistemankuna akllay rimanakuypi huk lawta mana kikinchasqa harkasqanta qhawananta. ([ONU](https://www.ohchr.org/en/press-releases/2026/10/meta-must-protect-political-expression-and-guarantee-effective-remedy-during)) Chay p’unchawllapitaq MPFqa empresaman transparencia hinallataq runap qhawarinan harkaykunapi recomendarqan, hinallataq Porto Alegrepi Justicia Federalpi acción civil públicata churarqan. ([MPF](https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/mpf-recomenda-a-meta-medidas-para-garantir-a-liberdade-de-expressao-e-transparencia-na-moderacao-de-conteudo-durante-as-eleicoes))",
+          ht: "nèf ekspè endepandan ONI te mande Meta pwoteje espresyon politik epi garanti yon reparasyon efektif, epi evalye si sistèm modelasyon, rekòmandasyon ak entèlijans atifisyèl li yo limite yon bò nan deba elektoral la yon fason disproporsyone. ([ONI](https://www.ohchr.org/en/press-releases/2026/10/meta-must-protect-political-expression-and-guarantee-effective-remedy-during)) Menm jou a, MPF te rekòmande konpayi an mezi transparans ak revizyon moun nan blokaj yo epi li te depoze yon aksyon sivil piblik nan jistis federal Porto Alegre. ([MPF](https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/mpf-recomenda-a-meta-medidas-para-garantir-a-liberdade-de-expressao-e-transparencia-na-moderacao-de-conteudo-durante-as-eleicoes))",
+        },
+      },
+    ],
+    sources: [
+      {
+        title: "ONU (ACNUDH): especialistas pedem que a Meta proteja a expressão política nas eleições do Brasil",
+        url: "https://www.ohchr.org/en/press-releases/2026/10/meta-must-protect-political-expression-and-guarantee-effective-remedy-during",
+        note: {
+          es: "comunicado del 21/10/2026; las opiniones son de los expertos independientes y no representan necesariamente a la ONU",
+          pt: "comunicado de 21/10/2026; as opiniões são dos especialistas independentes e não representam necessariamente a ONU",
+          fr: "communiqué du 21/10/2026 ; les opinions sont celles des experts indépendants et ne représentent pas nécessairement l’ONU",
+          gn: "comunicado 21/10/2026-pe; opinión kuéra ha’e especialista independiente kuéra, ndaha’eiha ONU",
+          qu: "21/10/2026 willakuy; yuyaykunaqa independiente especialistakunapmi, ONUpa mana kanchu",
+          ht: "kominike 21/10/2026; opinyon yo se pa ekspè endepandan yo, yo pa nesesèman reprezante ONI",
+        },
+      },
+      {
+        title: "MPF: recomendação à Meta sobre liberdade de expressão e moderação de conteúdo nas eleições",
+        url: "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/mpf-recomenda-a-meta-medidas-para-garantir-a-liberdade-de-expressao-e-transparencia-na-moderacao-de-conteudo-durante-as-eleicoes",
+        note: {
+          es: "noticia de la PGR del 21/10/2026, con el texto íntegro de la recomendación",
+          pt: "notícia da PGR de 21/10/2026, com a íntegra da recomendação",
+          fr: "article de la PGR du 21/10/2026, avec le texte intégral de la recommandation",
+          gn: "PGR marandu 21/10/2026-pe, recomendación oĩ guasu",
+          qu: "PGRpa 21/10/2026 willakuynin, recomendacionpa tukuy rimayninwan",
+          ht: "nouvèl PGR 21/10/2026, ak tèks konplè rekòmandasyon an",
+        },
+      },
+      {
+        title: "Comitê de Supervisão: declaração sobre a integridade eleitoral nas plataformas da Meta",
+        url: "https://www.oversightboard.com/news/oversight-board-statement-on-protecting-election-integrity-on-metas-platforms/",
+        note: {
+          es: "declaración de los copresidentes del 20/10/2026",
+          pt: "declaração dos copresidentes, de 20/10/2026",
+          fr: "déclaration des coprésidents du 20/10/2026",
+          gn: "copresidente kuéra declaración 20/10/2026-pe",
+          qu: "copresidentekunap willakuynin, 20/10/2026",
+          ht: "deklarasyon ko-prezidan yo, 20/10/2026",
+        },
+      },
+      {
+        title:
+          "Business & Human Rights Resource Centre: esforços de integridade eleitoral da Meta são criticados pelo Comitê de Supervisão",
+        url: "https://www.business-humanrights.org/en/latest-news/brazil-metas-election-integrity-efforts-criticised-by-oversight-board-for-enforcement-failures/",
+        note: {
+          es: "resumen de la declaración del Consejo asesor, del 20/10/2026",
+          pt: "resumo da declaração do Comitê de Supervisão, de 20/10/2026",
+          fr: "résumé de la déclaration du Conseil de surveillance du 20/10/2026",
+          gn: "Oversight Board declaración resumen, 20/10/2026",
+          qu: "Oversight Boardpa willakuyninpa pisichasqan, 20/10/2026",
+          ht: "rezime deklarasyon Oversight Board la, 20/10/2026",
+        },
+      },
+      {
+        title:
+          "AP: Lula obtém decisão da Justiça Eleitoral contra a Meta por suposto viés pró-Bolsonaro nos algoritmos",
+        url: "https://www.ksat.com/business/2026/10/15/brazils-lula-wins-electoral-court-challenge-against-meta-for-alleged-pro-bolsonaro-algorithm-bias/",
+        note: {
+          es: "reportaje de la AP del 15/10/2026; derechos reservados",
+          pt: "reportagem da AP de 15/10/2026; direitos reservados",
+          fr: "reportage de l’AP du 15/10/2026 ; droits réservés",
+          gn: "AP reportaje 15/10/2026-pe; derecho reservado",
+          qu: "APpa willakuynin 15/10/2026; derechokuna waqaychasqa",
+          ht: "repòtaj AP 15/10/2026; dwa rezève",
+        },
+      },
+      {
+        title: "AP/CTV: Meta nega viés político contra Lula após decisão da Justiça Eleitoral",
+        url: "https://www.ctvnews.ca/world/article/meta-denies-accusation-of-anti-lula-political-bias-in-brazil-after-electoral-court-ruling/",
+        note: {
+          es: "reportaje de la AP del 16/10/2026; derechos reservados",
+          pt: "reportagem da AP de 16/10/2026; direitos reservados",
+          fr: "reportage de l’AP du 16/10/2026 ; droits réservés",
+          gn: "AP reportaje 16/10/2026-pe; derecho reservado",
+          qu: "APpa willakuynin 16/10/2026; derechokuna waqaychasqa",
+          ht: "repòtaj AP 16/10/2026; dwa rezève",
+        },
+      },
+      {
+        title: "AP/PBS: Meta diz à Justiça Eleitoral que trata Lula e Flávio Bolsonaro de forma igual",
+        url: "https://www.pbs.org/newshour/world/meta-tells-brazils-electoral-court-it-gives-equal-treatment-to-lula-and-flavio-bolsonaro",
+        note: {
+          es: "reportaje de la AP del 20/10/2026; derechos reservados",
+          pt: "reportagem da AP de 20/10/2026; direitos reservados",
+          fr: "reportage de l’AP du 20/10/2026 ; droits réservés",
+          gn: "AP reportaje 20/10/2026-pe; derecho reservado",
+          qu: "APpa willakuynin 20/10/2026; derechokuna waqaychasqa",
+          ht: "repòtaj AP 20/10/2026; dwa rezève",
+        },
+      },
+      {
+        title:
+          "The Guardian: a disputa com a Meta por suposto viés pró-Bolsonaro se intensifica antes do segundo turno",
+        url: "https://www.theguardian.com/world/2026/oct/21/battle-meta-alleged-bolsonaro-bias-intensifies-days-before-brazil-presidential-runoff",
+        note: {
+          es: "reportaje del 21/10/2026; derechos reservados",
+          pt: "reportagem de 21/10/2026; direitos reservados",
+          fr: "reportage du 21/10/2026 ; droits réservés",
+          gn: "reportaje 21/10/2026-pe; derecho reservado",
+          qu: "willakuy 21/10/2026; derechokuna waqaychasqa",
+          ht: "repòtaj 21/10/2026; dwa rezève",
+        },
+      },
+    ],
+  },
   period: {
     es: "1962–1985",
     pt: "1962–1985",
@@ -109,7 +346,7 @@ const content: CountryContentType = {
       },
       text: {
         es: "después del golpe, Estados Unidos abrió crédito y ayuda económica y militar al régimen, que se convirtió en uno de los mayores receptores de la Alianza para el Progreso. Programas estadounidenses de “seguridad pública” entrenaron a policías brasileños, y oficiales pasaron por cursos de contrainsurgencia en Estados Unidos y en Panamá.",
-        pt: "depois do golpe, os EUA abriram crédito e ajuda econômica e militar ao regime, que se tornou um dos maiores recebedores da Aliança para o Progresso. Programas americanos de \"segurança pública\" treinaram policiais brasileiros, e oficiais passaram por cursos de contrainsurgência nos EUA e no Panamá.",
+        pt: 'depois do golpe, os EUA abriram crédito e ajuda econômica e militar ao regime, que se tornou um dos maiores recebedores da Aliança para o Progresso. Programas americanos de "segurança pública" treinaram policiais brasileiros, e oficiais passaram por cursos de contrainsurgência nos EUA e no Panamá.',
         fr: "après le coup d’État, les États-Unis ont ouvert des crédits et accordé une aide économique et militaire au régime, devenu l’un des plus grands bénéficiaires de l’Alliance pour le progrès. Des programmes américains de « sécurité publique » ont formé des policiers brésiliens, et des officiers ont suivi des cours de contre-insurrection aux États-Unis et au Panama.",
         gn: "golpe rire, Estados Unidos ome’ẽ crédito ha pytyvõ económico ha militar régimen-pe, oikóva peteĩ Alianza para el Progreso ohupytyvéva. Programa norteamericano “seguridad pública” oentrena policía brasileño, ha oficial ohasa curso contrainsurgencia Estados Unidos ha Panamá-pe.",
         qu: "golpe qhipata Estados Unidosqa regimenman crédito hinallataq economía militar yanapayta kicharqan, chaymi Alianza para el Progresopa aswan chaskiqninmanta huk karqan. Estados Unidosmanta “seguridad pública” programakunaqa brasileño policíakunata yachachirqan, oficialkunataq Estados Unidospi hinallataq Panamápi contrainsurgencia cursokunata puriranku.",
@@ -145,7 +382,7 @@ const content: CountryContentType = {
       },
       text: {
         es: "Gordon afirmó durante décadas que el golpe fue “100 % brasileño”; los documentos revelados a partir de 1976 mostraron lo contrario. ([SciELO](https://scielo.br/j/rbh/a/5vTmVyS7TNZYP4Lj3PqntyS/abstract/?lang=en))",
-        pt: "Gordon afirmou por décadas que o golpe foi \"100% brasileiro\"; os documentos revelados a partir de 1976 mostraram o contrário. ([SciELO](https://scielo.br/j/rbh/a/5vTmVyS7TNZYP4Lj3PqntyS/abstract/?lang=en))",
+        pt: 'Gordon afirmou por décadas que o golpe foi "100% brasileiro"; os documentos revelados a partir de 1976 mostraram o contrário. ([SciELO](https://scielo.br/j/rbh/a/5vTmVyS7TNZYP4Lj3PqntyS/abstract/?lang=en))',
         fr: "Gordon a affirmé pendant des décennies que le coup d’État était « 100 % brésilien » ; les documents révélés à partir de 1976 ont montré le contraire. ([SciELO](https://scielo.br/j/rbh/a/5vTmVyS7TNZYP4Lj3PqntyS/abstract/?lang=en))",
         gn: "Gordon heʼi heta áño golpe ha’eha “100% brasileño”; documento ojehechauka 1976 guive heʼi ambue. ([SciELO](https://scielo.br/j/rbh/a/5vTmVyS7TNZYP4Lj3PqntyS/abstract/?lang=en))",
         qu: "Gordonqa achka watakuna golpeta “100 % brasileño” nirqan; 1976 watamanta kichasqa documentokunaqa huk rimasqatam rikuchirqanku. ([SciELO](https://scielo.br/j/rbh/a/5vTmVyS7TNZYP4Lj3PqntyS/abstract/?lang=en))",
