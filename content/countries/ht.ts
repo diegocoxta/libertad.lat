@@ -1,6 +1,156 @@
 import type { CountryContentType } from "~/lib/country-content";
 
 const content: CountryContentType = {
+  latest: {
+    period: {
+      es: "2021–2026",
+      pt: "2021–2026",
+      fr: "2021–2026",
+      gn: "2021–2026",
+      qu: "2021–2026",
+      ht: "2021–2026",
+    },
+    summary: {
+      es: "El asesinato del presidente Jovenel Moïse fue planeado y financiado en el sur de Florida; en 2026, cuatro hombres fueron condenados en Miami y 18 acusados fueron llevados a Estados Unidos.",
+      pt: "O assassinato do presidente Jovenel Moïse foi planejado e financiado no sul da Flórida; em 2026, quatro homens foram condenados em Miami e 18 acusados foram levados aos EUA.",
+      fr: "L’assassinat du président Jovenel Moïse a été planifié et financé dans le sud de la Floride ; en 2026, quatre hommes ont été condamnés à Miami et 18 accusés ont été transférés aux États-Unis.",
+      gn: "Presidente Jovenel Moïse ñemano oñemoĩ ha ojefinancia Florida sur-pe; 2026-pe, irundy kuimba’e ojehusga Miami-pe ha 18 acusado ojegueraha Estados Unidos-pe.",
+      qu: "Presidente Jovenel Moïsepa wañuchiyninqa Florida surpi yuyaykusqa qullqichasqawan karqan; 2026 watapi tawa runakuna Miamipi huchachasqa karqanku, 18 acusadokunataq Estados Unidosman apasqa.",
+      ht: "Asasina prezidan Jovenel Moïse a te planifye epi finanse nan sid Florid; an 2026, kat gason te kondane nan Miami epi 18 akize te mennen Etazini.",
+    },
+    happened: {
+      es: "El 7 de julio de 2021, Moïse fue asesinado a tiros en su casa, cerca de Puerto Príncipe; su esposa, Martine, resultó herida.",
+      pt: "Em 7 de julho de 2021, Moïse foi morto a tiros em sua casa, perto de Porto Príncipe; a esposa, Martine, ficou ferida.",
+      fr: "Le 7 juillet 2021, Moïse a été tué par balles chez lui, près de Port-au-Prince ; son épouse, Martine, a été blessée.",
+      gn: "7 jasypokõi 2021-pe, Moïse ojejuka ijóga-pe, Puerto Príncipe ypýpe; hembireko Martine ojejopy.",
+      qu: "7 de julio 2021 p’unchawpi Moïseqa wasinpi Puerto Príncipe qayllapi wañuchisqa karqan; warmin Martinetaq kiriyasqa karqan.",
+      ht: "Le 7 jiyè 2021, Moïse te mouri pa bal lakay li, tou pre Pòtoprens; madanm li, Martine, te blese.",
+    },
+    usActions: [
+      {
+        label: {
+          es: "Plan en Florida",
+          pt: "Plano na Flórida",
+          fr: "Plan en Floride",
+          gn: "Plan Florida-pe",
+          qu: "Florida planchay",
+          ht: "Plan nan Florid",
+        },
+        text: {
+          es: "según documentos judiciales, el sur de Florida fue un centro de planificación y financiamiento; la empresa de seguridad CTU Federal Academy reclutó en Miami a los mercenarios, en su mayoría colombianos, y compró sus pasajes a Haití. ([NBC Miami](https://www.nbcmiami.com/news/local/4-men-found-guilty-in-miami-in-haitian-president-jovenel-moises-assassination/3806678/), [Univision](https://www.univision.com/local/miami-wltv/univision-news/united-states/haiti-assassination-us-government-plot-moise-fbi-dea))",
+          pt: "segundo documentos do tribunal, o sul da Flórida foi um centro de planejamento e financiamento; a empresa de segurança CTU Federal Academy recrutou em Miami os mercenários, em sua maioria colombianos, e comprou suas passagens para o Haiti. ([NBC Miami](https://www.nbcmiami.com/news/local/4-men-found-guilty-in-miami-in-haitian-president-jovenel-moises-assassination/3806678/), [Univision](https://www.univision.com/local/miami-wltv/univision-news/united-states/haiti-assassination-us-government-plot-moise-fbi-dea))",
+          fr: "selon des documents judiciaires, le sud de la Floride a été un centre de planification et de financement ; l’entreprise de sécurité CTU Federal Academy a recruté à Miami les mercenaires, en majorité colombiens, et acheté leurs billets pour Haïti. ([NBC Miami](https://www.nbcmiami.com/news/local/4-men-found-guilty-in-miami-in-haitian-president-jovenel-moises-assassination/3806678/), [Univision](https://www.univision.com/local/miami-wltv/univision-news/united-states/haiti-assassination-us-government-plot-moise-fbi-dea))",
+          gn: "tribunal documento heʼi rupi, Florida sur oiko centro planificación ha financiamiento-pe; empresa de seguridad CTU Federal Academy orecluta Miami-pe mercenario kuéra, heta colombiano, ha ojogua hembiapo pasaje Haití-pe. ([NBC Miami](https://www.nbcmiami.com/news/local/4-men-found-guilty-in-miami-in-haitian-president-jovenel-moises-assassination/3806678/), [Univision](https://www.univision.com/local/miami-wltv/univision-news/united-states/haiti-assassination-us-government-plot-moise-fbi-dea))",
+          qu: "tribunalpa qillqankunaman hina, Florida surqa planchay qullqichaywan kaq centro karqan; CTU Federal Academy seguridad empresaqa Miamipi mercenariokunata, achkanpas colombianokunata, akllarqan Haitiman pasajenkutapas rantirqan. ([NBC Miami](https://www.nbcmiami.com/news/local/4-men-found-guilty-in-miami-in-haitian-president-jovenel-moises-assassination/3806678/), [Univision](https://www.univision.com/local/miami-wltv/univision-news/united-states/haiti-assassination-us-government-plot-moise-fbi-dea))",
+          ht: "dapre dokiman tribinal yo, sid Florid te yon sant planifikasyon ak finansman; konpayi sekirite CTU Federal Academy te rekrite mèsenè yo, pou pifò kolonbyen, nan Miami epi li te achte tikè yo pou Ayiti. ([NBC Miami](https://www.nbcmiami.com/news/local/4-men-found-guilty-in-miami-in-haitian-president-jovenel-moises-assassination/3806678/), [Univision](https://www.univision.com/local/miami-wltv/univision-news/united-states/haiti-assassination-us-government-plot-moise-fbi-dea))",
+        },
+      },
+      {
+        label: {
+          es: "Informante del FBI",
+          pt: "Informante do FBI",
+          fr: "Informateur du FBI",
+          gn: "FBI informante",
+          qu: "FBIpa willaqnin",
+          ht: "Enfòmatè FBI",
+        },
+        text: {
+          es: "Arcangel Pretel, señalado por la fiscalía como uno de los autores intelectuales, era “fuente confidencial” activa del FBI en la época de las reuniones; el FBI dice que lo era en asuntos “sin relación” con Haití y que él no le informó del plan. ([Univision](https://www.univision.com/local/miami-wltv/univision-news/united-states/haiti-assassination-us-government-plot-moise-fbi-dea))",
+          pt: 'Arcangel Pretel, apontado pela promotoria como um dos mentores, era "fonte confidencial" ativa do FBI na época das reuniões; o FBI diz que ele atuava em assuntos "sem relação" com o Haiti e não informou o plano. ([Univision](https://www.univision.com/local/miami-wltv/univision-news/united-states/haiti-assassination-us-government-plot-moise-fbi-dea))',
+          fr: "Arcangel Pretel, désigné par l’accusation comme l’un des cerveaux, était une « source confidentielle » active du FBI à l’époque des réunions ; le FBI dit qu’il l’était sur des sujets « sans rapport » avec Haïti et qu’il ne l’a pas informé du plan. ([Univision](https://www.univision.com/local/miami-wltv/univision-news/united-states/haiti-assassination-us-government-plot-moise-fbi-dea))",
+          gn: "Arcangel Pretel, fiscalía heʼi mente peteĩ, ha’e “fuente confidencial” FBI-pe reunión aja; FBI heʼi ha’e oĩha asunto “relación’ỹre” Haití ndive ha ndohechaukáiha plan. ([Univision](https://www.univision.com/local/miami-wltv/univision-news/united-states/haiti-assassination-us-government-plot-moise-fbi-dea))",
+          qu: "Arcangel Pretelqa, fiscalíap huk yuyaychaqnin nisqa, huñunakuy pachapi FBIpa “confidencial willaqninmi” karqan; FBIqa Haitiwan mana tinkuq kaqkunamanta kasqanta hinallataq planmanta mana willasqanta nin. ([Univision](https://www.univision.com/local/miami-wltv/univision-news/united-states/haiti-assassination-us-government-plot-moise-fbi-dea))",
+          ht: "Arcangel Pretel, ke pwosekitè yo site kòm youn nan sèvo yo, te yon “sous konfidansyèl” FBI aktif lè reyinyon yo; FBI di li te sa sou sijè “san rapò” ak Ayiti epi li pa t enfòme l sou plan an. ([Univision](https://www.univision.com/local/miami-wltv/univision-news/united-states/haiti-assassination-us-government-plot-moise-fbi-dea))",
+        },
+      },
+      {
+        label: {
+          es: "“Una operación de la DEA”",
+          pt: '"Uma operação da DEA"',
+          fr: "« Une opération de la DEA »",
+          gn: "“DEA operación”",
+          qu: "“DEApa operacionnin”",
+          ht: "“Yon operasyon DEA”",
+        },
+        text: {
+          es: "un hombre de la caravana gritó por megáfono que era “una operación de la DEA”; el gobierno de Estados Unidos lo niega con firmeza y dice que nadie en el gobierno “sancionó” el plan. ([Univision](https://www.univision.com/local/miami-wltv/univision-news/united-states/haiti-assassination-us-government-plot-moise-fbi-dea))",
+          pt: 'um homem do comboio gritou por megafone que era "uma operação da DEA"; o governo dos EUA nega com firmeza e diz que ninguém no governo "sancionou" o plano. ([Univision](https://www.univision.com/local/miami-wltv/univision-news/united-states/haiti-assassination-us-government-plot-moise-fbi-dea))',
+          fr: "un homme du convoi a crié au mégaphone qu’il s’agissait d’« une opération de la DEA » ; le gouvernement américain le dément fermement et affirme que personne au sein du gouvernement n’a « autorisé » le plan. ([Univision](https://www.univision.com/local/miami-wltv/univision-news/united-states/haiti-assassination-us-government-plot-moise-fbi-dea))",
+          gn: "peteĩ kuimba’e convoy-pe ojapukái megáfono rupi “DEA operación” ha’eha; Estados Unidos gobierno onega mbarete ha heʼi avave gobierno-pe ndomoneĩ plan-pe. ([Univision](https://www.univision.com/local/miami-wltv/univision-news/united-states/haiti-assassination-us-government-plot-moise-fbi-dea))",
+          qu: "convoypi huk runaqa megáfonowan “DEApa operacionmi” nispa qaparirqan; Estados Unidospa gobiernonqa sinchita negan, pipas gobiernopi planta mana saqisqanta nispa. ([Univision](https://www.univision.com/local/miami-wltv/univision-news/united-states/haiti-assassination-us-government-plot-moise-fbi-dea))",
+          ht: "yon nonm nan konvwa a te rele nan mégafòn ke se te “yon operasyon DEA”; gouvènman ameriken an nye sa fèm epi li di pesonn nan gouvènman an pa t “sanksyone” plan an. ([Univision](https://www.univision.com/local/miami-wltv/univision-news/united-states/haiti-assassination-us-government-plot-moise-fbi-dea))",
+        },
+      },
+      {
+        label: {
+          es: "Condenas y traslados (2026)",
+          pt: "Condenações e transferências (2026)",
+          fr: "Condamnations et transferts (2026)",
+          gn: "Ojehusga ha ojegueraha (2026)",
+          qu: "Huchachasqa hinallataq apasqa (2026)",
+          ht: "Kondanasyon ak transfè (2026)",
+        },
+        text: {
+          es: "en mayo, Arcangel Pretel, Antonio Intriago, Walter Veintemilla y James Solages fueron declarados culpables en Miami ([NBC Miami](https://www.nbcmiami.com/news/local/4-men-found-guilty-in-miami-in-haitian-president-jovenel-moises-assassination/3806678/)); el 20 de septiembre, 18 acusados —17 ex soldados colombianos y Joseph Félix Badio— fueron llevados de Haití a Miami ([HNGN](https://www.hngn.com/articles/273358/20260924/18-suspects-extradited-us-2021-haiti-president-assassination.htm), [Haitian Times](https://haitiantimes.com/2026/10/07/colombian-president-calls-moise-assassination-suspects-heroes/)).",
+          pt: "em maio, Arcangel Pretel, Antonio Intriago, Walter Veintemilla e James Solages foram considerados culpados em Miami ([NBC Miami](https://www.nbcmiami.com/news/local/4-men-found-guilty-in-miami-in-haitian-president-jovenel-moises-assassination/3806678/)); em 20 de setembro, 18 acusados —17 ex-soldados colombianos e Joseph Félix Badio— foram levados do Haiti a Miami ([HNGN](https://www.hngn.com/articles/273358/20260924/18-suspects-extradited-us-2021-haiti-president-assassination.htm), [Haitian Times](https://haitiantimes.com/2026/10/07/colombian-president-calls-moise-assassination-suspects-heroes/)).",
+          fr: "en mai, Arcangel Pretel, Antonio Intriago, Walter Veintemilla et James Solages ont été déclarés coupables à Miami ([NBC Miami](https://www.nbcmiami.com/news/local/4-men-found-guilty-in-miami-in-haitian-president-jovenel-moises-assassination/3806678/)) ; le 20 septembre, 18 accusés —17 anciens soldats colombiens et Joseph Félix Badio— ont été transférés d’Haïti à Miami ([HNGN](https://www.hngn.com/articles/273358/20260924/18-suspects-extradited-us-2021-haiti-president-assassination.htm), [Haitian Times](https://haitiantimes.com/2026/10/07/colombian-president-calls-moise-assassination-suspects-heroes/)).",
+          gn: "jasypo-pe, Arcangel Pretel, Antonio Intriago, Walter Veintemilla ha James Solages ojehusga culpable Miami-pe ([NBC Miami](https://www.nbcmiami.com/news/local/4-men-found-guilty-in-miami-in-haitian-president-jovenel-moises-assassination/3806678/)); 20 jasyporundy-pe, 18 acusado —17 ex soldado colombiano ha Joseph Félix Badio— ojegueraha Haití-gui Miami-pe ([HNGN](https://www.hngn.com/articles/273358/20260924/18-suspects-extradited-us-2021-haiti-president-assassination.htm), [Haitian Times](https://haitiantimes.com/2026/10/07/colombian-president-calls-moise-assassination-suspects-heroes/)).",
+          qu: "mayo killapi Arcangel Pretel, Antonio Intriago, Walter Veintemilla James Solageswan Miamipi huchayuq nisqa karqanku ([NBC Miami](https://www.nbcmiami.com/news/local/4-men-found-guilty-in-miami-in-haitian-president-jovenel-moises-assassination/3806678/)); 20 de setiembrepitaq 18 acusadokuna —17 ñawpaq colombiano soldadokuna Joseph Félix Badiowan— Haitimanta Miamiman apasqa karqanku ([HNGN](https://www.hngn.com/articles/273358/20260924/18-suspects-extradited-us-2021-haiti-president-assassination.htm), [Haitian Times](https://haitiantimes.com/2026/10/07/colombian-president-calls-moise-assassination-suspects-heroes/)).",
+          ht: "an me, Arcangel Pretel, Antonio Intriago, Walter Veintemilla ak James Solages te jwenn koupab nan Miami ([NBC Miami](https://www.nbcmiami.com/news/local/4-men-found-guilty-in-miami-in-haitian-president-jovenel-moises-assassination/3806678/)); le 20 septanm, 18 akize —17 ansyen sòlda kolonbyen ak Joseph Félix Badio— te mennen soti Ayiti ale Miami ([HNGN](https://www.hngn.com/articles/273358/20260924/18-suspects-extradited-us-2021-haiti-president-assassination.htm), [Haitian Times](https://haitiantimes.com/2026/10/07/colombian-president-calls-moise-assassination-suspects-heroes/)).",
+        },
+      },
+    ],
+    sources: [
+      {
+        title: "Univision: o assassinato de Moïse e o governo dos EUA, o FBI e a DEA",
+        url: "https://www.univision.com/local/miami-wltv/univision-news/united-states/haiti-assassination-us-government-plot-moise-fbi-dea",
+        note: {
+          es: "reportaje; derechos reservados",
+          pt: "reportagem; direitos reservados",
+          fr: "reportage ; droits réservés",
+          gn: "reportaje; derecho reservado",
+          qu: "willakuy; derechokuna waqaychasqa",
+          ht: "repòtaj; dwa rezève",
+        },
+      },
+      {
+        title: "NBC Miami: quatro homens são considerados culpados em Miami pelo assassinato de Moïse",
+        url: "https://www.nbcmiami.com/news/local/4-men-found-guilty-in-miami-in-haitian-president-jovenel-moises-assassination/3806678/",
+        note: {
+          es: "reportaje (08/05/2026); derechos reservados",
+          pt: "reportagem (08/05/2026); direitos reservados",
+          fr: "reportage (08/05/2026) ; droits réservés",
+          gn: "reportaje (08/05/2026); derecho reservado",
+          qu: "willakuy (08/05/2026); derechokuna waqaychasqa",
+          ht: "repòtaj (08/05/2026); dwa rezève",
+        },
+      },
+      {
+        title: "HNGN: 18 suspeitos do assassinato do presidente do Haiti em 2021 são levados aos EUA",
+        url: "https://www.hngn.com/articles/273358/20260924/18-suspects-extradited-us-2021-haiti-president-assassination.htm",
+        note: {
+          es: "reportaje (24/09/2026); derechos reservados",
+          pt: "reportagem (24/09/2026); direitos reservados",
+          fr: "reportage (24/09/2026) ; droits réservés",
+          gn: "reportaje (24/09/2026); derecho reservado",
+          qu: "willakuy (24/09/2026); derechokuna waqaychasqa",
+          ht: "repòtaj (24/09/2026); dwa rezève",
+        },
+      },
+      {
+        title: 'Haitian Times: presidente da Colômbia chama de "heróis" os suspeitos do assassinato de Moïse',
+        url: "https://haitiantimes.com/2026/10/07/colombian-president-calls-moise-assassination-suspects-heroes/",
+        note: {
+          es: "reportaje (07/10/2026); derechos reservados",
+          pt: "reportagem (07/10/2026); direitos reservados",
+          fr: "reportage (07/10/2026) ; droits réservés",
+          gn: "reportaje (07/10/2026); derecho reservado",
+          qu: "willakuy (07/10/2026); derechokuna waqaychasqa",
+          ht: "repòtaj (07/10/2026); dwa rezève",
+        },
+      },
+    ],
+  },
   period: {
     es: "1915–2004",
     pt: "1915–2004",

@@ -1,6 +1,214 @@
 import type { CountryContentType } from "~/lib/country-content";
 
 const content: CountryContentType = {
+  latest: {
+    period: {
+      es: "2025–2026",
+      pt: "2025–2026",
+      fr: "2025–2026",
+      gn: "2025–2026",
+      qu: "2025–2026",
+      ht: "2025–2026",
+    },
+    summary: {
+      es: "Socorro financiero condicionado: Estados Unidos anunció hasta US$ 20.000 millones antes de las legislativas de 2025 y Trump lo vinculó a la victoria de Milei.",
+      pt: "Socorro financeiro condicionado: os EUA anunciaram até US$ 20 bilhões antes das legislativas de 2025, e Trump o vinculou à vitória de Milei.",
+      fr: "Aide financière conditionnée : les États-Unis ont annoncé jusqu’à 20 milliards de dollars avant les législatives de 2025, et Trump l’a liée à la victoire de Milei.",
+      gn: "Pytyvõ económico condicionado: Estados Unidos heʼi 20 mil millón dólar peve legislativa 2025 mboyve ha Trump ohesa’ỹijo Milei ohupyty hag̃ua.",
+      qu: "Qullqi yanapay condicionasqa: Estados Unidosqa 2025 legislativa akllaykunaman ñawpaqta 20 mil millón dolarkama willarqan, Trumptaq Milei atipananman watarqan.",
+      ht: "Èd finansye kondisyone: Etazini te anonse jiska 20 milya dola anvan lejislativ 2025 yo epi Trump te lye l ak viktwa Milei.",
+    },
+    happened: {
+      es: "El 14 de octubre de 2025, Trump recibió a Milei en la Casa Blanca, dos semanas antes de las elecciones legislativas del 26 de octubre, en las que el partido de Milei obtuvo cerca del 41 % de los votos frente al 32 % del peronismo. ([AP/NBC News](https://www.nbcnews.com/world/argentina/milei-triumphs-argentine-midterm-elections-closely-watched-washington-rcna239964))",
+      pt: "Em 14 de outubro de 2025, Trump recebeu Milei na Casa Branca, duas semanas antes das eleições legislativas de 26 de outubro, em que o partido de Milei teve cerca de 41% dos votos, contra 32% do peronismo. ([AP/NBC News](https://www.nbcnews.com/world/argentina/milei-triumphs-argentine-midterm-elections-closely-watched-washington-rcna239964))",
+      fr: "Le 14 octobre 2025, Trump a reçu Milei à la Maison-Blanche, deux semaines avant les élections législatives du 26 octobre, lors desquelles le parti de Milei a obtenu environ 41 % des voix contre 32 % pour le péronisme. ([AP/NBC News](https://www.nbcnews.com/world/argentina/milei-triumphs-argentine-midterm-elections-closely-watched-washington-rcna239964))",
+      gn: "14 jasypa 2025-pe, Trump orrecibi Milei Casa Blanca-pe, mokõi semana elecciones legislativas 26 jasypa mboyve, Milei partido ohupyty 41% rupi voto, peronismo 32% rehe. ([AP/NBC News](https://www.nbcnews.com/world/argentina/milei-triumphs-argentine-midterm-elections-closely-watched-washington-rcna239964))",
+      qu: "14 de octubre 2025 p’unchawpi Trumpqa Mileita Casa Blancapi chaskirqan, 26 de octubre legislativa akllaykunaman iskay semana ñawpaqta; chaypi Milei partidoqa 41 % hina votota chaskirqan, peronismoqa 32 %ta. ([AP/NBC News](https://www.nbcnews.com/world/argentina/milei-triumphs-argentine-midterm-elections-closely-watched-washington-rcna239964))",
+      ht: "Le 14 oktòb 2025, Trump te resevwa Milei nan Mezon Blanch lan, de semèn anvan eleksyon lejislativ 26 oktòb yo, kote pati Milei a te jwenn anviwon 41% vòt kont 32% pou peronis la. ([AP/NBC News](https://www.nbcnews.com/world/argentina/milei-triumphs-argentine-midterm-elections-closely-watched-washington-rcna239964))",
+    },
+    usActions: [
+      {
+        label: {
+          es: "Swap de hasta US$ 20.000 millones",
+          pt: "Swap de até US$ 20 bilhões",
+          fr: "Swap jusqu’à 20 milliards de dollars",
+          gn: "Swap 20 mil millón dólar peve",
+          qu: "20 mil millón dolarkama swap",
+          ht: "Swap jiska 20 milya dola",
+        },
+        text: {
+          es: "el Tesoro anunció un swap cambiario de hasta US$ 20.000 millones, con uso del Fondo de Estabilización Cambiaria; Bessent dijo que el apoyo dependía de “políticas sólidas” y que un regreso al peronismo llevaría a Washington a replantearse. ([Al Jazeera](https://www.aljazeera.com/news/2025/10/14/not-going-to-waste-our-time-trump-hinges-us-aid-to-argentina-on-election))",
+          pt: 'o Tesouro anunciou um swap cambial de até US$ 20 bilhões, com uso do Fundo de Estabilização Cambial; Bessent disse que o apoio dependia de "políticas robustas" e que uma volta ao peronismo levaria Washington a repensar. ([Al Jazeera](https://www.aljazeera.com/news/2025/10/14/not-going-to-waste-our-time-trump-hinges-us-aid-to-argentina-on-election))',
+          fr: "le Trésor a annoncé un swap de change allant jusqu’à 20 milliards de dollars, en puisant dans le Fonds de stabilisation des changes ; Bessent a dit que le soutien dépendait de « politiques solides » et qu’un retour au péronisme conduirait Washington à reconsidérer. ([Al Jazeera](https://www.aljazeera.com/news/2025/10/14/not-going-to-waste-our-time-trump-hinges-us-aid-to-argentina-on-election))",
+          gn: "Tesoro heʼi peteĩ swap cambiario 20 mil millón dólar peve, oipurúvo Fondo de Estabilización Cambiaria; Bessent heʼi pytyvõ odepende “política robusta” ha peronismo-pe ojevy ramo Washington ohecha jey vaʼerãha. ([Al Jazeera](https://www.aljazeera.com/news/2025/10/14/not-going-to-waste-our-time-trump-hinges-us-aid-to-argentina-on-election))",
+          qu: "Tesoroqa 20 mil millón dolarkama cambiario swapta willarqan, Fondo de Estabilización Cambiariatawan llamk’achispa; Bessentaq nirqan yanapayqa “allin politicakunamanta” hapipakusqanmanta hinallataq peronismoman kutiyqa Washingtonta yuyaymanayman churanman nispa. ([Al Jazeera](https://www.aljazeera.com/news/2025/10/14/not-going-to-waste-our-time-trump-hinges-us-aid-to-argentina-on-election))",
+          ht: "Trezò a te anonse yon swap lajan jiska 20 milya dola, ak itilizasyon Fon Estabilizasyon Chanj la; Bessent te di sipò a depann de “politik solid” epi yon retou nan peronis la ta fè Washington repanse. ([Al Jazeera](https://www.aljazeera.com/news/2025/10/14/not-going-to-waste-our-time-trump-hinges-us-aid-to-argentina-on-election))",
+        },
+      },
+      {
+        label: {
+          es: "Condicionado a Milei",
+          pt: "Condicionado a Milei",
+          fr: "Conditionné à Milei",
+          gn: "Milei rehe ojejoko",
+          qu: "Milei atipananman watasqa",
+          ht: "Kondisyone pou Milei",
+        },
+        text: {
+          es: "Trump dijo que, si Milei perdía, “no seremos generosos con Argentina”, y que Estados Unidos no iba a “perder el tiempo” si los argentinos no lo elegían. ([Al Jazeera](https://www.aljazeera.com/news/2025/10/14/not-going-to-waste-our-time-trump-hinges-us-aid-to-argentina-on-election), [Canadian Dimension](https://canadiandimension.com/articles/view/trump-cant-stop-interfering-in-other-countries-elections))",
+          pt: 'Trump disse que, se Milei perdesse, "não seremos generosos com a Argentina", e que os EUA não iriam "perder tempo" se os argentinos não o elegessem. ([Al Jazeera](https://www.aljazeera.com/news/2025/10/14/not-going-to-waste-our-time-trump-hinges-us-aid-to-argentina-on-election), [Canadian Dimension](https://canadiandimension.com/articles/view/trump-cant-stop-interfering-in-other-countries-elections))',
+          fr: "Trump a dit que, si Milei perdait, « nous ne serions pas généreux avec l’Argentine », et que les États-Unis ne « perdraient pas leur temps » si les Argentins ne l’élisaient pas. ([Al Jazeera](https://www.aljazeera.com/news/2025/10/14/not-going-to-waste-our-time-trump-hinges-us-aid-to-argentina-on-election), [Canadian Dimension](https://canadiandimension.com/articles/view/trump-cant-stop-interfering-in-other-countries-elections))",
+          gn: "Trump heʼi Milei ojeity ramo, “ndaikatumoʼãi roiko generoso Argentina ndive”, ha Estados Unidos ndojepuʼakamoʼãi “tiempo” argentino kuéra ndojeporavóiramo chupe. ([Al Jazeera](https://www.aljazeera.com/news/2025/10/14/not-going-to-waste-our-time-trump-hinges-us-aid-to-argentina-on-election), [Canadian Dimension](https://canadiandimension.com/articles/view/trump-cant-stop-interfering-in-other-countries-elections))",
+          qu: "Trumpqa nirqan Milei wañukuptin “Argentinawan mana qukuq kasunmanchu”, hinallataq argentinokuna mana akllaptinku Estados Unidosqa mana “tiempota qarqachinmanchu” nispa. ([Al Jazeera](https://www.aljazeera.com/news/2025/10/14/not-going-to-waste-our-time-trump-hinges-us-aid-to-argentina-on-election), [Canadian Dimension](https://canadiandimension.com/articles/view/trump-cant-stop-interfering-in-other-countries-elections))",
+          ht: "Trump te di, si Milei pèdi, “nou pa pral jenere ak Ajantin”, epi Etazini pa t ap “pèdi tan li” si Ajantinyen yo pa t eli l. ([Al Jazeera](https://www.aljazeera.com/news/2025/10/14/not-going-to-waste-our-time-trump-hinges-us-aid-to-argentina-on-election), [Canadian Dimension](https://canadiandimension.com/articles/view/trump-cant-stop-interfering-in-other-countries-elections))",
+        },
+      },
+      {
+        label: {
+          es: "Aliado más cercano y Escudo",
+          pt: "Aliado mais próximo e Escudo",
+          fr: "Allié le plus proche et Bouclier",
+          gn: "Aliado ijyvýpe ha Escudo",
+          qu: "Aliado qayllaqa hinallataq Escudo",
+          ht: "Alye pi pwòch ak Boukliye a",
+        },
+        text: {
+          es: "Argentina se convirtió en el mayor aliado latinoamericano de Washington ([AS/COA](https://www.as-coa.org/articles/one-year-trumps-impact-latin-america-and-whats-next)); Milei participó en la cumbre de lanzamiento del Escudo de las Américas, en Miami, en marzo de 2026 ([La Gaceta](https://www.lagaceta.com.ar/nota/1127306/politica/junto-javier-milei-donald-trump-lanzo-alianza-regional-antinarco.html)), y Argentina figura entre los firmantes de las declaraciones conjuntas del grupo, como la del 5 de junio sobre Bolivia ([Fox News](https://www.foxnews.com/world/us-shield-americas-condemn-ongoing-efforts-overthrow-bolivias-elected-president-unrest)).",
+          pt: "a Argentina se tornou o maior aliado latino-americano de Washington ([AS/COA](https://www.as-coa.org/articles/one-year-trumps-impact-latin-america-and-whats-next)); Milei participou da cúpula de lançamento do Escudo das Américas, em Miami, em março de 2026 ([La Gaceta](https://www.lagaceta.com.ar/nota/1127306/politica/junto-javier-milei-donald-trump-lanzo-alianza-regional-antinarco.html)), e a Argentina está entre os signatários das declarações conjuntas do grupo, como a de 5 de junho sobre a Bolívia ([Fox News](https://www.foxnews.com/world/us-shield-americas-condemn-ongoing-efforts-overthrow-bolivias-elected-president-unrest)).",
+          fr: "l’Argentine est devenue le plus grand allié latino-américain de Washington ([AS/COA](https://www.as-coa.org/articles/one-year-trumps-impact-latin-america-and-whats-next)) ; Milei a participé au sommet de lancement du Bouclier des Amériques, à Miami, en mars 2026 ([La Gaceta](https://www.lagaceta.com.ar/nota/1127306/politica/junto-javier-milei-donald-trump-lanzo-alianza-regional-antinarco.html)), et l’Argentine figure parmi les signataires des déclarations conjointes du groupe, comme celle du 5 juin sur la Bolivie ([Fox News](https://www.foxnews.com/world/us-shield-americas-condemn-ongoing-efforts-overthrow-bolivias-elected-president-unrest)).",
+          gn: "Argentina oiko Washington aliado latinoamericano guasu ([AS/COA](https://www.as-coa.org/articles/one-year-trumps-impact-latin-america-and-whats-next)); Milei oĩ cumbre Escudo de las Américas oñepyrũhague Miami-pe, 2026 jasyapy-pe ([La Gaceta](https://www.lagaceta.com.ar/nota/1127306/politica/junto-javier-milei-donald-trump-lanzo-alianza-regional-antinarco.html)), ha Argentina oĩ grupo declaración conjunta osignáva apytépe, 5 jasypoteĩ Bolivia rehegua ramo ([Fox News](https://www.foxnews.com/world/us-shield-americas-condemn-ongoing-efforts-overthrow-bolivias-elected-president-unrest)).",
+          qu: "Argentinaqa Washingtonpa aswan hatun latinoamericano aliadonmi karqan ([AS/COA](https://www.as-coa.org/articles/one-year-trumps-impact-latin-america-and-whats-next)); Mileitaq Miamipi Escudo de las Américaspa qallariy cumbrenpi marzo 2026 watapi kaq karqan ([La Gaceta](https://www.lagaceta.com.ar/nota/1127306/politica/junto-javier-milei-donald-trump-lanzo-alianza-regional-antinarco.html)), Argentinataq huñupa juntasqa willakuyninkuna qillqaqkuna ukhupi, 5 de junio Boliviamanta hina ([Fox News](https://www.foxnews.com/world/us-shield-americas-condemn-ongoing-efforts-overthrow-bolivias-elected-president-unrest)).",
+          ht: "Ajantin te vin pi gwo alye Washington nan Amerik Latin ([AS/COA](https://www.as-coa.org/articles/one-year-trumps-impact-latin-america-and-whats-next)); Milei te patisipe nan somè lansman Boukliye Amerik la, nan Miami, an mas 2026 ([La Gaceta](https://www.lagaceta.com.ar/nota/1127306/politica/junto-javier-milei-donald-trump-lanzo-alianza-regional-antinarco.html)), epi Ajantin se youn nan siyatè deklarasyon konjwen gwoup la, tankou sa 5 jen an sou Bolivi ([Fox News](https://www.foxnews.com/world/us-shield-americas-condemn-ongoing-efforts-overthrow-bolivias-elected-president-unrest)).",
+        },
+      },
+      {
+        label: {
+          es: "Minerales críticos",
+          pt: "Minerais críticos",
+          fr: "Minerais critiques",
+          gn: "Mineral crítico",
+          qu: "Critico mineralkuna",
+          ht: "Mineral kritik",
+        },
+        text: {
+          es: "la Estrategia incluye el acceso a minerales y tierras raras como pilar de la seguridad económica. El rescate de 20.000 millones de dólares a Argentina se presentó también como una forma de garantizar acceso a sus minerales, en un país en el que empresas chinas participan en 6 de los 16 proyectos de litio. ([PIIE](https://www.piie.com/blogs/realtime-economics/2026/trumps-latter-day-monroe-doctrine-aimed-china)) La revista del centro brasileño CEBRI concluye que el gobierno de Trump convirtió intereses corporativos en energía y minerales en política de seguridad nacional. ([CEBRI](https://cebri.org/revista/en/artigo/282/the-trump-corollary))",
+          pt: "a Estratégia inclui o acesso a minerais e terras raras como pilar da segurança econômica. O socorro de US$ 20 bilhões à Argentina foi apresentado também como forma de garantir acesso a seus minerais, num país em que empresas chinesas participam de 6 dos 16 projetos de lítio. ([PIIE](https://www.piie.com/blogs/realtime-economics/2026/trumps-latter-day-monroe-doctrine-aimed-china)) A revista do centro brasileiro CEBRI conclui que o governo Trump transformou interesses corporativos em energia e minerais em política de segurança nacional. ([CEBRI](https://cebri.org/revista/en/artigo/282/the-trump-corollary))",
+          fr: "la Stratégie inclut l’accès aux minerais et aux terres rares comme pilier de la sécurité économique. Le plan de sauvetage de 20 milliards de dollars à l’Argentine a aussi été présenté comme un moyen de garantir l’accès à ses minerais, dans un pays où des entreprises chinoises participent à 6 des 16 projets de lithium. ([PIIE](https://www.piie.com/blogs/realtime-economics/2026/trumps-latter-day-monroe-doctrine-aimed-china)) La revue du centre brésilien CEBRI conclut que le gouvernement Trump a transformé des intérêts d’entreprises dans l’énergie et les minerais en politique de sécurité nationale. ([CEBRI](https://cebri.org/revista/en/artigo/282/the-trump-corollary))",
+          gn: "estrategia omoĩ mineral ha tierra rara rehe acceso seguridad económica pilar ramo. Rescate 20 mil millones de dólares Argentina-pe ojehechauka avei hembiapo ramo ojeasegura hag̃ua acceso mineral kuéra rehe, peteĩ tetãme China empresa kuéra oĩva 16 proyecto litio-gui 6-pe. ([PIIE](https://www.piie.com/blogs/realtime-economics/2026/trumps-latter-day-monroe-doctrine-aimed-china)) Revista centro brasileño CEBRI heʼi Trump gobierno omoambue interés corporativo energía ha mineral-pe política seguridad nacional-pe. ([CEBRI](https://cebri.org/revista/en/artigo/282/the-trump-corollary))",
+          qu: "estrategiaqa mineralkunaman hinallataq tierras raras nisqakunaman yaykuyta economico seguridadpa sayaynin hina churan. Argentinaman 20 mil millón dólar rescateqa mineralninkunaman yaykuyta takyachinapaq hinapas qhawachisqa karqan, huk suyupi chaypi Chinamanta empresakuna 16 litio proyectokunamanta 6pi tarikunku. ([PIIE](https://www.piie.com/blogs/realtime-economics/2026/trumps-latter-day-monroe-doctrine-aimed-china)) Brasilpa CEBRI centrop revistanqa Trump gobiernoqa energía hinallataq mineralkunapi corporativo interesekunata nacional seguridad politica hina tikrarqan nispa nisqanman chayan. ([CEBRI](https://cebri.org/revista/en/artigo/282/the-trump-corollary))",
+          ht: "estrateji a mete aksè a mineral ak tè ra kòm yon pilye sekirite ekonomik. Sekou 20 milya dola bay Ajantin nan te prezante tou kòm yon fason pou garanti aksè a mineral li yo, nan yon peyi kote konpayi chinwa patisipe nan 6 sou 16 pwojè lityòm. ([PIIE](https://www.piie.com/blogs/realtime-economics/2026/trumps-latter-day-monroe-doctrine-aimed-china)) Revi sant brezilyen CEBRI a konkli ke gouvènman Trump lan te transfòme enterè antrepriz nan enèji ak mineral an politik sekirite nasyonal. ([CEBRI](https://cebri.org/revista/en/artigo/282/the-trump-corollary))",
+        },
+      },
+    ],
+    impact: {
+      text: {
+        es: "Hasta 20.000 millones de dólares de apoyo cambiario; el país se volvió el aliado más cercano de Washington.",
+        pt: "Até US$ 20 bilhões de apoio cambial; país se tornou o aliado mais próximo de Washington.",
+        fr: "Jusqu’à 20 milliards de dollars de soutien en devises ; le pays est devenu l’allié le plus proche de Washington.",
+        gn: "20 mil millones de dólares peve apoyo cambiario; tetã oiko Washington aliado hi’aguĩvéva.",
+        qu: "20 mil millón dólarkama cambio yanapay; suyuqa Washingtonpa aswan qayllapi aliadon kapurqan.",
+        ht: "Jiska 20 milya dola sipò pou monnen; peyi a te vin alye ki pi pre Washington.",
+      },
+    },
+    sources: [
+      {
+        title: "Al Jazeera: Trump condiciona a ajuda à Argentina à eleição",
+        url: "https://www.aljazeera.com/news/2025/10/14/not-going-to-waste-our-time-trump-hinges-us-aid-to-argentina-on-election",
+        note: {
+          es: "reportaje (14/10/2025); derechos reservados",
+          pt: "reportagem (14/10/2025); direitos reservados",
+          fr: "reportage (14/10/2025) ; droits réservés",
+          gn: "reportaje (14/10/2025); derecho reservado",
+          qu: "willakuy (14/10/2025); derechokuna waqaychasqa",
+          ht: "repòtaj (14/10/2025); dwa rezève",
+        },
+      },
+      {
+        title: "Canadian Dimension: Trump não consegue parar de interferir em eleições de outros países",
+        url: "https://canadiandimension.com/articles/view/trump-cant-stop-interfering-in-other-countries-elections",
+        note: {
+          es: "reportaje; derechos reservados",
+          pt: "reportagem; direitos reservados",
+          fr: "reportage ; droits réservés",
+          gn: "reportaje; derecho reservado",
+          qu: "willakuy; derechokuna waqaychasqa",
+          ht: "repòtaj; dwa rezève",
+        },
+      },
+      {
+        title: "AS/COA: um ano do impacto de Trump na América Latina",
+        url: "https://www.as-coa.org/articles/one-year-trumps-impact-latin-america-and-whats-next",
+        note: {
+          es: "reportaje; derechos reservados",
+          pt: "reportagem; direitos reservados",
+          fr: "reportage ; droits réservés",
+          gn: "reportaje; derecho reservado",
+          qu: "willakuy; derechokuna waqaychasqa",
+          ht: "repòtaj; dwa rezève",
+        },
+      },
+      {
+        title: 'La Gaceta: Milei e Trump lançam aliança regional "antinarco"',
+        url: "https://www.lagaceta.com.ar/nota/1127306/politica/junto-javier-milei-donald-trump-lanzo-alianza-regional-antinarco.html",
+        note: {
+          es: "reportaje (08/03/2026); derechos reservados",
+          pt: "reportagem (08/03/2026); direitos reservados",
+          fr: "reportage (08/03/2026) ; droits réservés",
+          gn: "reportaje (08/03/2026); derecho reservado",
+          qu: "willakuy (08/03/2026); derechokuna waqaychasqa",
+          ht: "repòtaj (08/03/2026); dwa rezève",
+        },
+      },
+      {
+        title: "AP/NBC News: Milei triunfa nas legislativas, acompanhadas de perto por Washington",
+        url: "https://www.nbcnews.com/world/argentina/milei-triumphs-argentine-midterm-elections-closely-watched-washington-rcna239964",
+        note: {
+          es: "reportaje (27/10/2025); derechos reservados",
+          pt: "reportagem (27/10/2025); direitos reservados",
+          fr: "reportage (27/10/2025) ; droits réservés",
+          gn: "reportaje (27/10/2025); derecho reservado",
+          qu: "willakuy (27/10/2025); derechokuna waqaychasqa",
+          ht: "repòtaj (27/10/2025); dwa rezève",
+        },
+      },
+      {
+        title: "Fox News: EUA e Escudo das Américas condenam esforços para derrubar o presidente eleito da Bolívia",
+        url: "https://www.foxnews.com/world/us-shield-americas-condemn-ongoing-efforts-overthrow-bolivias-elected-president-unrest",
+        note: {
+          es: "reportaje (05/06/2026); derechos reservados",
+          pt: "reportagem (05/06/2026); direitos reservados",
+          fr: "reportage (05/06/2026) ; droits réservés",
+          gn: "reportaje (05/06/2026); derecho reservado",
+          qu: "willakuy (05/06/2026); derechokuna waqaychasqa",
+          ht: "repòtaj (05/06/2026); dwa rezève",
+        },
+      },
+      {
+        title: "PIIE: a Doutrina Monroe de Trump mira a China",
+        url: "https://www.piie.com/blogs/realtime-economics/2026/trumps-latter-day-monroe-doctrine-aimed-china",
+        note: {
+          es: "reportaje; derechos reservados",
+          pt: "reportagem; direitos reservados",
+          fr: "reportage ; droits réservés",
+          gn: "reportaje; derecho reservado",
+          qu: "willakuy; derechokuna waqaychasqa",
+          ht: "repòtaj; dwa rezève",
+        },
+      },
+      {
+        title: "CEBRI: o Corolário Trump",
+        url: "https://cebri.org/revista/en/artigo/282/the-trump-corollary",
+        note: {
+          es: "reportaje; derechos reservados",
+          pt: "reportagem; direitos reservados",
+          fr: "reportage ; droits réservés",
+          gn: "reportaje; derecho reservado",
+          qu: "willakuy; derechokuna waqaychasqa",
+          ht: "repòtaj; dwa rezève",
+        },
+      },
+    ],
+  },
   period: {
     es: "1976–1983",
     pt: "1976–1983",
@@ -37,7 +245,7 @@ const content: CountryContentType = {
       },
       text: {
         es: "durante más de un año antes del golpe, diplomáticos estadounidenses advirtieron a Washington de que los militares iban a tomar el poder. Dos días después del golpe, el principal asesor de Kissinger para América Latina previó “bastante represión, probablemente mucha sangre”; Kissinger ordenó al equipo no dar la impresión de que Estados Unidos iba a presionar a la junta. ([LAB](https://lab.org.uk/argentina-new-evidence-of-us-support-for-the-generals-during-the-dirty-war/))",
-        pt: "por mais de um ano antes do golpe, diplomatas americanos avisaram Washington de que os militares iam tomar o poder. Dois dias depois do golpe, o principal assessor de Kissinger para a América Latina previu \"bastante repressão, provavelmente muito sangue\"; Kissinger ordenou à equipe não dar a impressão de que os EUA iam pressionar a junta. ([LAB](https://lab.org.uk/argentina-new-evidence-of-us-support-for-the-generals-during-the-dirty-war/))",
+        pt: 'por mais de um ano antes do golpe, diplomatas americanos avisaram Washington de que os militares iam tomar o poder. Dois dias depois do golpe, o principal assessor de Kissinger para a América Latina previu "bastante repressão, provavelmente muito sangue"; Kissinger ordenou à equipe não dar a impressão de que os EUA iam pressionar a junta. ([LAB](https://lab.org.uk/argentina-new-evidence-of-us-support-for-the-generals-during-the-dirty-war/))',
         fr: "pendant plus d’un an avant le coup d’État, des diplomates américains ont averti Washington que les militaires allaient prendre le pouvoir. Deux jours après le coup d’État, le principal conseiller de Kissinger pour l’Amérique latine a prévu « beaucoup de répression, probablement beaucoup de sang » ; Kissinger a ordonné à son équipe de ne pas donner l’impression que les États-Unis allaient faire pression sur la junte. ([LAB](https://lab.org.uk/argentina-new-evidence-of-us-support-for-the-generals-during-the-dirty-war/))",
         gn: "peteĩ áno rangue golpe mboyve, diplomático norteamericano heʼi Washington-pe militar oipotaha ohupyty poder. Mokõi ára golpe rire, Kissinger asesor tuichavéva América Latina rehegua heʼi “heta represión, ikatu heta tuguy”; Kissinger omanda hembiguái-pe ani ohechauka Estados Unidos oñemoĩtaha junta ári. ([LAB](https://lab.org.uk/argentina-new-evidence-of-us-support-for-the-generals-during-the-dirty-war/))",
         qu: "golpe manaraq kachkaptin huk watamanta aswan, Estados Unidosmanta diplomaticokunaqa Washingtonman militarkuna kamachikuyta hap’ina kasqanta willarqanku. Golpe qhipata iskay p’unchawpi Kissingerpa América Latinamanta aswan hatun yanapaqnin “achka llapchiyta, ichapas achka yawarta” nirqan; Kissingerqa llamkaqninkunaman kamachirqan Estados Unidos juntata ñit’inanta ama rikuchinankupaq. ([LAB](https://lab.org.uk/argentina-new-evidence-of-us-support-for-the-generals-during-the-dirty-war/))",
@@ -65,7 +273,7 @@ const content: CountryContentType = {
     {
       label: {
         es: "“Luz verde”",
-        pt: "\"Luz verde\"",
+        pt: '"Luz verde"',
         fr: "« Feu vert »",
         gn: "“Luz verde”",
         qu: "“Berde k’anchay”",
@@ -73,7 +281,7 @@ const content: CountryContentType = {
       },
       text: {
         es: "el 10 de junio de 1976, en Santiago, cuando el canciller Guzzetti dijo que el principal problema de Argentina era el terrorismo, Kissinger respondió que, si había cosas que hacer, debían hacerse rápido. En octubre, volvió a decir que quería ver al gobierno argentino tener éxito. Guzzetti regresó a Buenos Aires “en estado de júbilo”, según el embajador. En agosto, Kissinger dijo al embajador Hill que quería que la junta resolviera el “problema terrorista” antes de fin de año. ([National Security Archive](https://nsarchive2.gwu.edu/NSAEBB/NSAEBB133/index.htm), [Portside](https://portside.org/2014-01-20/new-memo-kissinger-gave-green-light-argentinas-dirty-war))",
-        pt: "em 10 de junho de 1976, em Santiago, quando o chanceler Guzzetti disse que o principal problema da Argentina era o terrorismo, Kissinger respondeu que, se havia coisas a fazer, deviam ser feitas rápido. Em outubro, voltou a dizer que queria ver o governo argentino ter sucesso. Guzzetti voltou a Buenos Aires \"em estado de júbilo\", segundo o embaixador. Em agosto, Kissinger disse ao embaixador Hill que queria que a junta resolvesse o \"problema terrorista\" até o fim do ano. ([National Security Archive](https://nsarchive2.gwu.edu/NSAEBB/NSAEBB133/index.htm), [Portside](https://portside.org/2014-01-20/new-memo-kissinger-gave-green-light-argentinas-dirty-war))",
+        pt: 'em 10 de junho de 1976, em Santiago, quando o chanceler Guzzetti disse que o principal problema da Argentina era o terrorismo, Kissinger respondeu que, se havia coisas a fazer, deviam ser feitas rápido. Em outubro, voltou a dizer que queria ver o governo argentino ter sucesso. Guzzetti voltou a Buenos Aires "em estado de júbilo", segundo o embaixador. Em agosto, Kissinger disse ao embaixador Hill que queria que a junta resolvesse o "problema terrorista" até o fim do ano. ([National Security Archive](https://nsarchive2.gwu.edu/NSAEBB/NSAEBB133/index.htm), [Portside](https://portside.org/2014-01-20/new-memo-kissinger-gave-green-light-argentinas-dirty-war))',
         fr: "le 10 juin 1976, à Santiago, lorsque le ministre Guzzetti a dit que le principal problème de l’Argentine était le terrorisme, Kissinger a répondu que, s’il y avait des choses à faire, il fallait les faire vite. En octobre, il a répété qu’il voulait voir le gouvernement argentin réussir. Guzzetti est retourné à Buenos Aires « dans un état de jubilation », selon l’ambassadeur. En août, Kissinger a dit à l’ambassadeur Hill qu’il voulait que la junte règle le « problème terroriste » avant la fin de l’année. ([National Security Archive](https://nsarchive2.gwu.edu/NSAEBB/NSAEBB133/index.htm), [Portside](https://portside.org/2014-01-20/new-memo-kissinger-gave-green-light-argentinas-dirty-war))",
         gn: "1976 jasypoteĩ 10-pe, Santiago-pe, canciller Guzzetti heʼi vove Argentina problema tuichavéva ha’eha terrorismo, Kissinger ombohovái: oĩramo ojejapo hag̃ua, ojejapo pya’e. Jasypa-pe, heʼi jey ohechasetaha gobierno argentino osẽ porã. Guzzetti oho jey Buenos Aires-pe “vy’ápe”, embajador heʼi haguéicha. Jasypoapy-pe, Kissinger heʼi embajador Hill-pe oipotaha junta ombohovake “problema terrorista” ary opa mboyve. ([National Security Archive](https://nsarchive2.gwu.edu/NSAEBB/NSAEBB133/index.htm), [Portside](https://portside.org/2014-01-20/new-memo-kissinger-gave-green-light-argentinas-dirty-war))",
         qu: "1976 junio killapi 10 p’unchawpi Santiagopi canciller Guzzetti Argentinapa aswan hatun sasachakuyninqa terrorismo nispa niptin, Kissingerqa ruwana kaptinqa usqhaylla ruwakunan nispa kutichirqan. Octubre killapi Argentina gobierno allinta rinanta munasqanta niraq. Guzzettiqa Buenos Airesman “kusisqa” kutirqan, embajador nisqanman hina. Agosto killapi Kissingerqa embajador Hillman nirqan juntaqa wata tukukuchkaptin “terrorista sasachakuyta” allichananta munasqanta. ([National Security Archive](https://nsarchive2.gwu.edu/NSAEBB/NSAEBB133/index.htm), [Portside](https://portside.org/2014-01-20/new-memo-kissinger-gave-green-light-argentinas-dirty-war))",
@@ -109,7 +317,7 @@ const content: CountryContentType = {
       },
       text: {
         es: "oficiales argentinos pasaron por cursos estadounidenses de contrainsurgencia, como los de la Escuela de las Américas, que difundían la doctrina del “enemigo interno”.",
-        pt: "oficiais argentinos passaram por cursos americanos de contrainsurgência, como os da Escola das Américas, que difundiam a doutrina do \"inimigo interno\".",
+        pt: 'oficiais argentinos passaram por cursos americanos de contrainsurgência, como os da Escola das Américas, que difundiam a doutrina do "inimigo interno".',
         fr: "des officiers argentins ont suivi des cours américains de contre-insurrection, comme ceux de l’École des Amériques, qui diffusaient la doctrine de l’« ennemi intérieur ».",
         gn: "oficial argentino ohasa curso norteamericano contrainsurgencia rehegua, Escuela de las Américas-pe ramo, oporomoñe’ẽva doctrina “enemigo interno” rehegua.",
         qu: "argentino oficialkunaqa Estados Unidosmanta contrainsurgencia cursokunata puriranku, Escuela de las Américas hina, chaykunaqa “ukhu awqa” doctrinata mast’arqanku.",
@@ -145,7 +353,7 @@ const content: CountryContentType = {
       },
       text: {
         es: "el embajador Robert Hill protestó contra las violaciones e intentó revertir la “luz verde”. El gobierno de Carter y el Congreso cortaron la ayuda militar a partir de 1977–1978, y el diplomático Tex Harris documentó miles de desapariciones en la embajada.",
-        pt: "o embaixador Robert Hill protestou contra as violações e tentou reverter a \"luz verde\". O governo Carter e o Congresso cortaram a ajuda militar a partir de 1977–1978, e o diplomata Tex Harris documentou milhares de desaparecimentos na embaixada.",
+        pt: 'o embaixador Robert Hill protestou contra as violações e tentou reverter a "luz verde". O governo Carter e o Congresso cortaram a ajuda militar a partir de 1977–1978, e o diplomata Tex Harris documentou milhares de desaparecimentos na embaixada.',
         fr: "l’ambassadeur Robert Hill a protesté contre les violations et tenté de revenir sur le « feu vert ». Le gouvernement Carter et le Congrès ont coupé l’aide militaire à partir de 1977–1978, et le diplomate Tex Harris a documenté à l’ambassade des milliers de disparitions.",
         gn: "embajador Robert Hill oñe’ẽ vai violación rehe ha oñeha’ã omboyke “luz verde”. Carter gobierno ha Congreso omboyke ayuda militar 1977–1978 guive, ha diplomático Tex Harris omoĩ heta mil desaparición embajada-pe.",
         qu: "embajador Robert Hillqa ñit’isqa kasqanmanta quejakurqan, “berde k’anchayta” kutichiyta ñawpaqmanta maskarqan. Carter gobiernowan Congresoqa 1977–1978 watamanta militar yanapayta kuchurqanku, diplomatico Tex Harristaq embajadapi waranqa chinkachisqa kayta qillqarqan.",
@@ -194,7 +402,7 @@ const content: CountryContentType = {
       {
         label: {
           es: "“Vuelos de la muerte”",
-          pt: "\"Voos da morte\"",
+          pt: '"Voos da morte"',
           fr: "« Vols de la mort »",
           gn: "“Vuelos de la muerte”",
           qu: "“Wañuy phawaykuna”",

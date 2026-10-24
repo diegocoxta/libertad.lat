@@ -1,6 +1,144 @@
 import type { CountryContentType } from "~/lib/country-content";
 
 const content: CountryContentType = {
+  latest: {
+    period: {
+      es: "2025",
+      pt: "2025",
+      fr: "2025",
+      gn: "2025",
+      qu: "2025",
+      ht: "2025",
+    },
+    summary: {
+      es: "Trump intervino en la elección de noviembre de 2025: respaldó a Asfura, amenazó con cortar la ayuda y alegó fraude sin pruebas.",
+      pt: "Trump interveio na eleição de novembro de 2025: endossou Asfura, ameaçou cortar a ajuda e alegou fraude sem provas.",
+      fr: "Trump est intervenu dans l’élection de novembre 2025 : il a soutenu Asfura, menacé de couper l’aide et allégué une fraude sans preuves.",
+      gn: "Trump oike elección jasypateĩ 2025-pe: oipytyvõ Asfura-pe, oamenaza oikytĩ pytyvõ ha heʼi fraude prueba’ỹre.",
+      qu: "Trumpqa noviembre 2025 akllaypi yaykurqan: Asfurata yanaparqan, yanapayta qhawarichiyta manchachirqan hinallataq mana pruebayuq fraudeta nirqan.",
+      ht: "Trump te antre nan eleksyon novanm 2025 la: li te sipòte Asfura, li te menase koupe èd la epi li te pretann gen fwòd san prèv.",
+    },
+    happened: {
+      es: "La elección del 30 de noviembre de 2025 tuvo un conteo muy estrecho, con fallas y suspensiones del escrutinio. Asfura fue declarado ganador el 24 de diciembre, tras más de tres semanas, con 40,27 % de los votos contra 39,39 % de Nasralla. ([NBC News](https://www.nbcnews.com/world/latin-america/trump-backed-candidate-nasry-asfura-declared-winner-honduras-president-rcna250880))",
+      pt: "A eleição de 30 de novembro de 2025 teve uma apuração apertada, com falhas e suspensões da contagem. Asfura foi declarado vencedor em 24 de dezembro, depois de mais de três semanas, com 40,27% dos votos contra 39,39% de Nasralla. ([NBC News](https://www.nbcnews.com/world/latin-america/trump-backed-candidate-nasry-asfura-declared-winner-honduras-president-rcna250880))",
+      fr: "L’élection du 30 novembre 2025 a donné lieu à un décompte très serré, avec des pannes et des suspensions du dépouillement. Asfura a été déclaré vainqueur le 24 décembre, après plus de trois semaines, avec 40,27 % des voix contre 39,39 % pour Nasralla. ([NBC News](https://www.nbcnews.com/world/latin-america/trump-backed-candidate-nasry-asfura-declared-winner-honduras-president-rcna250880))",
+      gn: "Elección 30 jasypateĩ 2025-pe oĩ conteo ojejoko, falla ha escrutinio suspensión ndive. Asfura ojeheʼi ganador 24 jasypakõi-pe, mbohapy semana rire, 40,27% voto 39,39% Nasralla rehe. ([NBC News](https://www.nbcnews.com/world/latin-america/trump-backed-candidate-nasry-asfura-declared-winner-honduras-president-rcna250880))",
+      qu: "30 de noviembre 2025 akllayqa sayk’usqa yupaywan karqan, pantaykunawan hinallataq yupayta harkasqawan. Asfurata 24 de diciembrepi atipaq nispa willarqanku, kimsa semanamanta aswan qipata, 40,27 % votowan Nasrallapa 39,39 %nin contra. ([NBC News](https://www.nbcnews.com/world/latin-america/trump-backed-candidate-nasry-asfura-declared-winner-honduras-president-rcna250880))",
+      ht: "Eleksyon 30 novanm 2025 la te gen yon konte sere, ak pàn ak sispansyon konte a. Yo te deklare Asfura gayan le 24 desanm, apre plis pase twa semèn, ak 40,27% vòt kont 39,39% pou Nasralla. ([NBC News](https://www.nbcnews.com/world/latin-america/trump-backed-candidate-nasry-asfura-declared-winner-honduras-president-rcna250880))",
+    },
+    usActions: [
+      {
+        label: {
+          es: "Respaldo y amenaza",
+          pt: "Endosso e ameaça",
+          fr: "Soutien et menace",
+          gn: "Pytyvõ ha amenaza",
+          qu: "Yanapay hinallataq manchachiy",
+          ht: "Sipò ak menas",
+        },
+        text: {
+          es: "Trump respaldó a Nasry Asfura, dijo que era el único candidato con el que su gobierno trabajaría, llamó a Salvador Nasralla “casi comunista” y amenazó con cortar la ayuda si Asfura no ganaba; Estados Unidos dio US$ 193,5 millones en ayuda en 2024. ([Al Jazeera](https://www.aljazeera.com/news/2025/12/5/honduran-presidential-candidate-says-trump-interfered-in-election-report), [Al Jazeera](https://www.aljazeera.com/news/2025/12/4/hondurass-nasralla-holds-narrow-lead-over-asfura-in-presidential-vote), [NBC News](https://www.nbcnews.com/world/latin-america/trump-backed-candidate-nasry-asfura-declared-winner-honduras-president-rcna250880))",
+          pt: 'Trump endossou Nasry Asfura, disse que ele era o único candidato com quem seu governo trabalharia, chamou Salvador Nasralla de "quase comunista" e ameaçou cortar a ajuda se Asfura não vencesse; os EUA deram US$ 193,5 milhões em ajuda em 2024. ([Al Jazeera](https://www.aljazeera.com/news/2025/12/5/honduran-presidential-candidate-says-trump-interfered-in-election-report), [Al Jazeera](https://www.aljazeera.com/news/2025/12/4/hondurass-nasralla-holds-narrow-lead-over-asfura-in-presidential-vote), [NBC News](https://www.nbcnews.com/world/latin-america/trump-backed-candidate-nasry-asfura-declared-winner-honduras-president-rcna250880))',
+          fr: "Trump a soutenu Nasry Asfura, a dit qu’il était le seul candidat avec qui son gouvernement travaillerait, a traité Salvador Nasralla de « quasi communiste » et menacé de couper l’aide si Asfura ne gagnait pas ; les États-Unis avaient versé 193,5 millions de dollars d’aide en 2024. ([Al Jazeera](https://www.aljazeera.com/news/2025/12/5/honduran-presidential-candidate-says-trump-interfered-in-election-report), [Al Jazeera](https://www.aljazeera.com/news/2025/12/4/hondurass-nasralla-holds-narrow-lead-over-asfura-in-presidential-vote), [NBC News](https://www.nbcnews.com/world/latin-america/trump-backed-candidate-nasry-asfura-declared-winner-honduras-president-rcna250880))",
+          gn: "Trump oipytyvõ Nasry Asfura-pe, heʼi ha’e jave peteĩ candidato ijgobierno ndive ojapo vaʼerã tembiapo, ohenói Salvador Nasralla “comunista ypykue” ha oamenaza oikytĩ pytyvõ Asfura ndohupytýiramo; Estados Unidos ome’ẽ 193,5 millón dólar pytyvõ 2024-pe. ([Al Jazeera](https://www.aljazeera.com/news/2025/12/5/honduran-presidential-candidate-says-trump-interfered-in-election-report), [Al Jazeera](https://www.aljazeera.com/news/2025/12/4/hondurass-nasralla-holds-narrow-lead-over-asfura-in-presidential-vote), [NBC News](https://www.nbcnews.com/world/latin-america/trump-backed-candidate-nasry-asfura-declared-winner-honduras-president-rcna250880))",
+          qu: "Trumpqa Nasry Asfurata yanaparqan, paylla candidato gobiernonwan llamk’ananpaq kasqanta nirqan, Salvador Nasrallata “yaqa comunista” nispa suticharqan hinallataq Asfura mana atipaptin yanapayta qichunanta manchachirqan; Estados Unidosqa 2024 watapi 193,5 millón dolar yanapayta qurqan. ([Al Jazeera](https://www.aljazeera.com/news/2025/12/5/honduran-presidential-candidate-says-trump-interfered-in-election-report), [Al Jazeera](https://www.aljazeera.com/news/2025/12/4/hondurass-nasralla-holds-narrow-lead-over-asfura-in-presidential-vote), [NBC News](https://www.nbcnews.com/world/latin-america/trump-backed-candidate-nasry-asfura-declared-winner-honduras-president-rcna250880))",
+          ht: "Trump te sipòte Nasry Asfura, li te di se te sèl kandida gouvènman li t ap travay avè l, li te rele Salvador Nasralla “prèske kominis” epi li te menase koupe èd la si Asfura pa t genyen; Etazini te bay 193,5 milyon dola èd an 2024. ([Al Jazeera](https://www.aljazeera.com/news/2025/12/5/honduran-presidential-candidate-says-trump-interfered-in-election-report), [Al Jazeera](https://www.aljazeera.com/news/2025/12/4/hondurass-nasralla-holds-narrow-lead-over-asfura-in-presidential-vote), [NBC News](https://www.nbcnews.com/world/latin-america/trump-backed-candidate-nasry-asfura-declared-winner-honduras-president-rcna250880))",
+        },
+      },
+      {
+        label: {
+          es: "Indulto a Juan Orlando Hernández",
+          pt: "Perdão a Juan Orlando Hernández",
+          fr: "Grâce à Juan Orlando Hernández",
+          gn: "Perdón Juan Orlando Hernández-pe",
+          qu: "Juan Orlando Hernándezman pampachay",
+          ht: "Padon pou Juan Orlando Hernández",
+        },
+        text: {
+          es: "Trump anunció el indulto al expresidente, condenado a 45 años de prisión en Estados Unidos por narcotráfico, que fue liberado. ([Al Jazeera](https://www.aljazeera.com/news/2025/12/4/hondurass-nasralla-holds-narrow-lead-over-asfura-in-presidential-vote))",
+          pt: "Trump anunciou o perdão ao ex-presidente, condenado nos EUA a 45 anos de prisão por narcotráfico, que foi solto. ([Al Jazeera](https://www.aljazeera.com/news/2025/12/4/hondurass-nasralla-holds-narrow-lead-over-asfura-in-presidential-vote))",
+          fr: "Trump a annoncé la grâce de l’ancien président, condamné aux États-Unis à 45 ans de prison pour narcotrafic, qui a été libéré. ([Al Jazeera](https://www.aljazeera.com/news/2025/12/4/hondurass-nasralla-holds-narrow-lead-over-asfura-in-presidential-vote))",
+          gn: "Trump heʼi operdona ex-presidente-pe, ojehusga hague Estados Unidos-pe 45 áño prisión narcotráfico rehe, ha osẽ prisión-gui. ([Al Jazeera](https://www.aljazeera.com/news/2025/12/4/hondurass-nasralla-holds-narrow-lead-over-asfura-in-presidential-vote))",
+          qu: "Trumpqa ñawpaq presidentetaqa pampacharqan, paytaq Estados Unidospi narcotráficomanta 45 watayuq carcelpaq huchachasqa karqan, kacharisqataq karqan. ([Al Jazeera](https://www.aljazeera.com/news/2025/12/4/hondurass-nasralla-holds-narrow-lead-over-asfura-in-presidential-vote))",
+          ht: "Trump te anonse padon pou ansyen prezidan an, ki te kondane nan Etazini a 45 an prizon pou nakotrafik, epi yo te libere l. ([Al Jazeera](https://www.aljazeera.com/news/2025/12/4/hondurass-nasralla-holds-narrow-lead-over-asfura-in-presidential-vote))",
+        },
+      },
+      {
+        label: {
+          es: "Fraude sin pruebas",
+          pt: "Fraude sem provas",
+          fr: "Fraude sans preuves",
+          gn: "Fraude prueba’ỹre",
+          qu: "Mana pruebayuq fraude",
+          ht: "Fwòd san prèv",
+        },
+        text: {
+          es: "durante el escrutinio, Trump alegó fraude sin presentar pruebas y escribió que, si cambiaban el resultado, “habrá que pagar un infierno”. ([Al Jazeera](https://www.aljazeera.com/news/2025/12/4/hondurass-nasralla-holds-narrow-lead-over-asfura-in-presidential-vote))",
+          pt: 'durante a apuração, Trump alegou fraude sem apresentar provas e escreveu que, se mudassem o resultado, "haverá o diabo a pagar". ([Al Jazeera](https://www.aljazeera.com/news/2025/12/4/hondurass-nasralla-holds-narrow-lead-over-asfura-in-presidential-vote))',
+          fr: "pendant le dépouillement, Trump a allégué une fraude sans présenter de preuves et écrit que, si le résultat était changé, « il y aurait un enfer à payer ». ([Al Jazeera](https://www.aljazeera.com/news/2025/12/4/hondurass-nasralla-holds-narrow-lead-over-asfura-in-presidential-vote))",
+          gn: "escrutinio aja, Trump heʼi fraude prueba’ỹre ha ohai resultado ojeambueramo “ojepaga vaʼerã infierno”. ([Al Jazeera](https://www.aljazeera.com/news/2025/12/4/hondurass-nasralla-holds-narrow-lead-over-asfura-in-presidential-vote))",
+          qu: "Yupay ukhupi Trumpqa mana pruebayuq fraudeta nirqan hinallataq resultadota tikraptinqa “infiernota pagakunqa” nispa qillqarqan. ([Al Jazeera](https://www.aljazeera.com/news/2025/12/4/hondurass-nasralla-holds-narrow-lead-over-asfura-in-presidential-vote))",
+          ht: "pandan konte a, Trump te pretann gen fwòd san prezante prèv epi li te ekri ke, si yo chanje rezilta a, “ap gen lanfè pou peye”. ([Al Jazeera](https://www.aljazeera.com/news/2025/12/4/hondurass-nasralla-holds-narrow-lead-over-asfura-in-presidential-vote))",
+        },
+      },
+      {
+        label: {
+          es: "Acusación de interferencia",
+          pt: "Acusação de interferência",
+          fr: "Accusation d’ingérence",
+          gn: "Interferencia acusación",
+          qu: "Interferenciamanta huchachay",
+          ht: "Akizasyon entèferans",
+        },
+        text: {
+          es: "Nasralla, el candidato derrotado, y otros opositores dicen que el respaldo de Trump en la recta final fue una interferencia electoral que inclinó el resultado; él escribió a Trump que el candidato “respaldado por usted es cómplice de silenciar los votos”, y la presidenta saliente, Xiomara Castro, habló de “golpe electoral” ([NBC News](https://www.nbcnews.com/world/latin-america/trump-backed-candidate-nasry-asfura-declared-winner-honduras-president-rcna250880)). Rixi Moncada calificó las acusaciones de fraude de “intervención directa” ([Al Jazeera](https://www.aljazeera.com/news/2025/12/4/hondurass-nasralla-holds-narrow-lead-over-asfura-in-presidential-vote)).",
+          pt: 'Nasralla, o candidato derrotado, e outros opositores dizem que o endosso de Trump na reta final foi interferência eleitoral que decidiu o resultado; ele escreveu a Trump que o candidato "endossado pelo senhor é cúmplice em silenciar os votos", e a presidente Xiomara Castro, que deixava o cargo, falou em "golpe eleitoral" ([NBC News](https://www.nbcnews.com/world/latin-america/trump-backed-candidate-nasry-asfura-declared-winner-honduras-president-rcna250880)). Rixi Moncada chamou as acusações de fraude de "intervenção direta" ([Al Jazeera](https://www.aljazeera.com/news/2025/12/4/hondurass-nasralla-holds-narrow-lead-over-asfura-in-presidential-vote)).',
+          fr: "Nasralla, le candidat battu, et d’autres opposants disent que le soutien de Trump en fin de campagne était une ingérence électorale qui a fait pencher le résultat ; il a écrit à Trump que le candidat « soutenu par vous est complice du silence imposé aux votes », et la présidente sortante, Xiomara Castro, a parlé de « coup d’État électoral » ([NBC News](https://www.nbcnews.com/world/latin-america/trump-backed-candidate-nasry-asfura-declared-winner-honduras-president-rcna250880)). Rixi Moncada a qualifié les accusations de fraude d’« intervention directe » ([Al Jazeera](https://www.aljazeera.com/news/2025/12/4/hondurass-nasralla-holds-narrow-lead-over-asfura-in-presidential-vote)).",
+          gn: "Nasralla, candidato ojeity vaʼekue, ha ambue oposición heʼi Trump apoyo ipahápe ha’eha interferencia electoral ombohasa vaʼekue resultado; ohai Trump-pe candidato “nde reipytyvõva ha’e cómplice voto kuéra ombopуʼa hag̃ua” ha presidenta osẽva Xiomara Castro heʼi “golpe electoral” ([NBC News](https://www.nbcnews.com/world/latin-america/trump-backed-candidate-nasry-asfura-declared-winner-honduras-president-rcna250880)). Rixi Moncada heʼi fraude acusación “intervención directa” ([Al Jazeera](https://www.aljazeera.com/news/2025/12/4/hondurass-nasralla-holds-narrow-lead-over-asfura-in-presidential-vote)).",
+          qu: "Nasralla, atipasqa candidato, wakin oposicionkunapas nin Trumpp tukukuy yanapayninqa akllay interferenciam karqan resultadota tikrachiq; paymi Trumpman qillqarqan “qanpa yanapasqayki candidatoqa votokunata upallachinapi cómplicem” nispa, lluqsiq presidenta Xiomara Castrotaq “akllay golpe” nirqan ([NBC News](https://www.nbcnews.com/world/latin-america/trump-backed-candidate-nasry-asfura-declared-winner-honduras-president-rcna250880)). Rixi Moncadataq fraudemanta huchachaykunata “directa intervencion” nirqan ([Al Jazeera](https://www.aljazeera.com/news/2025/12/4/hondurass-nasralla-holds-narrow-lead-over-asfura-in-presidential-vote)).",
+          ht: "Nasralla, kandida ki pèdi a, ak lòt opozan di sipò Trump nan dènye liy dwat la se te yon entèferans elektoral ki te fè rezilta a bese; li te ekri Trump ke kandida “ou sipòte a se konplis nan fè vòt yo pe”, epi prezidan sòtan an, Xiomara Castro, te pale de “koudeta elektoral” ([NBC News](https://www.nbcnews.com/world/latin-america/trump-backed-candidate-nasry-asfura-declared-winner-honduras-president-rcna250880)). Rixi Moncada te rele akizasyon fwòd yo “yon entèvansyon dirèk” ([Al Jazeera](https://www.aljazeera.com/news/2025/12/4/hondurass-nasralla-holds-narrow-lead-over-asfura-in-presidential-vote)).",
+        },
+      },
+    ],
+    sources: [
+      {
+        title: "Al Jazeera: candidato hondurenho diz que Trump interferiu na eleição",
+        url: "https://www.aljazeera.com/news/2025/12/5/honduran-presidential-candidate-says-trump-interfered-in-election-report",
+        note: {
+          es: "reportaje (05/12/2025); derechos reservados",
+          pt: "reportagem (05/12/2025); direitos reservados",
+          fr: "reportage (05/12/2025) ; droits réservés",
+          gn: "reportaje (05/12/2025); derecho reservado",
+          qu: "willakuy (05/12/2025); derechokuna waqaychasqa",
+          ht: "repòtaj (05/12/2025); dwa rezève",
+        },
+      },
+      {
+        title: "Al Jazeera: Nasralla tem vantagem apertada sobre Asfura na votação presidencial",
+        url: "https://www.aljazeera.com/news/2025/12/4/hondurass-nasralla-holds-narrow-lead-over-asfura-in-presidential-vote",
+        note: {
+          es: "reportaje (04/12/2025); derechos reservados",
+          pt: "reportagem (04/12/2025); direitos reservados",
+          fr: "reportage (04/12/2025) ; droits réservés",
+          gn: "reportaje (04/12/2025); derecho reservado",
+          qu: "willakuy (04/12/2025); derechokuna waqaychasqa",
+          ht: "repòtaj (04/12/2025); dwa rezève",
+        },
+      },
+      {
+        title: "NBC News: candidato apoiado por Trump é declarado vencedor da eleição presidencial em Honduras",
+        url: "https://www.nbcnews.com/world/latin-america/trump-backed-candidate-nasry-asfura-declared-winner-honduras-president-rcna250880",
+        note: {
+          es: "reportaje (24/12/2025); derechos reservados",
+          pt: "reportagem (24/12/2025); direitos reservados",
+          fr: "reportage (24/12/2025) ; droits réservés",
+          gn: "reportaje (24/12/2025); derecho reservado",
+          qu: "willakuy (24/12/2025); derechokuna waqaychasqa",
+          ht: "repòtaj (24/12/2025); dwa rezève",
+        },
+      },
+    ],
+  },
   period: {
     es: "1980–2009",
     pt: "1980–2009",
@@ -91,7 +229,7 @@ const content: CountryContentType = {
       },
       text: {
         es: "Obama condenó el golpe y suspendió parte de la ayuda, pero el Departamento de Estado evitó declararlo formalmente “golpe militar”, lo que cortaría toda la asistencia. Hillary Clinton apoyó la mediación costarricense y las elecciones de noviembre de 2009, que volvieron irrelevante el regreso de Zelaya; ella describió ese papel en sus memorias. El avión que llevó a Zelaya al exilio hizo escala en Soto Cano.",
-        pt: "Obama condenou o golpe e suspendeu parte da ajuda, mas o Departamento de Estado evitou declará-lo formalmente \"golpe militar\", o que cortaria toda a assistência. Hillary Clinton apoiou a mediação costarriquenha e as eleições de novembro de 2009, que tornaram a volta de Zelaya irrelevante; ela descreveu esse papel em seu livro de memórias. O avião que levou Zelaya ao exílio parou em Soto Cano.",
+        pt: 'Obama condenou o golpe e suspendeu parte da ajuda, mas o Departamento de Estado evitou declará-lo formalmente "golpe militar", o que cortaria toda a assistência. Hillary Clinton apoiou a mediação costarriquenha e as eleições de novembro de 2009, que tornaram a volta de Zelaya irrelevante; ela descreveu esse papel em seu livro de memórias. O avião que levou Zelaya ao exílio parou em Soto Cano.',
         fr: "Obama a condamné le coup d’État et suspendu une partie de l’aide, mais le département d’État a évité de le déclarer formellement « coup d’État militaire », ce qui aurait coupé toute l’assistance. Hillary Clinton a soutenu la médiation costaricienne et les élections de novembre 2009, qui ont rendu le retour de Zelaya sans objet ; elle a décrit ce rôle dans ses mémoires. L’avion qui a conduit Zelaya en exil a fait escale à Soto Cano.",
         gn: "Obama oñe’ẽ vai golpe rehe ha omboyke peteĩ ayuda, hákatu Departamento de Estado ndohenóirei formalmente “golpe militar”, opa asistencia omboyke hag̃ua. Hillary Clinton oipytyvõ mediación costarricense ha elección jasypateĩ 2009, ombotuichahína Zelaya ojey; ha’e ohai upe papel memoria-pe. Avión ogueraha Zelaya exilio-pe opyta Soto Cano-pe.",
         qu: "Obamaqa golpeta huchacharqan hinaspa huk yanapayta tanqarqan, ichaqa Departamento de Estadoqa “militar golpe” nispa mana sut’inchasqachu, chaymi llapa yanapayta kuchunman karqan. Hillary Clintonqa Costa Rica rimanachiyninta hinallataq noviembre 2009 akllaykuna yanaparqan, chaykunam Zelayapa kutimuyninta mana ima kananman tukuchirqan; paymi chay ruwasqanta memorian libropi willarqan. Zelayata exiliuman apaq avionqa Soto Canopi tiyarqan.",

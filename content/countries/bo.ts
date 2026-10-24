@@ -1,6 +1,168 @@
 import type { CountryContentType } from "~/lib/country-content";
 
 const content: CountryContentType = {
+  latest: {
+    period: {
+      es: "2026",
+      pt: "2026",
+      fr: "2026",
+      gn: "2026",
+      qu: "2026",
+      ht: "2026",
+    },
+    summary: {
+      es: "Ante bloqueos que piden la renuncia de Rodrigo Paz, Rubio y el Escudo de las Américas salieron en defensa del gobierno.",
+      pt: "Diante de bloqueios que pedem a renúncia de Rodrigo Paz, Rubio e o Escudo das Américas saíram em defesa do governo.",
+      fr: "Face aux blocages qui réclament la démission de Rodrigo Paz, Rubio et le Bouclier des Amériques ont pris la défense du gouvernement.",
+      gn: "Bloqueo Rodrigo Paz renuncia ojerurévare renonde, Rubio ha Escudo de las Américas oñangareko gobierno rehe.",
+      qu: "Rodrigo Pazpa renunciananta mañaq harkaykunaman contra, Rubiowan Escudo de las Américasqa gobiernota amachaqku.",
+      ht: "Fas a blokaj ki mande demisyon Rodrigo Paz, Rubio ak Boukliye Amerik la te defann gouvènman an.",
+    },
+    happened: {
+      es: "Desde el 6 de mayo de 2026, bloqueos de sindicatos, campesinos y seguidores de Evo Morales exigen la renuncia de Paz, a quien acusan de privatizaciones; el gobierno lo niega. Paz, elegido en 2025 y alineado con Trump, integra el Escudo de las Américas.",
+      pt: "Desde 6 de maio de 2026, bloqueios de sindicatos, camponeses e apoiadores de Evo Morales exigem a renúncia de Paz, a quem acusam de privatizações; o governo nega. Paz, eleito em 2025 e alinhado a Trump, integra o Escudo das Américas.",
+      fr: "Depuis le 6 mai 2026, des blocages de syndicats, de paysans et de partisans d’Evo Morales exigent la démission de Paz, qu’ils accusent de privatisations ; le gouvernement le nie. Paz, élu en 2025 et aligné sur Trump, fait partie du Bouclier des Amériques.",
+      gn: "6 jasypo 2026 guive, sindicato, campesino ha Evo Morales apykuéra bloqueo ojerure Paz renuncia, oacusa privatización rehe; gobierno onega. Paz, ojeporavo 2025-pe ha Trump ndive oĩva, oĩ Escudo de las Américas-pe.",
+      qu: "6 de mayo 2026 watamanta sindicatokuna, campesinokuna hinallataq Evo Moralespa qatiqninkuna harkaykunawan Pazpa renunciananta mañanku, privatizacionkunawan huchachanku; gobiernoqa negan. Pazqa 2025 watapi akllasqa Trumpwan kuskachasqa, Escudo de las Américaspipas kachkan.",
+      ht: "Depi 6 me 2026, blokaj sendika, peyizan ak patizan Evo Morales mande demisyon Paz, yo akize l de privatizasyon; gouvènman an nye sa. Paz, ki te eli an 2025 epi ki aliyen ak Trump, fè pati Boukliye Amerik la.",
+    },
+    usActions: [
+      {
+        label: {
+          es: "Rubio (20 de mayo)",
+          pt: "Rubio (20 de maio)",
+          fr: "Rubio (20 mai)",
+          gn: "Rubio (20 jasypo)",
+          qu: "Rubio (20 de mayo)",
+          ht: "Rubio (20 me)",
+        },
+        text: {
+          es: "el secretario de Estado escribió en redes que Estados Unidos respalda al gobierno de Paz y que “no permitiremos que criminales y traficantes de drogas derroquen a líderes elegidos democráticamente en nuestro continente”. ([Swissinfo/EFE](https://www.swissinfo.ch/spa/marco-rubio-advierte-que-ee.uu.-no-permitir%C3%A1-que-el-gobierno-de-bolivia-sea-derrocado/91447979))",
+          pt: 'o secretário de Estado escreveu nas redes que os EUA apoiam o governo de Paz e que "não permitiremos que criminosos e traficantes de drogas derrubem líderes eleitos democraticamente em nosso continente". ([Swissinfo/EFE](https://www.swissinfo.ch/spa/marco-rubio-advierte-que-ee.uu.-no-permitir%C3%A1-que-el-gobierno-de-bolivia-sea-derrocado/91447979))',
+          fr: "le secrétaire d’État a écrit sur les réseaux que les États-Unis soutiennent le gouvernement de Paz et qu’« ils ne permettront pas que des criminels et des trafiquants de drogue renversent des dirigeants élus démocratiquement sur notre continent ». ([Swissinfo/EFE](https://www.swissinfo.ch/spa/marco-rubio-advierte-que-ee.uu.-no-permitir%C3%A1-que-el-gobierno-de-bolivia-sea-derrocado/91447979))",
+          gn: "secretario de Estado ohai redes-pe Estados Unidos oipytyvõha Paz gobierno ha “ndaikatumoʼãi roheja criminal ha traficante de drogas ombogue líder democráticamente ojeporavóva ore continente-pe”. ([Swissinfo/EFE](https://www.swissinfo.ch/spa/marco-rubio-advierte-que-ee.uu.-no-permitir%C3%A1-que-el-gobierno-de-bolivia-sea-derrocado/91447979))",
+          qu: "Estado secretarioqa redkunapi qillqarqan Estados Unidosqa Pazpa gobiernonta yanapaqmi, hinallataq “mana saqenqachu huchasapakunata nitaq drogas ranqhaqkunata kay continentenchikpi demokratikamente akllasqa kamachiqkunata urmachinankuta” nispa. ([Swissinfo/EFE](https://www.swissinfo.ch/spa/marco-rubio-advierte-que-ee.uu.-no-permitir%C3%A1-que-el-gobierno-de-bolivia-sea-derrocado/91447979))",
+          ht: "sekretè Deta a te ekri sou rezo yo ke Etazini sipòte gouvènman Paz epi “nou pa pral pèmèt kriminèl ak trafikan dwòg ranvèse lidè ki eli demokratikman sou kontinan nou an”. ([Swissinfo/EFE](https://www.swissinfo.ch/spa/marco-rubio-advierte-que-ee.uu.-no-permitir%C3%A1-que-el-gobierno-de-bolivia-sea-derrocado/91447979))",
+        },
+      },
+      {
+        label: {
+          es: "Escudo de las Américas (21 de mayo y 5 de junio)",
+          pt: "Escudo das Américas (21 de maio e 5 de junho)",
+          fr: "Bouclier des Amériques (21 mai et 5 juin)",
+          gn: "Escudo de las Américas (21 jasypo ha 5 jasypoteĩ)",
+          qu: "Escudo de las Américas (21 de mayo hinallataq 5 de junio)",
+          ht: "Boukliye Amerik la (21 me ak 5 jen)",
+        },
+        text: {
+          es: "el 21 de mayo, Estados Unidos y otros 12 países del Escudo expresaron preocupación por protestas y bloqueos “destinados a subvertir el orden constitucional” ([AS/COA](https://www.as-coa.org/articles/trump-latin-america-shield-americas-backs-paz-bolivia-flavio-visits-trump)); el 5 de junio, los 13 denunciaron “esfuerzos continuos por derrocar al gobierno legítimo y ampliamente electo” de Paz y dijeron que quienes financian las protestas con “dinero sucio” del narcotráfico deben rendir cuentas, sin presentar pruebas ([Fox News](https://www.foxnews.com/world/us-shield-americas-condemn-ongoing-efforts-overthrow-bolivias-elected-president-unrest), [CNN/KRDO](https://krdo.com/?p=1731087)).",
+          pt: 'em 21 de maio, os EUA e outros 12 países do Escudo expressaram preocupação com protestos e bloqueios "destinados a subverter a ordem constitucional" ([AS/COA](https://www.as-coa.org/articles/trump-latin-america-shield-americas-backs-paz-bolivia-flavio-visits-trump)); em 5 de junho, os 13 denunciaram "esforços contínuos para derrubar o governo legítimo e amplamente eleito" de Paz e disseram que quem financia os protestos com "dinheiro sujo" do narcotráfico deve ser responsabilizado, sem apresentar evidências ([Fox News](https://www.foxnews.com/world/us-shield-americas-condemn-ongoing-efforts-overthrow-bolivias-elected-president-unrest), [CNN/KRDO](https://krdo.com/?p=1731087)).',
+          fr: "le 21 mai, les États-Unis et 12 autres pays du Bouclier ont exprimé leur préoccupation face à des manifestations et blocages « visant à subvertir l’ordre constitutionnel » ([AS/COA](https://www.as-coa.org/articles/trump-latin-america-shield-americas-backs-paz-bolivia-flavio-visits-trump)) ; le 5 juin, les 13 ont dénoncé « les efforts continus pour renverser le gouvernement légitime et largement élu » de Paz et ont dit que ceux qui financent les protestations avec de l’« argent sale » du narcotrafic devaient rendre des comptes, sans présenter de preuves ([Fox News](https://www.foxnews.com/world/us-shield-americas-condemn-ongoing-efforts-overthrow-bolivias-elected-president-unrest), [CNN/KRDO](https://krdo.com/?p=1731087)).",
+          gn: "21 jasypo-pe, Estados Unidos ha 12 tetã Escudo-pegua ohechauka ojepy’apy protesta ha bloqueo “oñemoĩ hag̃ua orden constitucional rehe” ([AS/COA](https://www.as-coa.org/articles/trump-latin-america-shield-americas-backs-paz-bolivia-flavio-visits-trump)); 5 jasypoteĩ-pe, 13 ocondena “esfuerzo osegíva ombogue hag̃ua gobierno legítimo ha heta ojeporavo” Paz rehegua ha heʼi umi ofinanciáva protesta “pirapire ky’a” narcotráfico-gui ojerendi va’erã, prueba’ỹre ([Fox News](https://www.foxnews.com/world/us-shield-americas-condemn-ongoing-efforts-overthrow-bolivias-elected-president-unrest), [CNN/KRDO](https://krdo.com/?p=1731087)).",
+          qu: "21 de mayopi Estados Unidoswan 12 Escudop huk suyunkunapas protestakunamanta harkaykunamantawan “constitucional ordenta tikrayman” nisqakunamanta llakisqa kasqankuta willarqanku ([AS/COA](https://www.as-coa.org/articles/trump-latin-america-shield-americas-backs-paz-bolivia-flavio-visits-trump)); 5 de juniopitaq 13 suyukuna “legitimo hinallataq achka akllasqa gobiernota urmachiy munaq mana tukukuq ruwaykunata” Pazpa huchacharqanku, protestakunata narcotráficop “mapa qullqiwan” qullqichaqkunaqa cuentata qunanku nispa, mana pruebakunata qawachispa ([Fox News](https://www.foxnews.com/world/us-shield-americas-condemn-ongoing-efforts-overthrow-bolivias-elected-president-unrest), [CNN/KRDO](https://krdo.com/?p=1731087)).",
+          ht: "le 21 me, Etazini ak 12 lòt peyi Boukliye a te eksprime enkyetid sou manifestasyon ak blokaj “ki vize pou subvèti lòd konstitisyonèl la” ([AS/COA](https://www.as-coa.org/articles/trump-latin-america-shield-americas-backs-paz-bolivia-flavio-visits-trump)); le 5 jen, 13 yo te denonse “efò kontinyèl pou ranvèse gouvènman lejitim ak laj eli” Paz la epi yo te di moun ki finanse pwotestasyon yo ak “lajan sal” nakotrafik la dwe rann kont, san prezante prèv ([Fox News](https://www.foxnews.com/world/us-shield-americas-condemn-ongoing-efforts-overthrow-bolivias-elected-president-unrest), [CNN/KRDO](https://krdo.com/?p=1731087)).",
+        },
+      },
+      {
+        label: {
+          es: "Hegseth (4 de junio)",
+          pt: "Hegseth (4 de junho)",
+          fr: "Hegseth (4 juin)",
+          gn: "Hegseth (4 jasypoteĩ)",
+          qu: "Hegseth (4 de junio)",
+          ht: "Hegseth (4 jen)",
+        },
+        text: {
+          es: "el secretario de Guerra, Pete Hegseth, dijo que el Departamento de Guerra y la coalición contra los cárteles rechazan “todos los intentos de derrocar al gobierno de Rodrigo Paz” y escribió: “Estados Unidos está observando”. ([Fox News](https://www.foxnews.com/world/us-shield-americas-condemn-ongoing-efforts-overthrow-bolivias-elected-president-unrest))",
+          pt: 'o secretário de Guerra, Pete Hegseth, disse que o Departamento de Guerra e a coalizão contra os cartéis rejeitam "todas as tentativas de derrubar o governo de Rodrigo Paz" e escreveu: "Os Estados Unidos estão observando". ([Fox News](https://www.foxnews.com/world/us-shield-americas-condemn-ongoing-efforts-overthrow-bolivias-elected-president-unrest))',
+          fr: "le secrétaire à la Guerre, Pete Hegseth, a dit que le Département de la Guerre et la coalition contre les cartels rejettent « toutes les tentatives de renverser le gouvernement de Rodrigo Paz » et a écrit : « Les États-Unis observent ». ([Fox News](https://www.foxnews.com/world/us-shield-americas-condemn-ongoing-efforts-overthrow-bolivias-elected-president-unrest))",
+          gn: "secretario de Guerra Pete Hegseth heʼi Departamento de Guerra ha coalición contra cartel ndoguerohoryvéi “opa tentativa ombogue hag̃ua gobierno Rodrigo Paz” ha ohai: “Estados Unidos ohecha”. ([Fox News](https://www.foxnews.com/world/us-shield-americas-condemn-ongoing-efforts-overthrow-bolivias-elected-president-unrest))",
+          qu: "Guerra secretario Pete Hegsethqa Guerra Departamentowan cartelkunaman contra coalicionwan “Rodrigo Pazpa gobiernonta urmachiy munaq llapa ruwaykunata” mana chaskisqankuta nirqan, qillqarqantaq: “Estados Unidosqa qhawachkan”. ([Fox News](https://www.foxnews.com/world/us-shield-americas-condemn-ongoing-efforts-overthrow-bolivias-elected-president-unrest))",
+          ht: "sekretè Lagè a, Pete Hegseth, te di Depatman Lagè a ak koalisyon kont katèl yo rejte “tout tantativ pou ranvèse gouvènman Rodrigo Paz” epi li te ekri: “Etazini ap gade”. ([Fox News](https://www.foxnews.com/world/us-shield-americas-condemn-ongoing-efforts-overthrow-bolivias-elected-president-unrest))",
+        },
+      },
+    ],
+    impact: {
+      text: {
+        es: "Al menos 10 muertos durante semanas de bloqueos; Paz promulgó una ley que habilitó el uso de las Fuerzas Armadas en conflictos internos. ([KRDO](https://krdo.com/?p=1731087))",
+        pt: "Pelo menos 10 mortos durante semanas de bloqueios; Paz promulgou lei que liberou o uso das Forças Armadas em conflitos internos. ([KRDO](https://krdo.com/?p=1731087))",
+        fr: "Au moins 10 morts pendant des semaines de blocages ; Paz a promulgué une loi autorisant l’usage des forces armées dans les conflits internes. ([KRDO](https://krdo.com/?p=1731087))",
+        gn: "Mbovyve 10 omano semana ohasa bloqueo aja; Paz opromulga peteĩ ley omoneĩva Fuerza Armada ojepuru conflicto interno-pe. ([KRDO](https://krdo.com/?p=1731087))",
+        qu: "Pisinpaq 10 wañusqa semanakunapi harkasqa kaptin; Pazqa Fuerzas Armadas ukhu conflictokunapi llamk’achinapaq ley promulgarqan. ([KRDO](https://krdo.com/?p=1731087))",
+        ht: "Omwen 10 mò pandan semèn blokaj; Paz te pwomilge yon lwa ki te otorize itilizasyon Fòs Amè yo nan konfli andedan peyi a. ([KRDO](https://krdo.com/?p=1731087))",
+      },
+      items: [
+        {
+          label: {
+            es: "Detenidos y heridos",
+            pt: "Detidos e feridos",
+            fr: "Détenus et blessés",
+            gn: "Ojejokóva ha ojejopýva",
+            qu: "Hap’isqakuna kiriyasqakunapas",
+            ht: "Detni ak blese",
+          },
+          text: {
+            es: "la Defensoría del Pueblo registró 365 detenidos, de los cuales 118 seguían en proceso judicial, y 37 heridos verificados, entre policías, periodistas y transeúntes. ([CNN/KRDO](https://krdo.com/?p=1731087))",
+            pt: "a Defensoría del Pueblo registrou 365 detidos, dos quais 118 seguiam em processo judicial, e 37 feridos verificados, entre policiais, jornalistas e transeuntes. ([CNN/KRDO](https://krdo.com/?p=1731087))",
+            fr: "le Défenseur du peuple a recensé 365 personnes arrêtées, dont 118 faisaient encore l’objet de poursuites, et 37 blessés vérifiés, parmi lesquels des policiers, des journalistes et des passants. ([CNN/KRDO](https://krdo.com/?p=1731087))",
+            gn: "Defensoría del Pueblo oregistra 365 ojejokóva, 118 oĩ gueteri proceso judicial-pe, ha 37 ojejopy ojehechapyre, policía, periodista ha tapicha ohasáva apytépe. ([CNN/KRDO](https://krdo.com/?p=1731087))",
+            qu: "Defensoría del Puebloqa 365 hap’isqakunata qillqarqan, paykunamanta 118 manaraq tukukuq juicio ukhupi, hinallataq 37 takyachisqa kiriyasqakunata, policiakuna periodistakuna ñanta purikuqkunapas ukhupi. ([CNN/KRDO](https://krdo.com/?p=1731087))",
+            ht: "Defansè Pèp la te anrejistre 365 detni, 118 nan yo te toujou nan pwosedi jidisyè, ak 37 blese verifye, ladan yo polisye, jounalis ak pasan. ([CNN/KRDO](https://krdo.com/?p=1731087))",
+          },
+        },
+      ],
+    },
+    sources: [
+      {
+        title: "CNN/KRDO: o Escudo das Américas condena os esforços para derrubar o governo de Paz",
+        url: "https://krdo.com/?p=1731087",
+        note: {
+          es: "reportaje (06/06/2026); derechos reservados",
+          pt: "reportagem (06/06/2026); direitos reservados",
+          fr: "reportage (06/06/2026) ; droits réservés",
+          gn: "reportaje (06/06/2026); derecho reservado",
+          qu: "willakuy (06/06/2026); derechokuna waqaychasqa",
+          ht: "repòtaj (06/06/2026); dwa rezève",
+        },
+      },
+      {
+        title: "Swissinfo/EFE: Rubio adverte que os EUA não permitirão que o governo da Bolívia seja derrubado",
+        url: "https://www.swissinfo.ch/spa/marco-rubio-advierte-que-ee.uu.-no-permitir%C3%A1-que-el-gobierno-de-bolivia-sea-derrocado/91447979",
+        note: {
+          es: "reportaje (20/05/2026); derechos reservados",
+          pt: "reportagem (20/05/2026); direitos reservados",
+          fr: "reportage (20/05/2026) ; droits réservés",
+          gn: "reportaje (20/05/2026); derecho reservado",
+          qu: "willakuy (20/05/2026); derechokuna waqaychasqa",
+          ht: "repòtaj (20/05/2026); dwa rezève",
+        },
+      },
+      {
+        title: "Fox News: EUA e Escudo das Américas condenam esforços para derrubar o presidente eleito da Bolívia",
+        url: "https://www.foxnews.com/world/us-shield-americas-condemn-ongoing-efforts-overthrow-bolivias-elected-president-unrest",
+        note: {
+          es: "reportaje (05/06/2026); derechos reservados",
+          pt: "reportagem (05/06/2026); direitos reservados",
+          fr: "reportage (05/06/2026) ; droits réservés",
+          gn: "reportaje (05/06/2026); derecho reservado",
+          qu: "willakuy (05/06/2026); derechokuna waqaychasqa",
+          ht: "repòtaj (05/06/2026); dwa rezève",
+        },
+      },
+      {
+        title: "AS/COA: o Escudo das Américas apoia Paz na Bolívia",
+        url: "https://www.as-coa.org/articles/trump-latin-america-shield-americas-backs-paz-bolivia-flavio-visits-trump",
+        note: {
+          es: "reportaje; derechos reservados",
+          pt: "reportagem; direitos reservados",
+          fr: "reportage ; droits réservés",
+          gn: "reportaje; derecho reservado",
+          qu: "willakuy; derechokuna waqaychasqa",
+          ht: "repòtaj; dwa rezève",
+        },
+      },
+    ],
+  },
   period: {
     es: "1964–1978",
     pt: "1964–1978",

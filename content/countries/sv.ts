@@ -1,6 +1,96 @@
 import type { CountryContentType } from "~/lib/country-content";
 
 const content: CountryContentType = {
+  latest: {
+    period: {
+      es: "2025–2026",
+      pt: "2025–2026",
+      fr: "2025–2026",
+      gn: "2025–2026",
+      qu: "2025–2026",
+      ht: "2025–2026",
+    },
+    summary: {
+      es: "Estados Unidos envió a más de 230 venezolanos a la megacárcel CECOT, de Bukele, en un acuerdo de US$ 6 millones, sin juicio y bajo una ley de guerra de 1798.",
+      pt: "Os EUA mandaram mais de 230 venezuelanos para a megaprisão CECOT, de Bukele, num acordo de US$ 6 milhões, sem julgamento e sob uma lei de guerra de 1798.",
+      fr: "Les États-Unis ont envoyé plus de 230 Vénézuéliens dans la méga-prison CECOT de Bukele, dans le cadre d’un accord de 6 millions de dollars, sans procès et en vertu d’une loi de guerre de 1798.",
+      gn: "Estados Unidos omondo 230 venezolano rupi megacárcel CECOT-pe, Bukele rembiapo, 6 millón dólar acuerdo-pe, juicio’ỹre ha 1798 ley de guerra guýpe.",
+      qu: "Estados Unidosqa 230 venezolanokunamanta aswanta Bukelepa CECOT hatun carcelninman apacharqan, 6 millón dolar acuerdowan, mana juiciowan 1798 guerra leywan.",
+      ht: "Etazini te voye plis pase 230 venezyelyen nan megaprizon CECOT Bukele a, nan yon akò 6 milyon dola, san jijman epi anba yon lwa lagè 1798.",
+    },
+    happened: {
+      es: "Entre el 15 y el 31 de marzo de 2025, vuelos estadounidenses llevaron a El Salvador a supuestos miembros del Tren de Aragua y de la MS-13.",
+      pt: "Entre 15 e 31 de março de 2025, voos americanos levaram a El Salvador supostos membros do Tren de Aragua e da MS-13.",
+      fr: "Entre le 15 et le 31 mars 2025, des vols américains ont conduit au Salvador de présumés membres du Tren de Aragua et de la MS-13.",
+      gn: "15 guive 31 jasyapy 2025 peve, avión estadounidense ogueraha El Salvador-pe Tren de Aragua ha MS-13 miembro supuesto kuéra.",
+      qu: "15 de marzomanta 31 de marzokama 2025 watapi Estados Unidosmanta vuelokuna Tren de Aragua MS-13 nisqa runa nisqakunata El Salvadorman apamurqanku.",
+      ht: "Ant 15 ak 31 mas 2025, vòl ameriken te mennen nan Salvadò sipoze manm Tren de Aragua ak MS-13.",
+    },
+    usActions: [
+      {
+        label: {
+          es: "CECOT (marzo de 2025)",
+          pt: "CECOT (março de 2025)",
+          fr: "CECOT (mars 2025)",
+          gn: "CECOT (jasyapy 2025)",
+          qu: "CECOT (marzo 2025)",
+          ht: "CECOT (mas 2025)",
+        },
+        text: {
+          es: "en marzo de 2025, Estados Unidos envió a más de 230 venezolanos a la megacárcel CECOT, de Bukele, y pagó US$ 6 millones a El Salvador por mantenerlos; contra 137 de ellos invocó la Ley de Enemigos Extranjeros, una ley de guerra de 1798, y los venezolanos no fueron juzgados por tribunales locales. ([Context](https://www.context.news/money-power-people/inside-trumps-6mn-deportee-deal-with-el-salvador-mega-prison))",
+          pt: "em março de 2025, os EUA mandaram mais de 230 venezuelanos para a megaprisão CECOT, de Bukele, e pagaram US$ 6 milhões a El Salvador para mantê-los; contra 137 deles invocaram a Lei de Inimigos Estrangeiros, uma lei de guerra de 1798, e os venezuelanos não foram julgados por tribunais locais. ([Context](https://www.context.news/money-power-people/inside-trumps-6mn-deportee-deal-with-el-salvador-mega-prison))",
+          fr: "en mars 2025, les États-Unis ont envoyé plus de 230 Vénézuéliens dans la méga-prison CECOT de Bukele et versé 6 millions de dollars au Salvador pour les détenir ; pour 137 d’entre eux, ils ont invoqué l’Alien Enemies Act, une loi de guerre de 1798, et les Vénézuéliens n’ont pas été jugés par des tribunaux locaux. ([Context](https://www.context.news/money-power-people/inside-trumps-6mn-deportee-deal-with-el-salvador-mega-prison))",
+          gn: "2025 jasyapy-pe, Estados Unidos omondo 230 venezolano rupi megacárcel CECOT-pe, Bukele rembiapo, ha opaga 6 millón dólar El Salvador-pe ohapykueve hag̃ua; 137 rehe oipuru Ley de Enemigos Extranjeros, ley de guerra 1798 guare, ha venezolano kuéra ndojehusgái tribunal local-pe. ([Context](https://www.context.news/money-power-people/inside-trumps-6mn-deportee-deal-with-el-salvador-mega-prison))",
+          qu: "marzo 2025 killapi Estados Unidosqa 230 venezolanokunamanta aswanta Bukelepa CECOT hatun carcelninman apacharqan, hinallataq El Salvadorman 6 millón dolarta pagarqan paykunata waqaychananpaq; paykunamanta 137 runaman 1798 guerra leyta, Awqa Hawa Runakunap Leyninta waqyarqan, venezolanokunataq mana local tribunalkunapi juzgasqa karqanku. ([Context](https://www.context.news/money-power-people/inside-trumps-6mn-deportee-deal-with-el-salvador-mega-prison))",
+          ht: "an mas 2025, Etazini te voye plis pase 230 venezyelyen nan megaprizon CECOT Bukele a epi li te peye El Salvador 6 milyon dola pou kenbe yo; pou 137 nan yo, li te envoke Lwa Lènmi Etranje a, yon lwa lagè 1798, epi venezyelyen yo pa t jije nan tribinal lokal. ([Context](https://www.context.news/money-power-people/inside-trumps-6mn-deportee-deal-with-el-salvador-mega-prison))",
+        },
+      },
+      {
+        label: {
+          es: "Canje (julio de 2025)",
+          pt: "Troca (julho de 2025)",
+          fr: "Échange (juillet 2025)",
+          gn: "Jehepyme’ẽ (jasypokõi 2025)",
+          qu: "Tikray (julio 2025)",
+          ht: "Chanj (jiyè 2025)",
+        },
+        text: {
+          es: "Bukele anunció que entregó a todos los venezolanos a cambio de “un número considerable de presos políticos venezolanos”; Rubio dijo que 10 estadounidenses detenidos en Venezuela fueron liberados. ([ABC7](https://abc7ny.com/post/migrants-deported-el-salvador-sent-venezuela-prison-swap-bukele-says/17184499/))",
+          pt: 'Bukele anunciou que entregou todos os venezuelanos em troca de "um número considerável de presos políticos venezuelanos"; Rubio disse que 10 americanos detidos na Venezuela foram libertados. ([ABC7](https://abc7ny.com/post/migrants-deported-el-salvador-sent-venezuela-prison-swap-bukele-says/17184499/))',
+          fr: "Bukele a annoncé avoir remis tous les Vénézuéliens en échange d’« un nombre considérable de prisonniers politiques vénézuéliens » ; Rubio a dit que 10 Américains détenus au Venezuela avaient été libérés. ([ABC7](https://abc7ny.com/post/migrants-deported-el-salvador-sent-venezuela-prison-swap-bukele-says/17184499/))",
+          gn: "Bukele heʼi omoĩ opavave venezolano “heta preso político venezolano” rehe; Rubio heʼi 10 estadounidense Venezuela-pe ojejokóva osẽ. ([ABC7](https://abc7ny.com/post/migrants-deported-el-salvador-sent-venezuela-prison-swap-bukele-says/17184499/))",
+          qu: "Bukeleqa tukuy venezolanokunata “achka venezolano politico presokunawan” tikrasqanta willarqan; Rubiotaq Venezuelapi hap’isqa 10 estadounidensekuna kacharisqa kasqankuta nirqan. ([ABC7](https://abc7ny.com/post/migrants-deported-el-salvador-sent-venezuela-prison-swap-bukele-says/17184499/))",
+          ht: "Bukele te anonse li te remèt tout venezyelyen yo an echanj de “yon kantite konsiderab prizonye politik venezyelyen”; Rubio te di 10 Ameriken ki te detni nan Venezyela te libere. ([ABC7](https://abc7ny.com/post/migrants-deported-el-salvador-sent-venezuela-prison-swap-bukele-says/17184499/))",
+        },
+      },
+    ],
+    sources: [
+      {
+        title: "Context: por dentro do acordo de US$ 6 milhões de Trump com a megaprisão de El Salvador",
+        url: "https://www.context.news/money-power-people/inside-trumps-6mn-deportee-deal-with-el-salvador-mega-prison",
+        note: {
+          es: "reportaje (04/2025); derechos reservados",
+          pt: "reportagem (04/2025); direitos reservados",
+          fr: "reportage (04/2025) ; droits réservés",
+          gn: "reportaje (04/2025); derecho reservado",
+          qu: "willakuy (04/2025); derechokuna waqaychasqa",
+          ht: "repòtaj (04/2025); dwa rezève",
+        },
+      },
+      {
+        title: "ABC7: migrantes deportados para El Salvador enviados à Venezuela em troca de presos, diz Bukele",
+        url: "https://abc7ny.com/post/migrants-deported-el-salvador-sent-venezuela-prison-swap-bukele-says/17184499/",
+        note: {
+          es: "reportaje (18/07/2025); derechos reservados",
+          pt: "reportagem (18/07/2025); direitos reservados",
+          fr: "reportage (18/07/2025) ; droits réservés",
+          gn: "reportaje (18/07/2025); derecho reservado",
+          qu: "willakuy (18/07/2025); derechokuna waqaychasqa",
+          ht: "repòtaj (18/07/2025); dwa rezève",
+        },
+      },
+    ],
+  },
   period: {
     es: "1979–1992",
     pt: "1979–1992",
@@ -37,7 +127,7 @@ const content: CountryContentType = {
       },
       text: {
         es: "a partir de 1981, cuando el secretario de Estado Alexander Haig dijo que Estados Unidos iba a “trazar la línea” en El Salvador, Washington envió 1.186 millones de dólares en ayuda militar y 3.332 millones en ayuda económica. En la práctica, el gobierno salvadoreño dependía de Estados Unidos para continuar la guerra. ([NY Review of Books](https://www.nybooks.com/articles/1993/04/22/truth-and-el-salvador/))",
-        pt: "a partir de 1981, quando o secretário de Estado Alexander Haig disse que os EUA iam \"traçar a linha\" em El Salvador, Washington enviou US$ 1,186 bilhão em ajuda militar e US$ 3,332 bilhões em ajuda econômica. Na prática, o governo salvadorenho dependia dos EUA para continuar a guerra. ([NY Review of Books](https://www.nybooks.com/articles/1993/04/22/truth-and-el-salvador/))",
+        pt: 'a partir de 1981, quando o secretário de Estado Alexander Haig disse que os EUA iam "traçar a linha" em El Salvador, Washington enviou US$ 1,186 bilhão em ajuda militar e US$ 3,332 bilhões em ajuda econômica. Na prática, o governo salvadorenho dependia dos EUA para continuar a guerra. ([NY Review of Books](https://www.nybooks.com/articles/1993/04/22/truth-and-el-salvador/))',
         fr: "à partir de 1981, lorsque le secrétaire d’État Alexander Haig a dit que les États-Unis allaient « tracer la ligne » au Salvador, Washington a envoyé 1,186 milliard de dollars d’aide militaire et 3,332 milliards d’aide économique. En pratique, le gouvernement salvadorien dépendait des États-Unis pour poursuivre la guerre. ([NY Review of Books](https://www.nybooks.com/articles/1993/04/22/truth-and-el-salvador/))",
         gn: "1981 guive, secretario de Estado Alexander Haig heʼi vove Estados Unidos “omoĩtaha línea” El Salvador-pe, Washington omondo 1.186 millones de dólares ayuda militar ha 3.332 millones económica. Hekópe, gobierno salvadoreño oĩ Estados Unidos rehe guerra oñepyta hag̃ua. ([NY Review of Books](https://www.nybooks.com/articles/1993/04/22/truth-and-el-salvador/))",
         qu: "1981 watamanta, secretario de Estado Alexander Haig Estados Unidos El Salvadorpi “siq’ita siq’inanta” niptin, Washingtonqa 1.186 millón dólar militar yanapayta 3.332 millón economicatawan kacharqan. Chaypi, Salvador gobiernoqa guerrata hinallatan hinaspa Estados Unidosmanta hapt’akurqan. ([NY Review of Books](https://www.nybooks.com/articles/1993/04/22/truth-and-el-salvador/))",
@@ -91,7 +181,7 @@ const content: CountryContentType = {
       },
       text: {
         es: "la embajada estadounidense investigó la masacre e informó que ninguna fuente daba “siquiera un indicio” de muertes masivas de civiles. Funcionarios del gobierno de Reagan desacreditaron los reportajes que la denunciaron para no comprometer la ayuda. ([NY Review of Books](https://www.nybooks.com/articles/1993/04/22/truth-and-el-salvador/))",
-        pt: "a embaixada americana investigou o massacre e relatou que nenhuma fonte dava \"sequer um indício\" de mortes em massa de civis. Funcionários do governo Reagan desqualificaram as reportagens que o denunciaram para não comprometer a ajuda. ([NY Review of Books](https://www.nybooks.com/articles/1993/04/22/truth-and-el-salvador/))",
+        pt: 'a embaixada americana investigou o massacre e relatou que nenhuma fonte dava "sequer um indício" de mortes em massa de civis. Funcionários do governo Reagan desqualificaram as reportagens que o denunciaram para não comprometer a ajuda. ([NY Review of Books](https://www.nybooks.com/articles/1993/04/22/truth-and-el-salvador/))',
         fr: "l’ambassade américaine a enquêté sur le massacre et rapporté qu’aucune source ne donnait « le moindre indice » de morts massives de civils. Des responsables du gouvernement Reagan ont discrédité les reportages qui l’avaient dénoncé pour ne pas compromettre l’aide. ([NY Review of Books](https://www.nybooks.com/articles/1993/04/22/truth-and-el-salvador/))",
         gn: "embajada norteamericana ohekapa masacre ha heʼi ndaipóri fuente ome’ẽva “peteĩ señal avei” civil heta ñemano rehegua. Reagan gobierno funcionario omboyke crédito pe reportaje ojedenunciáva, ayuda ani ojeheja. ([NY Review of Books](https://www.nybooks.com/articles/1993/04/22/truth-and-el-salvador/))",
         qu: "Estados Unidosmanta embajadaqa masacreta tapurqan hinaspa mana imapas civilkuna achka wañusqa kasqanmanta “huk rastrontapas” rikuchisqanta willarqan. Reagan gobiernopa kamachikuqkunaqa yanapay mana chinkananpaq chay willakuykunata manaña allin niruspa saqirqanku. ([NY Review of Books](https://www.nybooks.com/articles/1993/04/22/truth-and-el-salvador/))",

@@ -1,6 +1,196 @@
 import type { CountryContentType } from "~/lib/country-content";
 
 const content: CountryContentType = {
+  latest: {
+    period: {
+      es: "2025–2026",
+      pt: "2025–2026",
+      fr: "2025–2026",
+      gn: "2025–2026",
+      qu: "2025–2026",
+      ht: "2025–2026",
+    },
+    summary: {
+      es: "Presión y sanciones: amenaza de aranceles, descertificación, visa revocada y sanciones del Tesoro contra Petro y, en 2026, apoyo de Trump a De la Espriella, que llevó al país al Escudo de las Américas.",
+      pt: "Pressão e sanções: ameaça de tarifas, descertificação, visto cassado e sanções do Tesouro contra Petro e, em 2026, apoio de Trump a De la Espriella, que levou o país ao Escudo das Américas.",
+      fr: "Pression et sanctions : menace de droits de douane, décertification, visa révoqué et sanctions du Trésor contre Petro puis, en 2026, soutien de Trump à De la Espriella, qui a fait entrer le pays dans le Bouclier des Amériques.",
+      gn: "Presión ha sanción: arancel amenaza, descertificación, visa ojeipeʼa ha Tesoro sanción Petro rehe ha, 2026-pe, Trump oipytyvõ De la Espriella-pe, ogueru hague tetã Escudo de las Américas-pe.",
+      qu: "Presionkuna sancionkunawan: aranceleskunamanta mancharichiy, descertificacion, Petropa visanta qichuy, Tesoropa sancionninkuna, 2026 watapitaq Trumpqa De la Espriellata yanaparqan, paymi suyuta Escudo de las Américasman apacharqan.",
+      ht: "Presyon ak sanksyon: menas tarif, dessètifikasyon, viza revoke ak sanksyon Trezò a kont Petro epi, an 2026, sipò Trump bay De la Espriella, ki te mennen peyi a nan Boukliye Amerik la.",
+    },
+    happened: {
+      es: "En 2026, Abelardo de la Espriella venció a Iván Cepeda en la segunda vuelta de la elección presidencial, con cerca del 49,7 % de los votos contra el 48,7 % (conteo preliminar), y asumió el 7 de agosto. ([Telemundo](https://www.telemundo.com/noticias/noticias-telemundo/internacional/elecciones-colombia-segunda-vuelta-cepeda-de-la-espriella-resultados-rcna351036))",
+      pt: "Em 2026, Abelardo de la Espriella derrotou Iván Cepeda no segundo turno da eleição presidencial, com cerca de 49,7% dos votos contra 48,7% (contagem preliminar), e tomou posse em 7 de agosto. ([Telemundo](https://www.telemundo.com/noticias/noticias-telemundo/internacional/elecciones-colombia-segunda-vuelta-cepeda-de-la-espriella-resultados-rcna351036))",
+      fr: "En 2026, Abelardo de la Espriella a battu Iván Cepeda au second tour de l’élection présidentielle, avec environ 49,7 % des voix contre 48,7 % (décompte préliminaire), et a pris ses fonctions le 7 août. ([Telemundo](https://www.telemundo.com/noticias/noticias-telemundo/internacional/elecciones-colombia-segunda-vuelta-cepeda-de-la-espriella-resultados-rcna351036))",
+      gn: "2026-pe, Abelardo de la Espriella ohupyty Iván Cepeda elección presidencial segunda vuelta-pe, 49,7% rupi voto 48,7% rehe (conteo preliminar), ha oñepyrũ 7 jasypoapy-pe. ([Telemundo](https://www.telemundo.com/noticias/noticias-telemundo/internacional/elecciones-colombia-segunda-vuelta-cepeda-de-la-espriella-resultados-rcna351036))",
+      qu: "2026 watapi Abelardo de la Espriellaqa Iván Cepedata presidencial akllaypa iskay kaq vueltapi atiparqan, 49,7 % hina votowan 48,7 %pa contra (puntaq yupay), 7 de agostopitaq kamachikuyta qallarirqan. ([Telemundo](https://www.telemundo.com/noticias/noticias-telemundo/internacional/elecciones-colombia-segunda-vuelta-cepeda-de-la-espriella-resultados-rcna351036))",
+      ht: "An 2026, Abelardo de la Espriella te bat Iván Cepeda nan dezyèm tou eleksyon prezidansyèl la, ak anviwon 49,7% vòt kont 48,7% (konte preliminè), epi li te pran pozisyon le 7 out. ([Telemundo](https://www.telemundo.com/noticias/noticias-telemundo/internacional/elecciones-colombia-segunda-vuelta-cepeda-de-la-espriella-resultados-rcna351036))",
+    },
+    usActions: [
+      {
+        label: {
+          es: "Deportados y aranceles (enero de 2025)",
+          pt: "Deportados e tarifas (janeiro de 2025)",
+          fr: "Expulsés et droits de douane (janvier 2025)",
+          gn: "Deportado ha arancel (jasyteĩ 2025)",
+          qu: "Deportadokuna aranceleskunawan (enero 2025)",
+          ht: "Depòte ak tarif (janvye 2025)",
+        },
+        text: {
+          es: "Petro devolvió dos aviones militares con deportados y Trump amenazó con aranceles del 25 %, que subirían al 50 %; Rubio suspendió visas en Bogotá. El 26 de enero Colombia retrocedió y aceptó los vuelos. ([Arab News](https://www.arabnews.com/node/2587942))",
+          pt: "Petro devolveu dois aviões militares com deportados e Trump ameaçou com tarifas de 25%, que subiriam a 50%; Rubio suspendeu vistos em Bogotá. Em 26 de janeiro, a Colômbia recuou e aceitou os voos. ([Arab News](https://www.arabnews.com/node/2587942))",
+          fr: "Petro a renvoyé deux avions militaires transportant des expulsés et Trump a menacé de droits de douane de 25 %, qui monteraient à 50 % ; Rubio a suspendu les visas à Bogotá. Le 26 janvier, la Colombie a reculé et accepté les vols. ([Arab News](https://www.arabnews.com/node/2587942))",
+          gn: "Petro ombojevy mokõi avión militar deportado ndive ha Trump oamenaza arancel 25% ndive, 50% peve; Rubio omboyke visa Bogotá-pe. 26 jasyteĩ-pe, Colombia ojevy ha ohupyty vuelo kuéra. ([Arab News](https://www.arabnews.com/node/2587942))",
+          qu: "Petroqa deportadokunata apaq iskay avión militarkunata kutichirqan, Trumptaq 25 % aranceleswan manchachirqan, 50 %kama wicharinanpaq; Rubioqa Bogotapi visakunata harkarqan. 26 de enerotaq Colombiaqa qipaman kutispa vuelokunata chaskirqan. ([Arab News](https://www.arabnews.com/node/2587942))",
+          ht: "Petro te voye de avyon militè ki te pote depòte tounen epi Trump te menase ak tarif 25%, ki ta monte a 50%; Rubio te sispann viza nan Bogota. Le 26 janvye, Kolonbi te bay lè epi li te aksepte vòl yo. ([Arab News](https://www.arabnews.com/node/2587942))",
+        },
+      },
+      {
+        label: {
+          es: "Descertificación y sanciones (sept.–oct. 2025)",
+          pt: "Descertificação e sanções (set.–out. 2025)",
+          fr: "Décertification et sanctions (sept.–oct. 2025)",
+          gn: "Descertificación ha sanción (jasyporundy–jasypa 2025)",
+          qu: "Descertificacion sancionkunawan (setiembre–octubre 2025)",
+          ht: "Dessètifikasyon ak sanksyon (septanm–oktòb 2025)",
+        },
+        text: {
+          es: "Estados Unidos retiró la certificación antidrogas del país y revocó la visa de Petro; hacia el 17 de octubre, Trump lo llamó “líder ilegal de las drogas” y amenazó con cortar toda la ayuda; el 24 de octubre, el Tesoro (OFAC) sancionó a Petro, a su esposa, a su hijo y al ministro del Interior, Armando Benedetti, algo inédito para un presidente colombiano en ejercicio. ([LatinNews](https://latinnews.com/component/k2/item/107840.html))",
+          pt: 'os EUA retiraram a certificação antidrogas do país e cassaram o visto de Petro; por volta de 17 de outubro, Trump o chamou de "líder ilegal de drogas" e ameaçou cortar toda a ajuda; em 24 de outubro, o Tesouro (OFAC) colocou na lista de sanções Petro, a esposa, o filho e o ministro do Interior, Armando Benedetti, algo inédito para um presidente colombiano em exercício. ([LatinNews](https://latinnews.com/component/k2/item/107840.html))',
+          fr: "les États-Unis ont retiré la certification antidrogue du pays et révoqué le visa de Petro ; vers le 17 octobre, Trump l’a traité de « chef illégal de la drogue » et a menacé de couper toute l’aide ; le 24 octobre, le Trésor (OFAC) a sanctionné Petro, son épouse, son fils et le ministre de l’Intérieur, Armando Benedetti, une première pour un président colombien en exercice. ([LatinNews](https://latinnews.com/component/k2/item/107840.html))",
+          gn: "Estados Unidos oipeʼa certificación antidroga tetã-gui ha Petro visa; 17 jasypa rupi, Trump ohenói chupe “líder ilegal de drogas” ha oamenaza oikytĩ opa pytyvõ; 24 jasypa-pe, Tesoro (OFAC) osanciona Petro, tembireko, ra’y ha ministro del Interior Armando Benedetti, mba’e ojapoʼỹva presidente colombiano ogobiernáva rehe. ([LatinNews](https://latinnews.com/component/k2/item/107840.html))",
+          qu: "Estados Unidosqa suyup drogaman contra certificacionninta qichurqan Petropa visantawan; 17 de octubre hinaqa Trumpqa payta “drogakunapa mana kamachiq umalliqnin” nispa sutichaspa tukuy yanapayta qichunanta manchachirqan; 24 de octubrepitaq Tesoro (OFAC) Petrota, warminta, churinta Interior ministro Armando Benedettotawan sancionarqan, kamachichkaq Colombia presidentepaq manaraq rikusqa kaqta. ([LatinNews](https://latinnews.com/component/k2/item/107840.html))",
+          ht: "Etazini te retire sètifikasyon antidwòg peyi a epi li te revoke viza Petro; anviwon 17 oktòb, Trump te rele l “lidè ilegal dwòg” epi li te menase koupe tout èd la; le 24 oktòb, Trezò a (OFAC) te sanksyone Petro, madanm li, pitit gason li ak minis Enteryè a, Armando Benedetti, yon premye pou yon prezidan kolonbyen ki an fonksyon. ([LatinNews](https://latinnews.com/component/k2/item/107840.html))",
+        },
+      },
+      {
+        label: {
+          es: "Elección de 2026",
+          pt: "Eleição de 2026",
+          fr: "Élection de 2026",
+          gn: "Elección 2026",
+          qu: "2026 akllay",
+          ht: "Eleksyon 2026",
+        },
+        text: {
+          es: "Trump respaldó públicamente a De la Espriella: el 2 de junio lo llamó “líder inteligente, fuerte y tenaz” y, al conocer su victoria, escribió que “fue un honor respaldarlo”. ([NTN24](https://www.ntn24.com/noticias-actualidad/nuevo-mensaje-de-trump-sobre-la-victoria-de-de-la-espriella-felicitaciones-al-tigre-fue-un-honor-respaldarlo-espero-que-trabajemos-juntos-628591))",
+          pt: 'Trump apoiou publicamente De la Espriella: em 2 de junho, chamou-o de "líder inteligente, forte e tenaz" e, ao saber da vitória, escreveu que "foi uma honra apoiá-lo". ([NTN24](https://www.ntn24.com/noticias-actualidad/nuevo-mensaje-de-trump-sobre-la-victoria-de-de-la-espriella-felicitaciones-al-tigre-fue-un-honor-respaldarlo-espero-que-trabajemos-juntos-628591))',
+          fr: "Trump a publiquement soutenu De la Espriella : le 2 juin, il l’a qualifié de « leader intelligent, fort et tenace » et, à l’annonce de sa victoire, a écrit que « ce fut un honneur de le soutenir ». ([NTN24](https://www.ntn24.com/noticias-actualidad/nuevo-mensaje-de-trump-sobre-la-victoria-de-de-la-espriella-felicitaciones-al-tigre-fue-un-honor-respaldarlo-espero-que-trabajemos-juntos-628591))",
+          gn: "Trump oipytyvõ públicamente De la Espriella-pe: 2 jasypoteĩ-pe ohenói chupe “líder iñarandu, mbarete ha ipy’aguasu” ha, ohupyty rire, ohai “ha’e peteĩ ñemomba’e oipytyvõ hag̃ua chupe”. ([NTN24](https://www.ntn24.com/noticias-actualidad/nuevo-mensaje-de-trump-sobre-la-victoria-de-de-la-espriella-felicitaciones-al-tigre-fue-un-honor-respaldarlo-espero-que-trabajemos-juntos-628591))",
+          qu: "Trumpqa De la Espriellata llaqtapa ñawpaqninpi yanaparqan: 2 de junio killapi payta “yachayniyuq, kallpasapa hinallataq mana saqiq umalliq” nispa sutichaspa, atipasqanta yachaspataq “yanapayqa hatun hatunchaymi karqan” nispa qillqarqan. ([NTN24](https://www.ntn24.com/noticias-actualidad/nuevo-mensaje-de-trump-sobre-la-victoria-de-de-la-espriella-felicitaciones-al-tigre-fue-un-honor-respaldarlo-espero-que-trabajemos-juntos-628591))",
+          ht: "Trump te sipòte De la Espriella piblikman: le 2 jen, li te rele l “lidè entelijan, fò e tenas” epi, lè li te konnen viktwa li, li te ekri ke “se te yon onè pou m te sipòte l”. ([NTN24](https://www.ntn24.com/noticias-actualidad/nuevo-mensaje-de-trump-sobre-la-victoria-de-de-la-espriella-felicitaciones-al-tigre-fue-un-honor-respaldarlo-espero-que-trabajemos-juntos-628591))",
+        },
+      },
+      {
+        label: {
+          es: "Escudo de las Américas",
+          pt: "Escudo das Américas",
+          fr: "Bouclier des Amériques",
+          gn: "Escudo de las Américas",
+          qu: "Escudo de las Américas",
+          ht: "Boukliye Amerik la",
+        },
+        text: {
+          es: "al responder un mensaje de felicitación del secretario de Guerra, Pete Hegseth, De la Espriella confirmó que, desde el 7 de agosto, Colombia formará parte del Escudo de las Américas, la coalición de seguridad que promueve el gobierno de Trump. ([Vanguardia](https://www.vanguardia.com/colombia/2026/06/23/abelardo-de-la-espriella-confirma-que-colombia-se-unira-al-escudo-de-las-americas/))",
+          pt: "ao responder a uma mensagem de parabéns do secretário de Guerra, Pete Hegseth, De la Espriella confirmou que, a partir de 7 de agosto, a Colômbia fará parte do Escudo das Américas, a coalizão de segurança promovida pelo governo Trump. ([Vanguardia](https://www.vanguardia.com/colombia/2026/06/23/abelardo-de-la-espriella-confirma-que-colombia-se-unira-al-escudo-de-las-americas/))",
+          fr: "répondant à un message de félicitations du secrétaire à la Guerre, Pete Hegseth, De la Espriella a confirmé que, à partir du 7 août, la Colombie ferait partie du Bouclier des Amériques, la coalition de sécurité promue par le gouvernement Trump. ([Vanguardia](https://www.vanguardia.com/colombia/2026/06/23/abelardo-de-la-espriella-confirma-que-colombia-se-unira-al-escudo-de-las-americas/))",
+          gn: "Hegseth secretario de Guerra mensaje felicitación-pe ombohovái aja, De la Espriella heʼi 7 jasypoapy guive Colombia oĩ vaʼerãha Escudo de las Américas-pe, coalición de seguridad Trump gobierno oipytyvõva. ([Vanguardia](https://www.vanguardia.com/colombia/2026/06/23/abelardo-de-la-espriella-confirma-que-colombia-se-unira-al-escudo-de-las-americas/))",
+          qu: "Guerra secretario Pete Hegsethpa napaykuy willakuyninman kutichispa De la Espriellaqa 7 de agostomanta Colombiaqa Trump gobiernop kallpachasqan seguridad coalicion Escudo de las Américaspa kanqa nispa takyachirqan. ([Vanguardia](https://www.vanguardia.com/colombia/2026/06/23/abelardo-de-la-espriella-confirma-que-colombia-se-unira-al-escudo-de-las-americas/))",
+          ht: "Reponn ak yon mesaj felisitasyon sekretè Lagè a, Pete Hegseth, De la Espriella te konfime ke, depi le 7 out, Kolonbi pral fè pati Boukliye Amerik la, koalisyon sekirite gouvènman Trump la ap pwomouvwa. ([Vanguardia](https://www.vanguardia.com/colombia/2026/06/23/abelardo-de-la-espriella-confirma-que-colombia-se-unira-al-escudo-de-las-americas/))",
+        },
+      },
+      {
+        label: {
+          es: "Hegseth (agosto)",
+          pt: "Hegseth (agosto)",
+          fr: "Hegseth (août)",
+          gn: "Hegseth (jasypoapy)",
+          qu: "Hegseth (agosto)",
+          ht: "Hegseth (out)",
+        },
+        text: {
+          es: "el secretario Pete Hegseth recibió al nuevo ministro de Defensa de Colombia, tras el ingreso del país al Escudo.",
+          pt: "o secretário Pete Hegseth recebeu o novo ministro da Defesa da Colômbia, depois da entrada do país no Escudo.",
+          fr: "le secrétaire Pete Hegseth a reçu le nouveau ministre colombien de la Défense, après l’entrée du pays dans le Bouclier.",
+          gn: "secretario Pete Hegseth orrecibi Colombia ministro de Defensa pyahu, tetã Escudo-pe oike rire.",
+          qu: "secretario Pete Hegsethqa Colombiapa musuq Defensa ministrontam chaskirqan, suyu Escudoman yaykuqtin.",
+          ht: "sekretè Pete Hegseth te resevwa nouvo minis Defans Kolonbi a, apre peyi a te antre nan Boukliye a.",
+        },
+      },
+    ],
+    impact: {
+      text: {
+        es: "Cambio de alineamiento: el país entró en el Escudo en agosto; hay colombianos entre los muertos en los ataques a barcos.",
+        pt: "Mudança de alinhamento: o país entrou no Escudo em agosto; colombianos estão entre os mortos nos ataques a barcos.",
+        fr: "Changement d’alignement : le pays a rejoint le Bouclier en août ; des Colombiens figurent parmi les morts des attaques contre les bateaux.",
+        gn: "Alineamiento ñemoambue: tetã oike Escudo-pe jasypoapy-pe; colombiano oĩ omano kuéra apytépe barco ataque-pe.",
+        qu: "Alineamiento tikray: suyuqa Escudoman agostopi yaykurqan; barcokunaman atakekunapi wañusqakuna ukhupi colombianokuna kachkan.",
+        ht: "Chanjman aliyman: peyi a te antre nan Boukliye a an out; gen Kolonbyen pami mò yo nan atak sou bato yo.",
+      },
+    },
+    sources: [
+      {
+        title: "LatinNews: EUA sancionam o presidente Petro",
+        url: "https://latinnews.com/component/k2/item/107840.html",
+        note: {
+          es: "reportaje (03/11/2025); derechos reservados",
+          pt: "reportagem (03/11/2025); direitos reservados",
+          fr: "reportage (03/11/2025) ; droits réservés",
+          gn: "reportaje (03/11/2025); derecho reservado",
+          qu: "willakuy (03/11/2025); derechokuna waqaychasqa",
+          ht: "repòtaj (03/11/2025); dwa rezève",
+        },
+      },
+      {
+        title: "Arab News: Colômbia cede sobre os deportados após ameaça de tarifas de Trump",
+        url: "https://www.arabnews.com/node/2587942",
+        note: {
+          es: "reportaje (01/2025); derechos reservados",
+          pt: "reportagem (01/2025); direitos reservados",
+          fr: "reportage (01/2025) ; droits réservés",
+          gn: "reportaje (01/2025); derecho reservado",
+          qu: "willakuy (01/2025); derechokuna waqaychasqa",
+          ht: "repòtaj (01/2025); dwa rezève",
+        },
+      },
+      {
+        title: "NTN24: nova mensagem de Trump sobre a vitória de De la Espriella",
+        url: "https://www.ntn24.com/noticias-actualidad/nuevo-mensaje-de-trump-sobre-la-victoria-de-de-la-espriella-felicitaciones-al-tigre-fue-un-honor-respaldarlo-espero-que-trabajemos-juntos-628591",
+        note: {
+          es: "reportaje (22/06/2026); derechos reservados",
+          pt: "reportagem (22/06/2026); direitos reservados",
+          fr: "reportage (22/06/2026) ; droits réservés",
+          gn: "reportaje (22/06/2026); derecho reservado",
+          qu: "willakuy (22/06/2026); derechokuna waqaychasqa",
+          ht: "repòtaj (22/06/2026); dwa rezève",
+        },
+      },
+      {
+        title: "Vanguardia: De la Espriella confirma que a Colômbia entrará no Escudo das Américas",
+        url: "https://www.vanguardia.com/colombia/2026/06/23/abelardo-de-la-espriella-confirma-que-colombia-se-unira-al-escudo-de-las-americas/",
+        note: {
+          es: "reportaje (23/06/2026); derechos reservados",
+          pt: "reportagem (23/06/2026); direitos reservados",
+          fr: "reportage (23/06/2026) ; droits réservés",
+          gn: "reportaje (23/06/2026); derecho reservado",
+          qu: "willakuy (23/06/2026); derechokuna waqaychasqa",
+          ht: "repòtaj (23/06/2026); dwa rezève",
+        },
+      },
+      {
+        title: "Telemundo: resultados do segundo turno entre Cepeda e De la Espriella",
+        url: "https://www.telemundo.com/noticias/noticias-telemundo/internacional/elecciones-colombia-segunda-vuelta-cepeda-de-la-espriella-resultados-rcna351036",
+        note: {
+          es: "reportaje (21/06/2026); derechos reservados",
+          pt: "reportagem (21/06/2026); direitos reservados",
+          fr: "reportage (21/06/2026) ; droits réservés",
+          gn: "reportaje (21/06/2026); derecho reservado",
+          qu: "willakuy (21/06/2026); derechokuna waqaychasqa",
+          ht: "repòtaj (21/06/2026); dwa rezève",
+        },
+      },
+    ],
+  },
   period: {
     es: "1903–2026",
     pt: "1903–2026",
@@ -91,7 +281,7 @@ const content: CountryContentType = {
       },
       text: {
         es: "informes de organizaciones de derechos humanos señalaron que varias unidades del ejército involucradas en los “falsos positivos” recibieron ayuda o entrenamiento estadounidense.",
-        pt: "relatórios de organizações de direitos humanos apontaram que várias unidades do exército envolvidas nos \"falsos positivos\" receberam ajuda ou treinamento americano.",
+        pt: 'relatórios de organizações de direitos humanos apontaram que várias unidades do exército envolvidas nos "falsos positivos" receberam ajuda ou treinamento americano.',
         fr: "des rapports d’organisations de défense des droits humains ont signalé que plusieurs unités de l’armée impliquées dans les « faux positifs » avaient reçu une aide ou une formation américaine.",
         gn: "derecho humano organización informe heʼi heta unidad ehérsito “falsos positivos”-pe oĩva ohupyty ayuda térã entrenamiento norteamericano.",
         qu: "derechos humanos organizacionkunaq willakuyninkunaqa “falsos positivos”pi kaq achka ejercito unidadkuna Estados Unidosmanta yanapayta utaq yachachiyta chaskisqankuta nirqanku.",
@@ -122,7 +312,7 @@ const content: CountryContentType = {
       {
         label: {
           es: "“Falsos positivos”",
-          pt: "\"Falsos positivos\"",
+          pt: '"Falsos positivos"',
           fr: "« Faux positifs »",
           gn: "“Falsos positivos”",
           qu: "“Falsos positivos”",

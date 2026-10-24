@@ -1,6 +1,154 @@
 import type { CountryContentType } from "~/lib/country-content";
 
 const content: CountryContentType = {
+  latest: {
+    period: {
+      es: "2025–2026",
+      pt: "2025–2026",
+      fr: "2025–2026",
+      gn: "2025–2026",
+      qu: "2025–2026",
+      ht: "2025–2026",
+    },
+    summary: {
+      es: "Estados Unidos respaldó la vuelta de bases militares extranjeras, rechazada en referéndum, y pasó a operar junto a Ecuador en suelo ecuatoriano.",
+      pt: "Os EUA apoiaram a volta de bases militares estrangeiras, rejeitada em referendo, e passaram a operar com o Equador em solo equatoriano.",
+      fr: "Les États-Unis ont appuyé le retour de bases militaires étrangères, rejeté par référendum, et ont commencé à opérer avec l’Équateur sur le sol équatorien.",
+      gn: "Estados Unidos oipytyvõ base militar extranjera ojevy hag̃ua, referéndum-pe ojeitýva, ha oñepyrũ ogueru rembiapo Ecuador ndive Ecuador yvýpe.",
+      qu: "Estados Unidosqa hawa suyu militar basekunata kutichiyta yanaparqan, referendumpi mana chaskisqa, hinallataq Ecuadorwan kikin Ecuador allpapi llamk’ayta qallarirqan.",
+      ht: "Etazini te sipòte retou baz militè etranje yo, referendòm lan te rejte, epi li te kòmanse opere ak Ekwatè sou tè ekwatoryen.",
+    },
+    happened: {
+      es: "La Constitución de 2008 prohíbe bases militares extranjeras. El presidente Daniel Noboa convocó un referéndum para el 16 de noviembre de 2025.",
+      pt: "A Constituição de 2008 proíbe bases militares estrangeiras. O presidente Daniel Noboa convocou um referendo para 16 de novembro de 2025.",
+      fr: "La Constitution de 2008 interdit les bases militaires étrangères. Le président Daniel Noboa a convoqué un référendum pour le 16 novembre 2025.",
+      gn: "Constitución 2008 ojoko base militar extranjera. Presidente Daniel Noboa oñenoʼẽ referéndum 16 jasypateĩ 2025-pe.",
+      qu: "2008 Constitucionqa hawa suyu militar basekunata harkan. Presidente Daniel Noboaqa 16 de noviembre 2025 p’unchawpaq referendumta waqyarqan.",
+      ht: "Konstitisyon 2008 la entèdi baz militè etranje. Prezidan Daniel Noboa te konvoke yon referendòm pou 16 novanm 2025.",
+    },
+    usActions: [
+      {
+        label: {
+          es: "Referéndum (16 de noviembre de 2025)",
+          pt: "Referendo (16 de novembro de 2025)",
+          fr: "Référendum (16 novembre 2025)",
+          gn: "Referéndum (16 jasypateĩ 2025)",
+          qu: "Referendum (16 de noviembre 2025)",
+          ht: "Referendòm (16 novanm 2025)",
+        },
+        text: {
+          es: "Estados Unidos apoyó la propuesta de Noboa de permitir bases militares extranjeras: según la BBC, el gobierno de Trump esperaba que la consulta abriera el camino a una base en el país, y la secretaria de Seguridad Nacional, Kristi Noem, visitó la posible base en Manta ([Common Dreams](https://www.commondreams.org/news/ecuador-us-military-bases)). Cerca de dos tercios votaron “no” (conteo parcial) y una asamblea constituyente fue rechazada por más del 61 % ([Al Jazeera](https://www.aljazeera.com/news/2025/11/17/no-vote-leads-in-ecuador-referendum-on-hosting-foreign-military-bases)).",
+          pt: 'os EUA apoiaram a proposta de Noboa de permitir bases militares estrangeiras: segundo a BBC, o governo Trump esperava que a consulta abrisse caminho para uma base no país, e a secretária de Segurança Interna, Kristi Noem, visitou a possível base em Manta ([Common Dreams](https://www.commondreams.org/news/ecuador-us-military-bases)). Cerca de dois terços votaram "não" (contagem parcial) e uma assembleia constituinte foi rejeitada por mais de 61% ([Al Jazeera](https://www.aljazeera.com/news/2025/11/17/no-vote-leads-in-ecuador-referendum-on-hosting-foreign-military-bases)).',
+          fr: "les États-Unis ont appuyé la proposition de Noboa d’autoriser des bases militaires étrangères : selon la BBC, le gouvernement Trump espérait que la consultation ouvrirait la voie à une base dans le pays, et la secrétaire à la Sécurité intérieure, Kristi Noem, a visité la base envisagée à Manta ([Common Dreams](https://www.commondreams.org/news/ecuador-us-military-bases)). Près des deux tiers ont voté « non » (décompte partiel) et une assemblée constituante a été rejetée par plus de 61 % ([Al Jazeera](https://www.aljazeera.com/news/2025/11/17/no-vote-leads-in-ecuador-referendum-on-hosting-foreign-military-bases)).",
+          gn: "Estados Unidos oipytyvõ Noboa propuesta omoneĩ hag̃ua base militar extranjera: BBC heʼi rupi, Trump gobierno oha’arõ consulta oipe’a hag̃ua tape peteĩ base-pe, ha secretaria de Seguridad Nacional Kristi Noem ohecha vaʼekue base Manta-pe ([Common Dreams](https://www.commondreams.org/news/ecuador-us-military-bases)). Mokõi mbyte rupi ohendu “nái” (conteo parcial) ha asamblea constituyente ojeity 61% yvate ([Al Jazeera](https://www.aljazeera.com/news/2025/11/17/no-vote-leads-in-ecuador-referendum-on-hosting-foreign-military-bases)).",
+          qu: "Estados Unidosqa Noboapa hawa suyu militar basekunata saqiy munayninta yanaparqan: BBCmanta willakuyman hina, Trumpp gobiernonqa consultaqa Ecuadorpi basepaq ñanta kichanantam suyarqan, Seguridad Nacionalpa secretarian Kristi Noemtaq Mantapi munasqa basetam watukurqan ([Common Dreams](https://www.commondreams.org/news/ecuador-us-military-bases)). Yaqa iskay kimsa kaq “mana” nispa akllarqanku (pisi yupasqa), asamblea constituyentetaq 61 %manta aswan mana chaskisqa karqan ([Al Jazeera](https://www.aljazeera.com/news/2025/11/17/no-vote-leads-in-ecuador-referendum-on-hosting-foreign-military-bases)).",
+          ht: "Etazini te sipòte pwopozisyon Noboa pou pèmèt baz militè etranje: dapre BBC, gouvènman Trump la te espere konsiltasyon an ta louvri chemen pou yon baz nan peyi a, epi sekretè Sekirite Entèn lan, Kristi Noem, te vizite baz posib la nan Manta ([Common Dreams](https://www.commondreams.org/news/ecuador-us-military-bases)). Prèske de tyè te vote “non” (konte pasyèl) epi yon asanble konstitiyan te rejte pa plis pase 61% ([Al Jazeera](https://www.aljazeera.com/news/2025/11/17/no-vote-leads-in-ecuador-referendum-on-hosting-foreign-military-bases)).",
+        },
+      },
+      {
+        label: {
+          es: "Operaciones conjuntas (marzo de 2026)",
+          pt: "Operações conjuntas (março de 2026)",
+          fr: "Opérations conjointes (mars 2026)",
+          gn: "Operación conjunta (jasyapy 2026)",
+          qu: "Ima ruwaykuna ura (marzo 2026)",
+          ht: "Operasyon konjwen (mas 2026)",
+        },
+        text: {
+          es: "el 3 de marzo, Estados Unidos y Ecuador iniciaron las primeras operaciones terrestres conjuntas, contra “organizaciones terroristas designadas” ([Task & Purpose](https://taskandpurpose.com/news/us-military-operations-ecuador/), [The Intercept](https://theintercept.com/2026/03/04/us-military-ecuador-trump)). El 6 de marzo, el Comando Sur dijo apoyar a fuerzas ecuatorianas en “operaciones cinéticas letales” en territorio ecuatoriano, y Noboa afirmó que los ataques alcanzaron un campamento de disidentes de las FARC y el escondite del líder de los Comandos de la Frontera; no se informaron bajas ([CBS/Yahoo](https://www.yahoo.com/news/articles/u-ecuador-carry-joint-anti-103949990.html)). Un alto funcionario del Pentágono dijo al Congreso que Ecuador fue el primer país latinoamericano en realizar ataques terrestres conjuntos contra infraestructura de los cárteles ([Primicias](https://www.primicias.ec/seguridad/ecuador-estados-unidos-operaciones-conjuntas-departamento-guerra-118269/)).",
+          pt: 'em 3 de março, EUA e Equador iniciaram as primeiras operações terrestres conjuntas, contra "organizações terroristas designadas" ([Task & Purpose](https://taskandpurpose.com/news/us-military-operations-ecuador/), [The Intercept](https://theintercept.com/2026/03/04/us-military-ecuador-trump)). Em 6 de março, o Comando Sul disse apoiar forças equatorianas em "operações cinéticas letais" em território equatoriano, e Noboa afirmou que os ataques atingiram um campo de treinamento de dissidentes das FARC e o esconderijo do líder dos Comandos de la Frontera; não foram divulgadas baixas ([CBS/Yahoo](https://www.yahoo.com/news/articles/u-ecuador-carry-joint-anti-103949990.html)). Um alto funcionário do Pentágono disse ao Congresso que o Equador foi o primeiro país latino-americano a fazer ataques terrestres conjuntos contra infraestrutura de cartéis ([Primicias](https://www.primicias.ec/seguridad/ecuador-estados-unidos-operaciones-conjuntas-departamento-guerra-118269/)).',
+          fr: "le 3 mars, les États-Unis et l’Équateur ont lancé les premières opérations terrestres conjointes, contre des « organisations terroristes désignées » ([Task & Purpose](https://taskandpurpose.com/news/us-military-operations-ecuador/), [The Intercept](https://theintercept.com/2026/03/04/us-military-ecuador-trump)). Le 6 mars, le Commandement Sud a dit appuyer des forces équatoriennes menant des « opérations cinétiques létales » en territoire équatorien, et Noboa a affirmé que les frappes avaient touché un camp d’entraînement de dissidents des FARC et la cachette du chef des Comandos de la Frontera ; aucune perte n’a été signalée ([CBS/Yahoo](https://www.yahoo.com/news/articles/u-ecuador-carry-joint-anti-103949990.html)). Un haut responsable du Pentagone a déclaré au Congrès que l’Équateur était le premier pays latino-américain à mener des frappes terrestres conjointes contre l’infrastructure des cartels ([Primicias](https://www.primicias.ec/seguridad/ecuador-estados-unidos-operaciones-conjuntas-departamento-guerra-118269/)).",
+          gn: "3 jasyapy-pe, Estados Unidos ha Ecuador oñepyrũ operación terrestre conjunta ypykue “organización terrorista designada” rehe ([Task & Purpose](https://taskandpurpose.com/news/us-military-operations-ecuador/), [The Intercept](https://theintercept.com/2026/03/04/us-military-ecuador-trump)). 6 jasyapy-pe, Comando Sur heʼi oipytyvõha fuerza ecuatoriana “operación cinética letal” rehe Ecuador yvýpe, ha Noboa heʼi ataque ohupyty campamento FARC disidente ha Comandos de la Frontera ruvicha ñeñomi ha’éva; ndojehechaukái baja ([CBS/Yahoo](https://www.yahoo.com/news/articles/u-ecuador-carry-joint-anti-103949990.html)). Pentágono ruvicha heʼi Congreso-pe Ecuador ha’e vaʼekue tetã latinoamericano ojapo peteĩ ataque terrestre conjunto cartel infraestructura rehe ([Primicias](https://www.primicias.ec/seguridad/ecuador-estados-unidos-operaciones-conjuntas-departamento-guerra-118269/)).",
+          qu: "3 de marzopi Estados Unidoswan Ecuadorqa ñawpaq kuska allpapi ruwaykunata qallarirqanku “sutichasqa terrorista organizacionkunaman” contra ([Task & Purpose](https://taskandpurpose.com/news/us-military-operations-ecuador/), [The Intercept](https://theintercept.com/2026/03/04/us-military-ecuador-trump)). 6 de marzopitaq Comando Surqa nirqan ecuatoriano kallpakunata “wañuchiq cinética ruwaykunapi” Ecuador allpapi yanapasqanta, Noboataq ataquekuna FARC disidentekunap yachachina campamentonta Comandos de la Frontera umalliqpa pakakusqantawan chayasqanta nirqan; mana wañusqakuna willasqachu karqan ([CBS/Yahoo](https://www.yahoo.com/news/articles/u-ecuador-carry-joint-anti-103949990.html)). Pentagonomanta hatun llamkaqmi Congresoman nirqan Ecuadorqa Latinoamericapi ñawpaq suyu karqan cartelkunap infraestructuranman contra kuska allpapi ataquekunata ruwaq ([Primicias](https://www.primicias.ec/seguridad/ecuador-estados-unidos-operaciones-conjuntas-departamento-guerra-118269/)).",
+          ht: "le 3 mas, Etazini ak Ekwatè te lanse premye operasyon konjwen sou tè a, kont “òganizasyon teworis deziyen” ([Task & Purpose](https://taskandpurpose.com/news/us-military-operations-ecuador/), [The Intercept](https://theintercept.com/2026/03/04/us-military-ecuador-trump)). Le 6 mas, Kòmandman Sid la te di li t ap sipòte fòs ekwatoryen nan “operasyon sinetik mòtèl” sou teritwa ekwatoryen, epi Noboa te di atak yo te frape yon kan fòmasyon disidan FARC ak kachèt chèf Comandos de la Frontera a; yo pa t rapòte viktim ([CBS/Yahoo](https://www.yahoo.com/news/articles/u-ecuador-carry-joint-anti-103949990.html)). Yon wo responsab Pentagòn te di Kongrè a ke Ekwatè te premye peyi Amerik Latin ki te fè atak konjwen sou tè kont enfrastrikti katèl yo ([Primicias](https://www.primicias.ec/seguridad/ecuador-estados-unidos-operaciones-conjuntas-departamento-guerra-118269/)).",
+        },
+      },
+    ],
+    impact: {
+      text: {
+        es: "Ataques letales contra objetivos en suelo ecuatoriano; toque de queda en cuatro provincias en marzo; el país se volvió un “laboratorio” de la nueva estrategia, según el Pentágono. ([Primicias](https://www.primicias.ec/seguridad/ecuador-estados-unidos-operaciones-conjuntas-departamento-guerra-118269/))",
+        pt: 'Ataques letais contra alvos em solo equatoriano; toque de recolher em quatro províncias em março; o país virou "laboratório" da nova estratégia, segundo o Pentágono. ([Primicias](https://www.primicias.ec/seguridad/ecuador-estados-unidos-operaciones-conjuntas-departamento-guerra-118269/))',
+        fr: "Frappes létales contre des cibles sur le sol équatorien ; couvre-feu dans quatre provinces en mars ; le pays est devenu un « laboratoire » de la nouvelle stratégie, selon le Pentagone. ([Primicias](https://www.primicias.ec/seguridad/ecuador-estados-unidos-operaciones-conjuntas-departamento-guerra-118269/))",
+        gn: "Ataque letal objetivo Ecuador yvýpe; toque de queda irundy provincia-pe jasyapy-pe; tetã oiko “laboratorio” estrategia pyahu rehegua, Pentágono heʼi rupi. ([Primicias](https://www.primicias.ec/seguridad/ecuador-estados-unidos-operaciones-conjuntas-departamento-guerra-118269/))",
+        qu: "Ecuador allpapi objetivokunaman wañuchiq atakekuna; marzopi tawa provinciakunapi toque de queda; Pentágonop nisqanman, suyuqa musuq estrategiapa “laboratorio” kapurqan. ([Primicias](https://www.primicias.ec/seguridad/ecuador-estados-unidos-operaciones-conjuntas-departamento-guerra-118269/))",
+        ht: "Atak mòtèl sou sib sou tè ekwatoryen; kouvrefe nan kat pwovens an mas; peyi a te vin yon “laboratwa” pou nouvo estrateji a, dapre Pentagòn nan. ([Primicias](https://www.primicias.ec/seguridad/ecuador-estados-unidos-operaciones-conjuntas-departamento-guerra-118269/))",
+      },
+    },
+    sources: [
+      {
+        title: "Common Dreams: Equador e as bases militares dos EUA",
+        url: "https://www.commondreams.org/news/ecuador-us-military-bases",
+        note: {
+          es: "reportaje; derechos reservados",
+          pt: "reportagem; direitos reservados",
+          fr: "reportage ; droits réservés",
+          gn: "reportaje; derecho reservado",
+          qu: "willakuy; derechokuna waqaychasqa",
+          ht: "repòtaj; dwa rezève",
+        },
+      },
+      {
+        title: 'Al Jazeera: "não" lidera no referendo equatoriano sobre bases militares estrangeiras',
+        url: "https://www.aljazeera.com/news/2025/11/17/no-vote-leads-in-ecuador-referendum-on-hosting-foreign-military-bases",
+        note: {
+          es: "reportaje (17/11/2025); derechos reservados",
+          pt: "reportagem (17/11/2025); direitos reservados",
+          fr: "reportage (17/11/2025) ; droits réservés",
+          gn: "reportaje (17/11/2025); derecho reservado",
+          qu: "willakuy (17/11/2025); derechokuna waqaychasqa",
+          ht: "repòtaj (17/11/2025); dwa rezève",
+        },
+      },
+      {
+        title: "The Intercept: militares dos EUA no Equador",
+        url: "https://theintercept.com/2026/03/04/us-military-ecuador-trump",
+        note: {
+          es: "reportaje (04/03/2026); derechos reservados",
+          pt: "reportagem (04/03/2026); direitos reservados",
+          fr: "reportage (04/03/2026) ; droits réservés",
+          gn: "reportaje (04/03/2026); derecho reservado",
+          qu: "willakuy (04/03/2026); derechokuna waqaychasqa",
+          ht: "repòtaj (04/03/2026); dwa rezève",
+        },
+      },
+      {
+        title: "Primicias: operações conjuntas entre Equador e Estados Unidos",
+        url: "https://www.primicias.ec/seguridad/ecuador-estados-unidos-operaciones-conjuntas-departamento-guerra-118269/",
+        note: {
+          es: "reportaje (17/03/2026); derechos reservados",
+          pt: "reportagem (17/03/2026); direitos reservados",
+          fr: "reportage (17/03/2026) ; droits réservés",
+          gn: "reportaje (17/03/2026); derecho reservado",
+          qu: "willakuy (17/03/2026); derechokuna waqaychasqa",
+          ht: "repòtaj (17/03/2026); dwa rezève",
+        },
+      },
+      {
+        title: "Task & Purpose: operações militares dos EUA no Equador",
+        url: "https://taskandpurpose.com/news/us-military-operations-ecuador/",
+        note: {
+          es: "reportaje (04/03/2026); derechos reservados",
+          pt: "reportagem (04/03/2026); direitos reservados",
+          fr: "reportage (04/03/2026) ; droits réservés",
+          gn: "reportaje (04/03/2026); derecho reservado",
+          qu: "willakuy (04/03/2026); derechokuna waqaychasqa",
+          ht: "repòtaj (04/03/2026); dwa rezève",
+        },
+      },
+      {
+        title: "CBS/Yahoo: EUA e Equador fazem ataques conjuntos contra o narcotráfico",
+        url: "https://www.yahoo.com/news/articles/u-ecuador-carry-joint-anti-103949990.html",
+        note: {
+          es: "reportaje (09/03/2026); derechos reservados",
+          pt: "reportagem (09/03/2026); direitos reservados",
+          fr: "reportage (09/03/2026) ; droits réservés",
+          gn: "reportaje (09/03/2026); derecho reservado",
+          qu: "willakuy (09/03/2026); derechokuna waqaychasqa",
+          ht: "repòtaj (09/03/2026); dwa rezève",
+        },
+      },
+    ],
+  },
   period: {
     es: "1960–2009",
     pt: "1960–2009",
@@ -129,7 +277,7 @@ const content: CountryContentType = {
   },
   sources: [
     {
-      title: "CIA: memorando \"Military Junta in Ecuador\" (15/07/1963)",
+      title: 'CIA: memorando "Military Junta in Ecuador" (15/07/1963)',
       url: "https://www.cia.gov/readingroom/node/935173",
       note: {
         es: "dominio público",
