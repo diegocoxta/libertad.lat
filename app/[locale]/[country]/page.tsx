@@ -7,6 +7,7 @@ import { CountryDetails } from '~/components/country-details';
 import { CountryHistory } from '~/components/country-history';
 import { EmblemLink } from '~/components/emblem-link';
 import { JsonLd } from '~/components/json-ld';
+import { LanguageSelector } from '~/components/language-selector';
 import { SiteFooter } from '~/components/site-footer';
 import { SuggestLink } from '~/components/suggest-link';
 import { getCountrySlug, getCountryStaticParams, parseCountrySlug } from '~/lib/countries';
@@ -67,6 +68,13 @@ async function CountryContent({ params }: { params: CountryParamsType }) {
       />
 
       <main className={styles.page}>
+        <LanguageSelector
+          locale={locale}
+          label={t('page.languages')}
+          className={styles.languages}
+          path={`/${seo.slug}`}
+        />
+
         <EmblemLink locale={locale} className={styles.emblem} />
 
         <CountryDetails code={code} locale={locale} />
