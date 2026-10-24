@@ -6,6 +6,12 @@
   --transition-duration: 0.5s;
 }
 
+[data-theme='dark'] {
+  --background: #141414;
+  --footer-background: #9d2427;
+  --foreground: #c9c8c8;
+}
+
 html {
   height: 100%;
 }

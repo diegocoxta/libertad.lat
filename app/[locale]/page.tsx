@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { CountryList } from "~/components/country-list";
 import { EmblemLink } from "~/components/emblem-link";
 import { JsonLd } from "~/components/json-ld";
+import { LanguageSelector } from "~/components/language-selector";
 import { SiteFooter } from "~/components/site-footer";
 import { getTranslations, isSupportedLocale } from "~/lib/i18n";
 import { createPageMetadata, createWebSiteJsonLd, getHomeDescription } from "~/lib/seo";
@@ -40,6 +41,8 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
       <JsonLd data={createWebSiteJsonLd(locale, getHomeDescription(locale))} />
 
       <main className={styles.page}>
+        <LanguageSelector locale={locale} label={t("page.languages")} className={styles.languages} />
+
         <EmblemLink locale={locale} className={styles.emblem} />
 
         <div className={styles.heading}>

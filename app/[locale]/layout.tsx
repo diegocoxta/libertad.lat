@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { preload } from 'react-dom';
 
 import { SEAL_ART_PATH } from '~/components/condor-harpy-eagle';
+import { ThemeProvider } from '~/components/theme-provider';
 import { LOCALES, getTranslations, isSupportedLocale } from '~/lib/i18n';
 import { SITE_URL } from '~/lib/site';
 import { STARTUP_IMAGES } from '~/lib/startup-images';
@@ -16,7 +17,11 @@ const geistSans = Geist({
 });
 
 export const viewport: Viewport = {
-  themeColor: '#d23336',
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#d23336' },
+    { media: '(prefers-color-scheme: dark)', color: '#9d2427' },
+  ],
+  colorScheme: 'light dark',
 };
 
 export function generateStaticParams() {
@@ -34,10 +39,12 @@ export default async function LocaleLayout({ children, modal, params }: LayoutPr
   preload(SEAL_ART_PATH, { as: 'image', fetchPriority: 'high' });
 
   return (
-    <html lang={locale} className={geistSans.variable}>
+    <html lang={locale} className={geistSans.variable} suppressHydrationWarning>
       <body>
-        {children}
-        {modal}
+        <ThemeProvider>
+          {children}
+          {modal}
+        </ThemeProvider>
       </body>
     </html>
   );

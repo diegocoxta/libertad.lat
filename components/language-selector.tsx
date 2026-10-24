@@ -1,5 +1,7 @@
 import { LOCALES, LOCALE_NAMES, type Locale } from '~/lib/i18n';
 
+import styles from './language-selector.module.css';
+
 type LanguageSelectorProps = {
   locale: Locale;
   label: string;
@@ -10,7 +12,7 @@ type LanguageSelectorProps = {
 // Plain anchors: a soft navigation to /[locale]/[segment] is intercepted by @modal/(.)[country].
 export function LanguageSelector({ locale, label, className, path = '' }: LanguageSelectorProps) {
   return (
-    <nav aria-label={label} className={className}>
+    <nav aria-label={label} className={className ? `${styles.languages} ${className}` : styles.languages}>
       <ul>
         {LOCALES.map((loc) => (
           <li key={loc}>

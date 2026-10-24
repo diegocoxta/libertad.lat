@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Geist } from 'next/font/google';
 
+import { ThemeProvider } from '~/components/theme-provider';
 import { DEFAULT_LOCALE, LOCALES, LOCALE_NAMES, getTranslations } from '~/lib/i18n';
 
 import '~/app/globals.css';
@@ -20,24 +21,26 @@ export const metadata: Metadata = {
 // No locale is known for an address that matches no page, so the message comes in every language.
 export default function GlobalNotFound() {
   return (
-    <html lang={DEFAULT_LOCALE} className={geistSans.variable}>
+    <html lang={DEFAULT_LOCALE} className={geistSans.variable} suppressHydrationWarning>
       <body>
-        <main className={styles.page}>
-          <h1 className={styles.code}>404</h1>
+        <ThemeProvider>
+          <main className={styles.page}>
+            <h1 className={styles.code}>404</h1>
 
-          <ul className={styles.list}>
-            {LOCALES.map((locale) => (
-              <li key={locale}>
-                <a href={`/${locale}`} lang={locale} hrefLang={locale}>
-                  <span>{getTranslations(locale)('page.notFound')}</span>
-                  <small>
-                    ← {LOCALE_NAMES[locale]}
-                  </small>
-                </a>
-              </li>
-            ))}
-          </ul>
-        </main>
+            <ul className={styles.list}>
+              {LOCALES.map((locale) => (
+                <li key={locale}>
+                  <a href={`/${locale}`} lang={locale} hrefLang={locale}>
+                    <span>{getTranslations(locale)('page.notFound')}</span>
+                    <small>
+                      ← {LOCALE_NAMES[locale]}
+                    </small>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </main>
+        </ThemeProvider>
       </body>
     </html>
   );

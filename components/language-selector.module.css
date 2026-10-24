@@ -1,0 +1,27 @@
+.languages {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem 1.25rem;
+    list-style: none;
+  }
+
+  a {
+    color: inherit;
+    font-size: 0.875rem;
+    letter-spacing: 0.04em;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-underline-offset: 0.3em;
+
+    &:hover,
+    &:focus-visible {
+      text-decoration-color: currentcolor;
+    }
+
+    &[aria-current='page'] {
+      font-weight: 600;
+    }
+  }
+}
