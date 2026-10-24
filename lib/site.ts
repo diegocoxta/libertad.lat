@@ -24,9 +24,6 @@ export function getAbsoluteUrl(path: string): string {
 
 export const CONTACT_EMAIL = 'libertad.lat@proton.me';
 
-// The subject tells the team which page the message is about.
-export function getContactHref(pagePath = ''): string {
-  const subject = `${new URL(SITE_URL).host}${pagePath}`;
-
-  return `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}`;
+export function getContactHref(): string {
+  return `mailto:${CONTACT_EMAIL}`;
 }

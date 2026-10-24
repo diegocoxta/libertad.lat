@@ -81,7 +81,7 @@ async function CountryContent({ params }: { params: CountryParamsType }) {
 
         {content && <CountryHistory content={content} locale={locale} />}
 
-        <SuggestLink locale={locale} path={`/${seo.slug}`} />
+        <SuggestLink locale={locale} />
 
         <Link href={`/${locale}`} className={styles.back}>
           ← {t('page.otherCountries')}

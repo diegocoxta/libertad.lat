@@ -23,7 +23,7 @@ export function SiteFooter({ locale, path }: SiteFooterProps) {
 
       <LanguageSelector locale={locale} label={t('page.languages')} path={path} />
 
-      <a href={getContactHref(`/${locale}${path ?? ''}`)} className={styles.contact}>
+      <a href={getContactHref()} className={styles.contact}>
         <svg
           viewBox="0 0 24 24"
           aria-hidden="true"

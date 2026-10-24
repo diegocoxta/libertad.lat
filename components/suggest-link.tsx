@@ -5,12 +5,11 @@ import styles from './suggest-link.module.css';
 
 type SuggestLinkProps = {
   locale: Locale;
-  path: string;
 };
 
-export function SuggestLink({ locale, path }: SuggestLinkProps) {
+export function SuggestLink({ locale }: SuggestLinkProps) {
   return (
-    <a href={getContactHref(`/${locale}${path}`)} className={styles.link}>
+    <a href={getContactHref()} className={styles.link}>
       {getTranslations(locale)('page.suggest')}
     </a>
   );
