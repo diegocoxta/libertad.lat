@@ -6,8 +6,8 @@ export default function manifest(): MetadataRoute.Manifest {
     short_name: 'Libertad',
     start_url: '/',
     display: 'standalone',
-    background_color: '#d23336',
-    theme_color: '#d23336',
+    background_color: '#831100',
+    theme_color: '#831100',
     icons: [
       { src: '/icons/icon-192.png', sizes: '192x192', type: 'image/png' },
       { src: '/icons/icon-512.png', sizes: '512x512', type: 'image/png' },

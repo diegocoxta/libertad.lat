@@ -1,6 +1,6 @@
 :root {
   --background: #fbfbfb;
-  --footer-background: #d23336;
+  --footer-background: #831100;
   --footer-foreground: #fff;
   --foreground: #535252;
   --transition-duration: 0.5s;
@@ -8,7 +8,7 @@
 
 [data-theme='dark'] {
   --background: #141414;
-  --footer-background: #9d2427;
+  --footer-background: #831100;
   --foreground: #c9c8c8;
 }
 

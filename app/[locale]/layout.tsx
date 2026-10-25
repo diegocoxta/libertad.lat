@@ -18,8 +18,8 @@ const geistSans = Geist({
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: '(prefers-color-scheme: light)', color: '#d23336' },
-    { media: '(prefers-color-scheme: dark)', color: '#9d2427' },
+    { media: '(prefers-color-scheme: light)', color: '#831100' },
+    { media: '(prefers-color-scheme: dark)', color: '#831100' },
   ],
   colorScheme: 'light dark',
 };

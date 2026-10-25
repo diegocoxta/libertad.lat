@@ -31,7 +31,7 @@ const FONT = {
   defaultFontFamily: 'Geist',
 };
 
-const BACKGROUND = '#d23336';
+const BACKGROUND = '#831100';
 const MAP_PATH = '/inverted-america.svg';
 
 // Instagram covers the top and the bottom of a story with its own interface.
