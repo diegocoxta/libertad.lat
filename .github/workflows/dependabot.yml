@@ -68,9 +68,9 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version-file: .nvmrc
-          cache: npm
-      - run: npm ci
-      - run: npm run lint
+          cache: yarn
+      - run: yarn install --frozen-lockfile
+      - run: yarn lint
       - run: npx tsc --noEmit
 
   # Só chamadas à API: nenhum código do PR roda aqui.

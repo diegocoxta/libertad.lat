@@ -38,9 +38,9 @@ JSON por entidade + schema Zod + CLI de conteúdo (`tsx`, já usado em `scripts/
 
 Scripts novos no `package.json`:
 
-- `npm run content:check`: valida o schema e relata, por país e idioma: campos vazios, textos idênticos ao es em gn, qu e ht (provável "não traduzido"), URLs de fonte duplicadas, markdown de link malformado, período fora do padrão (`AAAA–AAAA`, `AAAA`, `AAAA–hoy`), quote sem fonte onde a fonte é esperada, e país em `COUNTRY_CODES` sem conteúdo. Sai com código ≠ 0 em erro de schema. Entra no `prebuild`, mas não no `predev`, para não bloquear o desenvolvimento.
-- `npm run content:new-country -- XX`: cria `content/countries/xx.json` com o esqueleto vazio e lista o que falta fazer manualmente para um país novo (`lib/countries.ts`: `COUNTRY_CODES` e slug; `components/country-flag.tsx`; registro no `index.ts`).
-- `npm run content:new-quote -- <id>`: acrescenta uma entrada vazia em `content/quotes.json`.
+- `yarn content:check`: valida o schema e relata, por país e idioma: campos vazios, textos idênticos ao es em gn, qu e ht (provável "não traduzido"), URLs de fonte duplicadas, markdown de link malformado, período fora do padrão (`AAAA–AAAA`, `AAAA`, `AAAA–hoy`), quote sem fonte onde a fonte é esperada, e país em `COUNTRY_CODES` sem conteúdo. Sai com código ≠ 0 em erro de schema. Entra no `prebuild`, mas não no `predev`, para não bloquear o desenvolvimento.
+- `yarn content:new-country XX`: cria `content/countries/xx.json` com o esqueleto vazio e lista o que falta fazer manualmente para um país novo (`lib/countries.ts`: `COUNTRY_CODES` e slug; `components/country-flag.tsx`; registro no `index.ts`).
+- `yarn content:new-quote <id>`: acrescenta uma entrada vazia em `content/quotes.json`.
 
 ### 5. Documentação
 
@@ -59,8 +59,8 @@ Scripts novos no `package.json`:
 ## Verificação
 
 1. Script de migração: `deepStrictEqual` passa para os 21 países, as fontes gerais e as 9 quotes nos 6 idiomas.
-2. `npx tsc --noEmit` e `npm run lint` sem erros.
-3. `npm run content:check` roda limpo ou com avisos esperados, e um JSON corrompido de propósito falha com mensagem útil.
-4. `npm run build` passa (inclui `prebuild`). Comparo o HTML de algumas páginas (`/pt/brasil`, `/es/peru`, home com quote) antes e depois da migração: deve ser idêntico.
+2. `npx tsc --noEmit` e `yarn lint` sem erros.
+3. `yarn content:check` roda limpo ou com avisos esperados, e um JSON corrompido de propósito falha com mensagem útil.
+4. `yarn build` passa (inclui `prebuild`). Comparo o HTML de algumas páginas (`/pt/brasil`, `/es/peru`, home com quote) antes e depois da migração: deve ser idêntico.
 5. Visual: abro a home e uma página de país numa porta diferente da :3000 (o dev server da :3000 é seu), conferindo as quotes e o histórico.
 6. `content:new-country` e `content:new-quote` testados num rascunho que descarto no fim.

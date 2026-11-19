@@ -37,4 +37,4 @@ dá para reduzir o que ele entrega de graça a quem faz varredura.
    `NEXT_PUBLIC_SITE_URL`).
 4. **Renomear `/_next/`** só é possível reescrevendo o HTML e os chunks num Worker. Não recomendo: um
    deslize quebra a hidratação, e o formato do payload do React continua revelando o framework.
-5. **Manter tudo atualizado:** ative Dependabot/Renovate e rode `npm audit` no CI.
+5. **Manter tudo atualizado:** ative Dependabot/Renovate e rode `yarn audit` no CI.
