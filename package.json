@@ -24,7 +24,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "^16.4.6",
-    "geist": "^1.9.1",
+    "geist": "^1.9.2",
     "sharp": "^0.35.5",
     "tsx": "^4.23.15",
     "typescript": "^5"

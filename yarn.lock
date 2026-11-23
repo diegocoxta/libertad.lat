@@ -1932,10 +1932,10 @@ functions-have-names@^1.2.3:
   resolved "https://registry.yarnpkg.com/functions-have-names/-/functions-have-names-1.2.3.tgz"
   integrity sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==
 
-geist@^1.9.1:
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/geist/-/geist-1.9.1.tgz"
-  integrity sha512-mkbyVjMJoNf6xz76NLeKAFwKE19BweHfFefA++wd+M9qiCX2Zncq3M96bdDwOsy4wurDQ594AKwtx+HILX+WBg==
+geist@^1.9.2:
+  version "1.9.2"
+  resolved "https://registry.yarnpkg.com/geist/-/geist-1.9.2.tgz#5cd889dd412ce1c80c27927d46f89a160f4e6447"
+  integrity sha512-UU1x2q5Khob0+i4csFvXk1Ki4DePdu7xISuXyEcj1tzQMg64oN7Kbuy4e5z5QhcUWbbvOMJNs3ZxYQqpsEMV3w==
 
 generator-function@^2.0.0:
   version "2.0.1"
